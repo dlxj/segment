@@ -67,13 +67,13 @@ for pth in paths:
         ng = dic_NGrams[f'{n}']
         total = len(list(ng.keys()))
 
-        # for (let [k, v] of Object.entries(ng)) {
-        #     let times = v[`n`]           // 出现次数
-        #     let real_p = times / total   // 真实概率
-        #     v[`real_p`] = real_p.toFixed(6)
-        # }
-
-        # console.log(`calc real_p ${n} / ${NGram}`)
+        for k, v in ng.items():
+            times = v['n']           # 出现次数
+            real_p = times / total   # 真实概率
+            v['real_p'] = round(real_p, 6)
+        
+        if n % 5 == 0:
+            print(f'calc real_p {n} / {NGram}')
 
     
 
