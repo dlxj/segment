@@ -1,0 +1,3988 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC
+     "-//NISO//DTD ncx 2005-1//EN"
+     "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1"
+     xml:lang="en-US"
+     xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <!-- The following four metadata items are required for all
+        NCX documents, including those conforming to the relaxed
+        constraints of OPS 2.0 -->
+    <meta name="dtb:uid" content="51037e82-03ff-11dd-9fbb-0018f369440e"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+    <meta name="provider" content="www.cnepub.com"/>
+    <meta name="builder" content="epubBuilder present by www.cnepub.com"/>
+    <meta name="right" content="该文档由epubBuilder生成。epubBuilder为掌上书苑（www.cnepub.com)提供的epub制作工具，仅供个人交流与学习使用。在未获得掌上书苑的商业授权前，不得用于任何商业用途。"/>
+  </head>
+<docTitle><text> 【金庸小说全集】（连载初回本） </text></docTitle>
+<docAuthor><text> 金庸 </text></docAuthor>
+<navMap>
+<navPoint id="coverpage" playOrder="0">
+<navLabel><text>封面</text></navLabel>
+<content src="coverpage.html"/>
+</navPoint>
+<navPoint id="chapter1" playOrder="1">
+<navLabel><text>书剑恩仇录</text></navLabel>
+<content src="chapter1.html"/>
+<navPoint id="chapter3" playOrder="2">
+<navLabel><text>“新晚报”连载版面（1）</text></navLabel>
+<content src="chapter3.html"/>
+</navPoint>
+<navPoint id="chapter4" playOrder="3">
+<navLabel><text>“新晚报”连载版面（2）</text></navLabel>
+<content src="chapter4.html"/>
+</navPoint>
+<navPoint id="chapter5" playOrder="4">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter5.html"/>
+</navPoint>
+<navPoint id="chapter6" playOrder="5">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter6.html"/>
+</navPoint>
+<navPoint id="chapter7" playOrder="6">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter7.html"/>
+</navPoint>
+<navPoint id="chapter8" playOrder="7">
+<navLabel><text>第一回插图</text></navLabel>
+<content src="chapter8.html"/>
+</navPoint>
+<navPoint id="chapter9" playOrder="8">
+<navLabel><text>第一回　　古道骏马惊白发</text></navLabel>
+<content src="chapter9.html"/>
+</navPoint>
+<navPoint id="chapter10" playOrder="9">
+<navLabel><text>第二回　　险峡神驼跃翠翎</text></navLabel>
+<content src="chapter10.html"/>
+</navPoint>
+<navPoint id="chapter11" playOrder="10">
+<navLabel><text>第三回　　秋风野店书生笛</text></navLabel>
+<content src="chapter11.html"/>
+</navPoint>
+<navPoint id="chapter12" playOrder="11">
+<navLabel><text>第四回插图一</text></navLabel>
+<content src="chapter12.html"/>
+</navPoint>
+<navPoint id="chapter13" playOrder="12">
+<navLabel><text>第四回插图二</text></navLabel>
+<content src="chapter13.html"/>
+</navPoint>
+<navPoint id="chapter14" playOrder="13">
+<navLabel><text>第四回　　夕照荒庄侠士心</text></navLabel>
+<content src="chapter14.html"/>
+</navPoint>
+<navPoint id="chapter15" playOrder="14">
+<navLabel><text>第五回插图一</text></navLabel>
+<content src="chapter15.html"/>
+</navPoint>
+<navPoint id="chapter16" playOrder="15">
+<navLabel><text>第五回插图二</text></navLabel>
+<content src="chapter16.html"/>
+</navPoint>
+<navPoint id="chapter17" playOrder="16">
+<navLabel><text>第五回　　避祸英雄悲失路</text></navLabel>
+<content src="chapter17.html"/>
+</navPoint>
+<navPoint id="chapter18" playOrder="17">
+<navLabel><text>第六回插图</text></navLabel>
+<content src="chapter18.html"/>
+</navPoint>
+<navPoint id="chapter19" playOrder="18">
+<navLabel><text>第六回　　寻仇豪杰误交兵</text></navLabel>
+<content src="chapter19.html"/>
+</navPoint>
+<navPoint id="chapter20" playOrder="19">
+<navLabel><text>第七回插图</text></navLabel>
+<content src="chapter20.html"/>
+</navPoint>
+<navPoint id="chapter21" playOrder="20">
+<navLabel><text>第七回　　嚼饼置酒招薄怒</text></navLabel>
+<content src="chapter21.html"/>
+</navPoint>
+<navPoint id="chapter22" playOrder="21">
+<navLabel><text>第八回　　还经赠剑种夙因</text></navLabel>
+<content src="chapter22.html"/>
+</navPoint>
+<navPoint id="chapter23" playOrder="22">
+<navLabel><text>第九回插图</text></navLabel>
+<content src="chapter23.html"/>
+</navPoint>
+<navPoint id="chapter24" playOrder="23">
+<navLabel><text>第九回　　乌鞘岭头斗双侠</text></navLabel>
+<content src="chapter24.html"/>
+</navPoint>
+<navPoint id="chapter25" playOrder="24">
+<navLabel><text>第十回插图</text></navLabel>
+<content src="chapter25.html"/>
+</navPoint>
+<navPoint id="chapter26" playOrder="25">
+<navLabel><text>第十回　　黄河渡口扼三军</text></navLabel>
+<content src="chapter26.html"/>
+</navPoint>
+<navPoint id="chapter27" playOrder="26">
+<navLabel><text>第十一回插图</text></navLabel>
+<content src="chapter27.html"/>
+</navPoint>
+<navPoint id="chapter28" playOrder="27">
+<navLabel><text>第十一回　　操刀剜肩怜难侣</text></navLabel>
+<content src="chapter28.html"/>
+</navPoint>
+<navPoint id="chapter29" playOrder="28">
+<navLabel><text>第十二回插图</text></navLabel>
+<content src="chapter29.html"/>
+</navPoint>
+<navPoint id="chapter30" playOrder="29">
+<navLabel><text>第十二回　　奋戈振臂恤饥民</text></navLabel>
+<content src="chapter30.html"/>
+</navPoint>
+<navPoint id="chapter31" playOrder="30">
+<navLabel><text>第十三回插图</text></navLabel>
+<content src="chapter31.html"/>
+</navPoint>
+<navPoint id="chapter32" playOrder="31">
+<navLabel><text>第十三回　　琴韵朗朗闻雁落</text></navLabel>
+<content src="chapter32.html"/>
+</navPoint>
+<navPoint id="chapter33" playOrder="32">
+<navLabel><text>第十四回插图</text></navLabel>
+<content src="chapter33.html"/>
+</navPoint>
+<navPoint id="chapter34" playOrder="33">
+<navLabel><text>第十四回　　剑气沉沉发龙吟</text></navLabel>
+<content src="chapter34.html"/>
+</navPoint>
+<navPoint id="chapter35" playOrder="34">
+<navLabel><text>第十五回插图</text></navLabel>
+<content src="chapter35.html"/>
+</navPoint>
+<navPoint id="chapter36" playOrder="35">
+<navLabel><text>第十五回　　异事叠见赠异宝</text></navLabel>
+<content src="chapter36.html"/>
+</navPoint>
+<navPoint id="chapter37" playOrder="36">
+<navLabel><text>第十六回插图</text></navLabel>
+<content src="chapter37.html"/>
+</navPoint>
+<navPoint id="chapter38" playOrder="37">
+<navLabel><text>第十六回　　奇计环生夺奇珍</text></navLabel>
+<content src="chapter38.html"/>
+</navPoint>
+<navPoint id="chapter39" playOrder="38">
+<navLabel><text>第十七回插图</text></navLabel>
+<content src="chapter39.html"/>
+</navPoint>
+<navPoint id="chapter40" playOrder="39">
+<navLabel><text>第十七回　　挥拳打穴开铁铐</text></navLabel>
+<content src="chapter40.html"/>
+</navPoint>
+<navPoint id="chapter41" playOrder="40">
+<navLabel><text>第十八回　　闭目换掌掷金针</text></navLabel>
+<content src="chapter41.html"/>
+</navPoint>
+<navPoint id="chapter42" playOrder="41">
+<navLabel><text>第十九回插图一</text></navLabel>
+<content src="chapter42.html"/>
+</navPoint>
+<navPoint id="chapter43" playOrder="42">
+<navLabel><text>第十九回插图二</text></navLabel>
+<content src="chapter43.html"/>
+</navPoint>
+<navPoint id="chapter44" playOrder="43">
+<navLabel><text>第十九回　　烈焰奔腾走大侠</text></navLabel>
+<content src="chapter44.html"/>
+</navPoint>
+<navPoint id="chapter45" playOrder="44">
+<navLabel><text>第二十回插图</text></navLabel>
+<content src="chapter45.html"/>
+</navPoint>
+<navPoint id="chapter46" playOrder="45">
+<navLabel><text>第二十回　　香泽微闻缚至尊</text></navLabel>
+<content src="chapter46.html"/>
+</navPoint>
+<navPoint id="chapter47" playOrder="46">
+<navLabel><text>第二十一回插图一</text></navLabel>
+<content src="chapter47.html"/>
+</navPoint>
+<navPoint id="chapter48" playOrder="47">
+<navLabel><text>第二十一回插图二</text></navLabel>
+<content src="chapter48.html"/>
+</navPoint>
+<navPoint id="chapter49" playOrder="48">
+<navLabel><text>第二十一回    六和塔顶囚独夫</text></navLabel>
+<content src="chapter49.html"/>
+</navPoint>
+<navPoint id="chapter50" playOrder="49">
+<navLabel><text>第二十二回插图</text></navLabel>
+<content src="chapter50.html"/>
+</navPoint>
+<navPoint id="chapter51" playOrder="50">
+<navLabel><text>第二十二回　　三分剑底显双鹰</text></navLabel>
+<content src="chapter51.html"/>
+</navPoint>
+<navPoint id="chapter52" playOrder="51">
+<navLabel><text>第二十三回插图</text></navLabel>
+<content src="chapter52.html"/>
+</navPoint>
+<navPoint id="chapter53" playOrder="52">
+<navLabel><text>第二十三回　　盈盈红烛三生约</text></navLabel>
+<content src="chapter53.html"/>
+</navPoint>
+<navPoint id="chapter54" playOrder="53">
+<navLabel><text>第二十四回插图</text></navLabel>
+<content src="chapter54.html"/>
+</navPoint>
+<navPoint id="chapter55" playOrder="54">
+<navLabel><text>第二十四回　　霍霍青霜万里行</text></navLabel>
+<content src="chapter55.html"/>
+</navPoint>
+<navPoint id="chapter56" playOrder="55">
+<navLabel><text>第二十五回插图</text></navLabel>
+<content src="chapter56.html"/>
+</navPoint>
+<navPoint id="chapter57" playOrder="56">
+<navLabel><text>第二十五回　　威震古寺雷声疾</text></navLabel>
+<content src="chapter57.html"/>
+</navPoint>
+<navPoint id="chapter58" playOrder="57">
+<navLabel><text>第二十六回插图</text></navLabel>
+<content src="chapter58.html"/>
+</navPoint>
+<navPoint id="chapter59" playOrder="58">
+<navLabel><text>第二十六回　　情痴大漠雪意馨</text></navLabel>
+<content src="chapter59.html"/>
+</navPoint>
+<navPoint id="chapter60" playOrder="59">
+<navLabel><text>第二十七回插图</text></navLabel>
+<content src="chapter60.html"/>
+</navPoint>
+<navPoint id="chapter61" playOrder="60">
+<navLabel><text>第二十七回　　牛刀小试伏四虎</text></navLabel>
+<content src="chapter61.html"/>
+</navPoint>
+<navPoint id="chapter62" playOrder="61">
+<navLabel><text>第二十八回插图</text></navLabel>
+<content src="chapter62.html"/>
+</navPoint>
+<navPoint id="chapter63" playOrder="62">
+<navLabel><text>第二十八回　　马步大集困群英</text></navLabel>
+<content src="chapter63.html"/>
+</navPoint>
+<navPoint id="chapter64" playOrder="63">
+<navLabel><text>第二十九回插图</text></navLabel>
+<content src="chapter64.html"/>
+</navPoint>
+<navPoint id="chapter65" playOrder="64">
+<navLabel><text>第二十九回　　奋歼铁甲将军苦</text></navLabel>
+<content src="chapter65.html"/>
+</navPoint>
+<navPoint id="chapter66" playOrder="65">
+<navLabel><text>第三十回插图</text></navLabel>
+<content src="chapter66.html"/>
+</navPoint>
+<navPoint id="chapter67" playOrder="66">
+<navLabel><text>第三十回　　穷追金笛玉女嗔</text></navLabel>
+<content src="chapter67.html"/>
+</navPoint>
+<navPoint id="chapter68" playOrder="67">
+<navLabel><text>第三十一回插图</text></navLabel>
+<content src="chapter68.html"/>
+</navPoint>
+<navPoint id="chapter69" playOrder="68">
+<navLabel><text>第三十一回 　　剑底戏沙怜寂寞</text></navLabel>
+<content src="chapter69.html"/>
+</navPoint>
+<navPoint id="chapter70" playOrder="69">
+<navLabel><text>第三十二回　　狼口赌命答深情</text></navLabel>
+<content src="chapter70.html"/>
+</navPoint>
+<navPoint id="chapter71" playOrder="70">
+<navLabel><text>第三十三回插图</text></navLabel>
+<content src="chapter71.html"/>
+</navPoint>
+<navPoint id="chapter72" playOrder="71">
+<navLabel><text>第三十三回　　谈笑任侠见名士</text></navLabel>
+<content src="chapter72.html"/>
+</navPoint>
+<navPoint id="chapter73" playOrder="72">
+<navLabel><text>第三十四回插图</text></navLabel>
+<content src="chapter73.html"/>
+</navPoint>
+<navPoint id="chapter74" playOrder="73">
+<navLabel><text>第三十四回　　慷慨御暴怀佳人</text></navLabel>
+<content src="chapter74.html"/>
+</navPoint>
+<navPoint id="chapter75" playOrder="74">
+<navLabel><text>第三十五回插图</text></navLabel>
+<content src="chapter75.html"/>
+</navPoint>
+<navPoint id="chapter76" playOrder="75">
+<navLabel><text>第三十五回　　竟托古礼完夙愿</text></navLabel>
+<content src="chapter76.html"/>
+</navPoint>
+<navPoint id="chapter77" playOrder="76">
+<navLabel><text>第三十六回插图</text></navLabel>
+<content src="chapter77.html"/>
+</navPoint>
+<navPoint id="chapter78" playOrder="77">
+<navLabel><text>第三十六回　　还从遗书悟生平</text></navLabel>
+<content src="chapter78.html"/>
+</navPoint>
+<navPoint id="chapter79" playOrder="78">
+<navLabel><text>第三十七回插图</text></navLabel>
+<content src="chapter79.html"/>
+</navPoint>
+<navPoint id="chapter80" playOrder="79">
+<navLabel><text>第三十七回　　心伤殿隅天初晓</text></navLabel>
+<content src="chapter80.html"/>
+</navPoint>
+<navPoint id="chapter81" playOrder="80">
+<navLabel><text>第三十八回插图</text></navLabel>
+<content src="chapter81.html"/>
+</navPoint>
+<navPoint id="chapter82" playOrder="81">
+<navLabel><text>第三十八回　　魂断城头日黄昏</text></navLabel>
+<content src="chapter82.html"/>
+</navPoint>
+<navPoint id="chapter83" playOrder="82">
+<navLabel><text>第三十九回插图</text></navLabel>
+<content src="chapter83.html"/>
+</navPoint>
+<navPoint id="chapter84" playOrder="83">
+<navLabel><text>第三十九回　　甘吻白刃堕火窟</text></navLabel>
+<content src="chapter84.html"/>
+</navPoint>
+<navPoint id="chapter85" playOrder="84">
+<navLabel><text>第四十回插图</text></navLabel>
+<content src="chapter85.html"/>
+</navPoint>
+<navPoint id="chapter86" playOrder="85">
+<navLabel><text>第四十回　　空余碧血葬佳城</text></navLabel>
+<content src="chapter86.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter87" playOrder="86">
+<navLabel><text>碧血剑</text></navLabel>
+<content src="chapter87.html"/>
+<navPoint id="chapter89" playOrder="87">
+<navLabel><text>《香港商报》连载插图</text></navLabel>
+<content src="chapter89.html"/>
+</navPoint>
+<navPoint id="chapter90" playOrder="88">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter90.html"/>
+</navPoint>
+<navPoint id="chapter91" playOrder="89">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter91.html"/>
+</navPoint>
+<navPoint id="chapter92" playOrder="90">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter92.html"/>
+</navPoint>
+<navPoint id="chapter93" playOrder="91">
+<navLabel><text>第一回 叹息生民苦  跋涉世道艰</text></navLabel>
+<content src="chapter93.html"/>
+</navPoint>
+<navPoint id="chapter94" playOrder="92">
+<navLabel><text>第二回 三尺托童稚 八方会俊英</text></navLabel>
+<content src="chapter94.html"/>
+</navPoint>
+<navPoint id="chapter95" playOrder="93">
+<navLabel><text>第三回 重重遭大难 赳赳护小友</text></navLabel>
+<content src="chapter95.html"/>
+</navPoint>
+<navPoint id="chapter96" playOrder="94">
+<navLabel><text>第四回 穷年传拳剑 长日迷楸枰</text></navLabel>
+<content src="chapter96.html"/>
+</navPoint>
+<navPoint id="chapter97" playOrder="95">
+<navLabel><text>第五回 绝顶来怪客 密室读奇文</text></navLabel>
+<content src="chapter97.html"/>
+</navPoint>
+<navPoint id="chapter98" playOrder="96">
+<navLabel><text>第六回 水秀花寂寂 山幽草青青</text></navLabel>
+<content src="chapter98.html"/>
+</navPoint>
+<navPoint id="chapter99" playOrder="97">
+<navLabel><text>第七回 怀旧斗五老 仗义夺千金</text></navLabel>
+<content src="chapter99.html"/>
+</navPoint>
+<navPoint id="chapter100" playOrder="98">
+<navLabel><text>第八回 柔肠泯杀机 侠骨丧奸谋</text></navLabel>
+<content src="chapter100.html"/>
+</navPoint>
+<navPoint id="chapter101" playOrder="99">
+<navLabel><text>第九回 指拨算盘间 睡卧敌阵中</text></navLabel>
+<content src="chapter101.html"/>
+</navPoint>
+<navPoint id="chapter102" playOrder="100">
+<navLabel><text>第十回 猜妒情原切 娇嗔爱始真</text></navLabel>
+<content src="chapter102.html"/>
+</navPoint>
+<navPoint id="chapter103" playOrder="101">
+<navLabel><text>第十一回 仗剑解仇纷 夺信见奸谋</text></navLabel>
+<content src="chapter103.html"/>
+</navPoint>
+<navPoint id="chapter104" playOrder="102">
+<navLabel><text>第十二回 潇洒破两仪 谈笑发五招</text></navLabel>
+<content src="chapter104.html"/>
+</navPoint>
+<navPoint id="chapter105" playOrder="103">
+<navLabel><text>第十三回 无意逢旧侣 有心觅奇珍</text></navLabel>
+<content src="chapter105.html"/>
+</navPoint>
+<navPoint id="chapter106" playOrder="104">
+<navLabel><text>第十四回 冀鲁群盗集 燕云大豪争</text></navLabel>
+<content src="chapter106.html"/>
+</navPoint>
+<navPoint id="chapter107" playOrder="105">
+<navLabel><text>第十五回 险峡收万众 泰山会群英</text></navLabel>
+<content src="chapter107.html"/>
+</navPoint>
+<navPoint id="chapter108" playOrder="106">
+<navLabel><text>第十六回 闹席掷异物 释愆赠灵丹</text></navLabel>
+<content src="chapter108.html"/>
+</navPoint>
+<navPoint id="chapter109" playOrder="107">
+<navLabel><text>第十七回 同气结金兰 助威夺红衣</text></navLabel>
+<content src="chapter109.html"/>
+</navPoint>
+<navPoint id="chapter110" playOrder="108">
+<navLabel><text>第十八回 竟见此怪屋 乃入于深宫</text></navLabel>
+<content src="chapter110.html"/>
+</navPoint>
+<navPoint id="chapter111" playOrder="109">
+<navLabel><text>第十九回 虎虎施毒掌 盈盈出铁手</text></navLabel>
+<content src="chapter111.html"/>
+</navPoint>
+<navPoint id="chapter112" playOrder="110">
+<navLabel><text>第二十回 深宵发桐棺 破晓试蛇剑</text></navLabel>
+<content src="chapter112.html"/>
+</navPoint>
+<navPoint id="chapter113" playOrder="111">
+<navLabel><text>第二十一回 怨愤说旧日 憔悴异当时</text></navLabel>
+<content src="chapter113.html"/>
+</navPoint>
+<navPoint id="chapter114" playOrder="112">
+<navLabel><text>第二十二回 心伤落花意 魂断流水情</text></navLabel>
+<content src="chapter114.html"/>
+</navPoint>
+<navPoint id="chapter115" playOrder="113">
+<navLabel><text>第二十三回 碧血染宝剑 黄甲入名都</text></navLabel>
+<content src="chapter115.html"/>
+</navPoint>
+<navPoint id="chapter116" playOrder="114">
+<navLabel><text>第二十四回 凶险如斯乎 怨毒甚矣哉</text></navLabel>
+<content src="chapter116.html"/>
+</navPoint>
+<navPoint id="chapter117" playOrder="115">
+<navLabel><text>第二十五回 群彦聚西岳 众豪泛南海</text></navLabel>
+<content src="chapter117.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter118" playOrder="116">
+<navLabel><text>射雕英雄传</text></navLabel>
+<content src="chapter118.html"/>
+<navPoint id="chapter120" playOrder="117">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter120.html"/>
+</navPoint>
+<navPoint id="chapter121" playOrder="118">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter121.html"/>
+</navPoint>
+<navPoint id="chapter122" playOrder="119">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter122.html"/>
+</navPoint>
+<navPoint id="chapter123" playOrder="120">
+<navLabel><text>第一回 雪地锄奸</text></navLabel>
+<content src="chapter123.html"/>
+</navPoint>
+<navPoint id="chapter124" playOrder="121">
+<navLabel><text>第二回 午夜惊变</text></navLabel>
+<content src="chapter124.html"/>
+</navPoint>
+<navPoint id="chapter125" playOrder="122">
+<navLabel><text>第三回 江南七怪</text></navLabel>
+<content src="chapter125.html"/>
+</navPoint>
+<navPoint id="chapter126" playOrder="123">
+<navLabel><text>第四回 酒楼赌技</text></navLabel>
+<content src="chapter126.html"/>
+</navPoint>
+<navPoint id="chapter127" playOrder="124">
+<navLabel><text>第五回 古刹恶战</text></navLabel>
+<content src="chapter127.html"/>
+</navPoint>
+<navPoint id="chapter128" playOrder="125">
+<navLabel><text>第六回 万里追踪</text></navLabel>
+<content src="chapter128.html"/>
+</navPoint>
+<navPoint id="chapter129" playOrder="126">
+<navLabel><text>第七回 双雄斗箭</text></navLabel>
+<content src="chapter129.html"/>
+</navPoint>
+<navPoint id="chapter130" playOrder="127">
+<navLabel><text>第八回 青霜寒光</text></navLabel>
+<content src="chapter130.html"/>
+</navPoint>
+<navPoint id="chapter131" playOrder="128">
+<navLabel><text>第九回 黑风双煞</text></navLabel>
+<content src="chapter131.html"/>
+</navPoint>
+<navPoint id="chapter132" playOrder="129">
+<navLabel><text>第十回 荒山之夜</text></navLabel>
+<content src="chapter132.html"/>
+</navPoint>
+<navPoint id="chapter133" playOrder="130">
+<navLabel><text>第十一回 弯弓射雕</text></navLabel>
+<content src="chapter133.html"/>
+</navPoint>
+<navPoint id="chapter134" playOrder="131">
+<navLabel><text>第十二回 三髻道人</text></navLabel>
+<content src="chapter134.html"/>
+</navPoint>
+<navPoint id="chapter135" playOrder="132">
+<navLabel><text>第十三回 崖顶疑阵</text></navLabel>
+<content src="chapter135.html"/>
+</navPoint>
+<navPoint id="chapter136" playOrder="133">
+<navLabel><text>第十四回 初试身手</text></navLabel>
+<content src="chapter136.html"/>
+</navPoint>
+<navPoint id="chapter137" playOrder="134">
+<navLabel><text>第十五回 汗血宝马</text></navLabel>
+<content src="chapter137.html"/>
+</navPoint>
+<navPoint id="chapter138" playOrder="135">
+<navLabel><text>第十六回 绣鞋锦袍</text></navLabel>
+<content src="chapter138.html"/>
+</navPoint>
+<navPoint id="chapter139" playOrder="136">
+<navLabel><text>第十七回 邂逅挥拳</text></navLabel>
+<content src="chapter139.html"/>
+</navPoint>
+<navPoint id="chapter140" playOrder="137">
+<navLabel><text>第十八回 各显神通</text></navLabel>
+<content src="chapter140.html"/>
+</navPoint>
+<navPoint id="chapter141" playOrder="138">
+<navLabel><text>第十九回 隔墙有耳</text></navLabel>
+<content src="chapter141.html"/>
+</navPoint>
+<navPoint id="chapter142" playOrder="139">
+<navLabel><text>第二十回 铁枪故衣</text></navLabel>
+<content src="chapter142.html"/>
+</navPoint>
+<navPoint id="chapter143" playOrder="140">
+<navLabel><text>第廿一回 冤家聚头</text></navLabel>
+<content src="chapter143.html"/>
+</navPoint>
+<navPoint id="chapter144" playOrder="141">
+<navLabel><text>第廿二回 战阵传功</text></navLabel>
+<content src="chapter144.html"/>
+</navPoint>
+<navPoint id="chapter145" playOrder="142">
+<navLabel><text>第廿三回 以毒攻毒</text></navLabel>
+<content src="chapter145.html"/>
+</navPoint>
+<navPoint id="chapter146" playOrder="143">
+<navLabel><text>第廿四回 九指神丐</text></navLabel>
+<content src="chapter146.html"/>
+</navPoint>
+<navPoint id="chapter147" playOrder="144">
+<navLabel><text>第廿五回 亢龙有悔</text></navLabel>
+<content src="chapter147.html"/>
+</navPoint>
+<navPoint id="chapter148" playOrder="145">
+<navLabel><text>第廿六回 刻骨相思</text></navLabel>
+<content src="chapter148.html"/>
+</navPoint>
+<navPoint id="chapter149" playOrder="146">
+<navLabel><text>第廿七回 五湖废人</text></navLabel>
+<content src="chapter149.html"/>
+</navPoint>
+<navPoint id="chapter150" playOrder="147">
+<navLabel><text>第廿八回 群蛇乱舞</text></navLabel>
+<content src="chapter150.html"/>
+</navPoint>
+<navPoint id="chapter151" playOrder="148">
+<navLabel><text>第廿九回 顶缸渡水</text></navLabel>
+<content src="chapter151.html"/>
+</navPoint>
+<navPoint id="chapter152" playOrder="149">
+<navLabel><text>第三十回 青袍怪客</text></navLabel>
+<content src="chapter152.html"/>
+</navPoint>
+<navPoint id="chapter153" playOrder="150">
+<navLabel><text>第三十一回 桃花岛主</text></navLabel>
+<content src="chapter153.html"/>
+</navPoint>
+<navPoint id="chapter154" playOrder="151">
+<navLabel><text>第三十二回 神龙摆尾</text></navLabel>
+<content src="chapter154.html"/>
+</navPoint>
+<navPoint id="chapter155" playOrder="152">
+<navLabel><text>第三十三回 富贵无极</text></navLabel>
+<content src="chapter155.html"/>
+</navPoint>
+<navPoint id="chapter156" playOrder="153">
+<navLabel><text>第三十四回 洞中奇人</text></navLabel>
+<content src="chapter156.html"/>
+</navPoint>
+<navPoint id="chapter157" playOrder="154">
+<navLabel><text>第三十五回 双手互搏</text></navLabel>
+<content src="chapter157.html"/>
+</navPoint>
+<navPoint id="chapter158" playOrder="155">
+<navLabel><text>第三十六回 九阴奇功</text></navLabel>
+<content src="chapter158.html"/>
+</navPoint>
+<navPoint id="chapter159" playOrder="156">
+<navLabel><text>第三十七回 箫筝斗胜</text></navLabel>
+<content src="chapter159.html"/>
+</navPoint>
+<navPoint id="chapter160" playOrder="157">
+<navLabel><text>第三十八回 三道试题</text></navLabel>
+<content src="chapter160.html"/>
+</navPoint>
+<navPoint id="chapter161" playOrder="158">
+<navLabel><text>第三十九回 墓中秘室</text></navLabel>
+<content src="chapter161.html"/>
+</navPoint>
+<navPoint id="chapter162" playOrder="159">
+<navLabel><text>第四十回 鲨群蛇阵</text></navLabel>
+<content src="chapter162.html"/>
+</navPoint>
+<navPoint id="chapter163" playOrder="160">
+<navLabel><text>第四十一回 海上拼斗</text></navLabel>
+<content src="chapter163.html"/>
+</navPoint>
+<navPoint id="chapter164" playOrder="161">
+<navLabel><text>第四十二回 打狗棒法</text></navLabel>
+<content src="chapter164.html"/>
+</navPoint>
+<navPoint id="chapter165" playOrder="162">
+<navLabel><text>第四十三回 万钧巨岩</text></navLabel>
+<content src="chapter165.html"/>
+</navPoint>
+<navPoint id="chapter166" playOrder="163">
+<navLabel><text>第四十四回 真功假功</text></navLabel>
+<content src="chapter166.html"/>
+</navPoint>
+<navPoint id="chapter167" playOrder="164">
+<navLabel><text>第四十五回 骑鲨遨游</text></navLabel>
+<content src="chapter167.html"/>
+</navPoint>
+<navPoint id="chapter168" playOrder="165">
+<navLabel><text>第四十六回 荒村野店</text></navLabel>
+<content src="chapter168.html"/>
+</navPoint>
+<navPoint id="chapter169" playOrder="166">
+<navLabel><text>第四十七回 大闹禁宫</text></navLabel>
+<content src="chapter169.html"/>
+</navPoint>
+<navPoint id="chapter170" playOrder="167">
+<navLabel><text>第四十八回 密室疗伤</text></navLabel>
+<content src="chapter170.html"/>
+</navPoint>
+<navPoint id="chapter171" playOrder="168">
+<navLabel><text>第四十九回 仗义传讯</text></navLabel>
+<content src="chapter171.html"/>
+</navPoint>
+<navPoint id="chapter172" playOrder="169">
+<navLabel><text>第五十回 洞房花烛</text></navLabel>
+<content src="chapter172.html"/>
+</navPoint>
+<navPoint id="chapter173" playOrder="170">
+<navLabel><text>第五十一回 铁枪杀奸</text></navLabel>
+<content src="chapter173.html"/>
+</navPoint>
+<navPoint id="chapter174" playOrder="171">
+<navLabel><text>第五十二回 天罡北斗</text></navLabel>
+<content src="chapter174.html"/>
+</navPoint>
+<navPoint id="chapter175" playOrder="172">
+<navLabel><text>第五十三回 恶斗东邪</text></navLabel>
+<content src="chapter175.html"/>
+</navPoint>
+<navPoint id="chapter176" playOrder="173">
+<navLabel><text>第五十四回 新盟旧约</text></navLabel>
+<content src="chapter176.html"/>
+</navPoint>
+<navPoint id="chapter177" playOrder="174">
+<navLabel><text>第五十五回 蛙蛤大战</text></navLabel>
+<content src="chapter177.html"/>
+</navPoint>
+<navPoint id="chapter178" playOrder="175">
+<navLabel><text>第五十六回 岳阳楼头</text></navLabel>
+<content src="chapter178.html"/>
+</navPoint>
+<navPoint id="chapter179" playOrder="176">
+<navLabel><text>第五十七回 铁掌神功</text></navLabel>
+<content src="chapter179.html"/>
+</navPoint>
+<navPoint id="chapter180" playOrder="177">
+<navLabel><text>第五十八回 大战君山</text></navLabel>
+<content src="chapter180.html"/>
+</navPoint>
+<navPoint id="chapter181" playOrder="178">
+<navLabel><text>第五十九回 武穆遗书</text></navLabel>
+<content src="chapter181.html"/>
+</navPoint>
+<navPoint id="chapter182" playOrder="179">
+<navLabel><text>第六十回 黑沼隐女</text></navLabel>
+<content src="chapter182.html"/>
+</navPoint>
+<navPoint id="chapter183" playOrder="180">
+<navLabel><text>第六十一回 渔樵耕读</text></navLabel>
+<content src="chapter183.html"/>
+</navPoint>
+<navPoint id="chapter184" playOrder="181">
+<navLabel><text>第六十二回 一灯大师</text></navLabel>
+<content src="chapter184.html"/>
+</navPoint>
+<navPoint id="chapter185" playOrder="182">
+<navLabel><text>第六十三回 鸳鸯锦帕</text></navLabel>
+<content src="chapter185.html"/>
+</navPoint>
+<navPoint id="chapter186" playOrder="183">
+<navLabel><text>第六十四回 深宫惊变</text></navLabel>
+<content src="chapter186.html"/>
+</navPoint>
+<navPoint id="chapter187" playOrder="184">
+<navLabel><text>第六十五回 午夜寻仇</text></navLabel>
+<content src="chapter187.html"/>
+</navPoint>
+<navPoint id="chapter188" playOrder="185">
+<navLabel><text>第六十六回 红颜薄命</text></navLabel>
+<content src="chapter188.html"/>
+</navPoint>
+<navPoint id="chapter189" playOrder="186">
+<navLabel><text>第六十七回 青龙险滩</text></navLabel>
+<content src="chapter189.html"/>
+</navPoint>
+<navPoint id="chapter190" playOrder="187">
+<navLabel><text>第六十八回 赌赛定力</text></navLabel>
+<content src="chapter190.html"/>
+</navPoint>
+<navPoint id="chapter191" playOrder="188">
+<navLabel><text>第六十九回 深痛巨创</text></navLabel>
+<content src="chapter191.html"/>
+</navPoint>
+<navPoint id="chapter192" playOrder="189">
+<navLabel><text>第七十回 烟雨风云</text></navLabel>
+<content src="chapter192.html"/>
+</navPoint>
+<navPoint id="chapter193" playOrder="190">
+<navLabel><text>第七十一回 艺服群雄</text></navLabel>
+<content src="chapter193.html"/>
+</navPoint>
+<navPoint id="chapter194" playOrder="191">
+<navLabel><text>第七十二回 古庙之夜</text></navLabel>
+<content src="chapter194.html"/>
+</navPoint>
+<navPoint id="chapter195" playOrder="192">
+<navLabel><text>第七十三回 扑朔迷离</text></navLabel>
+<content src="chapter195.html"/>
+</navPoint>
+<navPoint id="chapter196" playOrder="193">
+<navLabel><text>第七十四回 沙中陷阱</text></navLabel>
+<content src="chapter196.html"/>
+</navPoint>
+<navPoint id="chapter197" playOrder="194">
+<navLabel><text>第七十五回 雪峰相会</text></navLabel>
+<content src="chapter197.html"/>
+</navPoint>
+<navPoint id="chapter198" playOrder="195">
+<navLabel><text>第七十六回 白雪蹄印</text></navLabel>
+<content src="chapter198.html"/>
+</navPoint>
+<navPoint id="chapter199" playOrder="196">
+<navLabel><text>第七十七回 大是大非</text></navLabel>
+<content src="chapter199.html"/>
+</navPoint>
+<navPoint id="chapter200" playOrder="197">
+<navLabel><text>第七十八回 锦囊之祸</text></navLabel>
+<content src="chapter200.html"/>
+</navPoint>
+<navPoint id="chapter201" playOrder="198">
+<navLabel><text>第七十九回 异地重逢</text></navLabel>
+<content src="chapter201.html"/>
+</navPoint>
+<navPoint id="chapter202" playOrder="199">
+<navLabel><text>第八十回 华山论剑</text></navLabel>
+<content src="chapter202.html"/>
+</navPoint>
+<navPoint id="chapter203" playOrder="200">
+<navLabel><text>尾声</text></navLabel>
+<content src="chapter203.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter204" playOrder="201">
+<navLabel><text>雪山飞狐</text></navLabel>
+<content src="chapter204.html"/>
+<navPoint id="chapter206" playOrder="202">
+<navLabel><text>报纸连载首期版面</text></navLabel>
+<content src="chapter206.html"/>
+</navPoint>
+<navPoint id="chapter207" playOrder="203">
+<navLabel><text>东明版插图</text></navLabel>
+<content src="chapter207.html"/>
+</navPoint>
+<navPoint id="chapter208" playOrder="204">
+<navLabel><text>小萍版插图</text></navLabel>
+<content src="chapter208.html"/>
+</navPoint>
+<navPoint id="chapter209" playOrder="205">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter209.html"/>
+</navPoint>
+<navPoint id="chapter210" playOrder="206">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter210.html"/>
+</navPoint>
+<navPoint id="chapter211" playOrder="207">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter211.html"/>
+</navPoint>
+<navPoint id="chapter212" playOrder="208">
+<navLabel><text>第一回　长空飞羽</text></navLabel>
+<content src="chapter212.html"/>
+</navPoint>
+<navPoint id="chapter213" playOrder="209">
+<navLabel><text>第二回　盒中有箭</text></navLabel>
+<content src="chapter213.html"/>
+</navPoint>
+<navPoint id="chapter214" playOrder="210">
+<navLabel><text>第三回　雪山飞狐</text></navLabel>
+<content src="chapter214.html"/>
+</navPoint>
+<navPoint id="chapter215" playOrder="211">
+<navLabel><text>第四回　左右双僮</text></navLabel>
+<content src="chapter215.html"/>
+</navPoint>
+<navPoint id="chapter216" playOrder="212">
+<navLabel><text>第五回　舟中喋血</text></navLabel>
+<content src="chapter216.html"/>
+</navPoint>
+<navPoint id="chapter217" playOrder="213">
+<navLabel><text>第六回　斗室密谈</text></navLabel>
+<content src="chapter217.html"/>
+</navPoint>
+<navPoint id="chapter218" playOrder="214">
+<navLabel><text>第七回　金面佛</text></navLabel>
+<content src="chapter218.html"/>
+</navPoint>
+<navPoint id="chapter219" playOrder="215">
+<navLabel><text>第八回　切磋武功</text></navLabel>
+<content src="chapter219.html"/>
+</navPoint>
+<navPoint id="chapter220" playOrder="216">
+<navLabel><text>第九回　胡家刀法</text></navLabel>
+<content src="chapter220.html"/>
+</navPoint>
+<navPoint id="chapter221" playOrder="217">
+<navLabel><text>第十回　奇珍异宝</text></navLabel>
+<content src="chapter221.html"/>
+</navPoint>
+<navPoint id="chapter222" playOrder="218">
+<navLabel><text>第十一回　白衣男子</text></navLabel>
+<content src="chapter222.html"/>
+</navPoint>
+<navPoint id="chapter223" playOrder="219">
+<navLabel><text>第十二回　谱牒铁盒</text></navLabel>
+<content src="chapter223.html"/>
+</navPoint>
+<navPoint id="chapter224" playOrder="220">
+<navLabel><text>第十三回　一张白纸</text></navLabel>
+<content src="chapter224.html"/>
+</navPoint>
+<navPoint id="chapter225" playOrder="221">
+<navLabel><text>第十四回　钗中秘密</text></navLabel>
+<content src="chapter225.html"/>
+</navPoint>
+<navPoint id="chapter226" playOrder="222">
+<navLabel><text>第十五回　黄金小笔</text></navLabel>
+<content src="chapter226.html"/>
+</navPoint>
+<navPoint id="chapter227" playOrder="223">
+<navLabel><text>第十六回　金面佛上峰来</text></navLabel>
+<content src="chapter227.html"/>
+</navPoint>
+<navPoint id="chapter228" playOrder="224">
+<navLabel><text>第十七回　但教心似金铜坚</text></navLabel>
+<content src="chapter228.html"/>
+</navPoint>
+<navPoint id="chapter229" playOrder="225">
+<navLabel><text>第十八回　打遍天下无敌手</text></navLabel>
+<content src="chapter229.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter230" playOrder="226">
+<navLabel><text>神雕侠侣</text></navLabel>
+<content src="chapter230.html"/>
+<navPoint id="chapter232" playOrder="227">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter232.html"/>
+</navPoint>
+<navPoint id="chapter233" playOrder="228">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter233.html"/>
+</navPoint>
+<navPoint id="chapter234" playOrder="229">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter234.html"/>
+</navPoint>
+<navPoint id="chapter235" playOrder="230">
+<navLabel><text>一 深宵怪客</text></navLabel>
+<content src="chapter235.html"/>
+</navPoint>
+<navPoint id="chapter236" playOrder="231">
+<navLabel><text>二 赤练神掌</text></navLabel>
+<content src="chapter236.html"/>
+</navPoint>
+<navPoint id="chapter237" playOrder="232">
+<navLabel><text>三 白袍道姑</text></navLabel>
+<content src="chapter237.html"/>
+</navPoint>
+<navPoint id="chapter238" playOrder="233">
+<navLabel><text>四 桃花岛上</text></navLabel>
+<content src="chapter238.html"/>
+</navPoint>
+<navPoint id="chapter239" playOrder="234">
+<navLabel><text>五 故人之子</text></navLabel>
+<content src="chapter239.html"/>
+</navPoint>
+<navPoint id="chapter240" playOrder="235">
+<navLabel><text>六 冤家聚头</text></navLabel>
+<content src="chapter240.html"/>
+</navPoint>
+<navPoint id="chapter241" playOrder="236">
+<navLabel><text>七 求师终南</text></navLabel>
+<content src="chapter241.html"/>
+</navPoint>
+<navPoint id="chapter242" playOrder="237">
+<navLabel><text>八 全真门人</text></navLabel>
+<content src="chapter242.html"/>
+</navPoint>
+<navPoint id="chapter243" playOrder="238">
+<navLabel><text>九 天罡北斗</text></navLabel>
+<content src="chapter243.html"/>
+</navPoint>
+<navPoint id="chapter244" playOrder="239">
+<navLabel><text>十 终南旧侣</text></navLabel>
+<content src="chapter244.html"/>
+</navPoint>
+<navPoint id="chapter245" playOrder="240">
+<navLabel><text>十一 玄门习艺</text></navLabel>
+<content src="chapter245.html"/>
+</navPoint>
+<navPoint id="chapter246" playOrder="241">
+<navLabel><text>十二 全真门下</text></navLabel>
+<content src="chapter246.html"/>
+</navPoint>
+<navPoint id="chapter247" playOrder="242">
+<navLabel><text>一三 活死人墓</text></navLabel>
+<content src="chapter247.html"/>
+</navPoint>
+<navPoint id="chapter248" playOrder="243">
+<navLabel><text>一四 五具棺材</text></navLabel>
+<content src="chapter248.html"/>
+</navPoint>
+<navPoint id="chapter249" playOrder="244">
+<navLabel><text>一五 天罗地网</text></navLabel>
+<content src="chapter249.html"/>
+</navPoint>
+<navPoint id="chapter250" playOrder="245">
+<navLabel><text>一六 玉女心经</text></navLabel>
+<content src="chapter250.html"/>
+</navPoint>
+<navPoint id="chapter251" playOrder="246">
+<navLabel><text>一七 万斤巨石</text></navLabel>
+<content src="chapter251.html"/>
+</navPoint>
+<navPoint id="chapter252" playOrder="247">
+<navLabel><text>一八 宫砂犹在</text></navLabel>
+<content src="chapter252.html"/>
+</navPoint>
+<navPoint id="chapter253" playOrder="248">
+<navLabel><text>一九 重阳遗篇</text></navLabel>
+<content src="chapter253.html"/>
+</navPoint>
+<navPoint id="chapter254" playOrder="249">
+<navLabel><text>二十 浪迹天涯</text></navLabel>
+<content src="chapter254.html"/>
+</navPoint>
+<navPoint id="chapter255" playOrder="250">
+<navLabel><text>二一 白衣少女</text></navLabel>
+<content src="chapter255.html"/>
+</navPoint>
+<navPoint id="chapter256" playOrder="251">
+<navLabel><text>二二 浪迹江湖</text></navLabel>
+<content src="chapter256.html"/>
+</navPoint>
+<navPoint id="chapter257" playOrder="252">
+<navLabel><text>二三 回到江南</text></navLabel>
+<content src="chapter257.html"/>
+</navPoint>
+<navPoint id="chapter258" playOrder="253">
+<navLabel><text>二四 假扮新郎</text></navLabel>
+<content src="chapter258.html"/>
+</navPoint>
+<navPoint id="chapter259" playOrder="254">
+<navLabel><text>二五 重阳剑法</text></navLabel>
+<content src="chapter259.html"/>
+</navPoint>
+<navPoint id="chapter260" playOrder="255">
+<navLabel><text>二六 丐帮大会</text></navLabel>
+<content src="chapter260.html"/>
+</navPoint>
+<navPoint id="chapter261" playOrder="256">
+<navLabel><text>二七 三招绝技</text></navLabel>
+<content src="chapter261.html"/>
+</navPoint>
+<navPoint id="chapter262" playOrder="257">
+<navLabel><text>二八 红衣少女</text></navLabel>
+<content src="chapter262.html"/>
+</navPoint>
+<navPoint id="chapter263" playOrder="258">
+<navLabel><text>二九 九指神丐</text></navLabel>
+<content src="chapter263.html"/>
+</navPoint>
+<navPoint id="chapter264" playOrder="259">
+<navLabel><text>三０ 两败俱伤</text></navLabel>
+<content src="chapter264.html"/>
+</navPoint>
+<navPoint id="chapter265" playOrder="260">
+<navLabel><text>三一 落英掌法</text></navLabel>
+<content src="chapter265.html"/>
+</navPoint>
+<navPoint id="chapter266" playOrder="261">
+<navLabel><text>三二 打狗棒法</text></navLabel>
+<content src="chapter266.html"/>
+</navPoint>
+<navPoint id="chapter267" playOrder="262">
+<navLabel><text>三三 群英盛宴</text></navLabel>
+<content src="chapter267.html"/>
+</navPoint>
+<navPoint id="chapter268" playOrder="263">
+<navLabel><text>三四 一阳书指</text></navLabel>
+<content src="chapter268.html"/>
+</navPoint>
+<navPoint id="chapter269" playOrder="264">
+<navLabel><text>三五 武林盟主</text></navLabel>
+<content src="chapter269.html"/>
+</navPoint>
+<navPoint id="chapter270" playOrder="265">
+<navLabel><text>三六 玉蜂神针</text></navLabel>
+<content src="chapter270.html"/>
+</navPoint>
+<navPoint id="chapter271" playOrder="266">
+<navLabel><text>三七 气走法王</text></navLabel>
+<content src="chapter271.html"/>
+</navPoint>
+<navPoint id="chapter272" playOrder="267">
+<navLabel><text>三八 恩仇波澜</text></navLabel>
+<content src="chapter272.html"/>
+</navPoint>
+<navPoint id="chapter273" playOrder="268">
+<navLabel><text>三九 玉女素心</text></navLabel>
+<content src="chapter273.html"/>
+</navPoint>
+<navPoint id="chapter274" playOrder="269">
+<navLabel><text>四０ 青衣女郎</text></navLabel>
+<content src="chapter274.html"/>
+</navPoint>
+<navPoint id="chapter275" playOrder="270">
+<navLabel><text>四一 冲入土阵</text></navLabel>
+<content src="chapter275.html"/>
+</navPoint>
+<navPoint id="chapter276" playOrder="271">
+<navLabel><text>四二 桃花岛主</text></navLabel>
+<content src="chapter276.html"/>
+</navPoint>
+<navPoint id="chapter277" playOrder="272">
+<navLabel><text>四三 五毒神掌</text></navLabel>
+<content src="chapter277.html"/>
+</navPoint>
+<navPoint id="chapter278" playOrder="273">
+<navLabel><text>四四 水仙幽谷</text></navLabel>
+<content src="chapter278.html"/>
+</navPoint>
+<navPoint id="chapter279" playOrder="274">
+<navLabel><text>四五 白发老人</text></navLabel>
+<content src="chapter279.html"/>
+</navPoint>
+<navPoint id="chapter280" playOrder="275">
+<navLabel><text>四六 绿衣少女</text></navLabel>
+<content src="chapter280.html"/>
+</navPoint>
+<navPoint id="chapter281" playOrder="276">
+<navLabel><text>四七 天翻地覆</text></navLabel>
+<content src="chapter281.html"/>
+</navPoint>
+<navPoint id="chapter282" playOrder="277">
+<navLabel><text>四八 洞房花烛</text></navLabel>
+<content src="chapter282.html"/>
+</navPoint>
+<navPoint id="chapter283" playOrder="278">
+<navLabel><text>四九 一往情深</text></navLabel>
+<content src="chapter283.html"/>
+</navPoint>
+<navPoint id="chapter284" playOrder="279">
+<navLabel><text>五０ 君子淑女</text></navLabel>
+<content src="chapter284.html"/>
+</navPoint>
+<navPoint id="chapter285" playOrder="280">
+<navLabel><text>五一 鳄鱼潭中</text></navLabel>
+<content src="chapter285.html"/>
+</navPoint>
+<navPoint id="chapter286" playOrder="281">
+<navLabel><text>五二 一条通道</text></navLabel>
+<content src="chapter286.html"/>
+</navPoint>
+<navPoint id="chapter287" playOrder="282">
+<navLabel><text>五三 惊险万分</text></navLabel>
+<content src="chapter287.html"/>
+</navPoint>
+<navPoint id="chapter288" playOrder="283">
+<navLabel><text>五四 半枚丹药</text></navLabel>
+<content src="chapter288.html"/>
+</navPoint>
+<navPoint id="chapter289" playOrder="284">
+<navLabel><text>五五 忽施袭击</text></navLabel>
+<content src="chapter289.html"/>
+</navPoint>
+<navPoint id="chapter290" playOrder="285">
+<navLabel><text>五六 攻打襄阳</text></navLabel>
+<content src="chapter290.html"/>
+</navPoint>
+<navPoint id="chapter291" playOrder="286">
+<navLabel><text>五七 国难家仇</text></navLabel>
+<content src="chapter291.html"/>
+</navPoint>
+<navPoint id="chapter292" playOrder="287">
+<navLabel><text>五八 单刀赴会</text></navLabel>
+<content src="chapter292.html"/>
+</navPoint>
+<navPoint id="chapter293" playOrder="288">
+<navLabel><text>五九 欲施暗算</text></navLabel>
+<content src="chapter293.html"/>
+</navPoint>
+<navPoint id="chapter294" playOrder="289">
+<navLabel><text>六０ 国事为重</text></navLabel>
+<content src="chapter294.html"/>
+</navPoint>
+<navPoint id="chapter295" playOrder="290">
+<navLabel><text>六一 大侠之女</text></navLabel>
+<content src="chapter295.html"/>
+</navPoint>
+<navPoint id="chapter296" playOrder="291">
+<navLabel><text>六二 烟熏山洞</text></navLabel>
+<content src="chapter296.html"/>
+</navPoint>
+<navPoint id="chapter297" playOrder="292">
+<navLabel><text>六三 紫薇宝剑</text></navLabel>
+<content src="chapter297.html"/>
+</navPoint>
+<navPoint id="chapter298" playOrder="293">
+<navLabel><text>六四 兄弟阋墙</text></navLabel>
+<content src="chapter298.html"/>
+</navPoint>
+<navPoint id="chapter299" playOrder="294">
+<navLabel><text>六五 天竺神僧</text></navLabel>
+<content src="chapter299.html"/>
+</navPoint>
+<navPoint id="chapter300" playOrder="295">
+<navLabel><text>六六 终南寻仇</text></navLabel>
+<content src="chapter300.html"/>
+</navPoint>
+<navPoint id="chapter301" playOrder="296">
+<navLabel><text>六七 白发老人</text></navLabel>
+<content src="chapter301.html"/>
+</navPoint>
+<navPoint id="chapter302" playOrder="297">
+<navLabel><text>六八 入洞中伏</text></navLabel>
+<content src="chapter302.html"/>
+</navPoint>
+<navPoint id="chapter303" playOrder="298">
+<navLabel><text>六九 日夜跟踪</text></navLabel>
+<content src="chapter303.html"/>
+</navPoint>
+<navPoint id="chapter304" playOrder="299">
+<navLabel><text>七０ 接任掌教</text></navLabel>
+<content src="chapter304.html"/>
+</navPoint>
+<navPoint id="chapter305" playOrder="300">
+<navLabel><text>七一 独闯全真</text></navLabel>
+<content src="chapter305.html"/>
+</navPoint>
+<navPoint id="chapter306" playOrder="301">
+<navLabel><text>七二 神鵰魔剑</text></navLabel>
+<content src="chapter306.html"/>
+</navPoint>
+<navPoint id="chapter307" playOrder="302">
+<navLabel><text>七三 荒谷剑冢</text></navLabel>
+<content src="chapter307.html"/>
+</navPoint>
+<navPoint id="chapter308" playOrder="303">
+<navLabel><text>七四 又有奇遇</text></navLabel>
+<content src="chapter308.html"/>
+</navPoint>
+<navPoint id="chapter309" playOrder="304">
+<navLabel><text>七五 空袖施威</text></navLabel>
+<content src="chapter309.html"/>
+</navPoint>
+<navPoint id="chapter310" playOrder="305">
+<navLabel><text>七六 玄铁宝剑</text></navLabel>
+<content src="chapter310.html"/>
+</navPoint>
+<navPoint id="chapter311" playOrder="306">
+<navLabel><text>七七 今夕何夕</text></navLabel>
+<content src="chapter311.html"/>
+</navPoint>
+<navPoint id="chapter312" playOrder="307">
+<navLabel><text>七八 终成眷属</text></navLabel>
+<content src="chapter312.html"/>
+</navPoint>
+<navPoint id="chapter313" playOrder="308">
+<navLabel><text>七九 众人围攻</text></navLabel>
+<content src="chapter313.html"/>
+</navPoint>
+<navPoint id="chapter314" playOrder="309">
+<navLabel><text>八０ 被闭石室</text></navLabel>
+<content src="chapter314.html"/>
+</navPoint>
+<navPoint id="chapter315" playOrder="310">
+<navLabel><text>八一 古墓石棺</text></navLabel>
+<content src="chapter315.html"/>
+</navPoint>
+<navPoint id="chapter316" playOrder="311">
+<navLabel><text>八二 生死茫茫</text></navLabel>
+<content src="chapter316.html"/>
+</navPoint>
+<navPoint id="chapter317" playOrder="312">
+<navLabel><text>八三 雪地激战</text></navLabel>
+<content src="chapter317.html"/>
+</navPoint>
+<navPoint id="chapter318" playOrder="313">
+<navLabel><text>八四 众女聚会</text></navLabel>
+<content src="chapter318.html"/>
+</navPoint>
+<navPoint id="chapter319" playOrder="314">
+<navLabel><text>八五 以身试毒</text></navLabel>
+<content src="chapter319.html"/>
+</navPoint>
+<navPoint id="chapter320" playOrder="315">
+<navLabel><text>八六 慈恩和尚</text></navLabel>
+<content src="chapter320.html"/>
+</navPoint>
+<navPoint id="chapter321" playOrder="316">
+<navLabel><text>八七 真药假药</text></navLabel>
+<content src="chapter321.html"/>
+</navPoint>
+<navPoint id="chapter322" playOrder="317">
+<navLabel><text>八八 七女夺丹</text></navLabel>
+<content src="chapter322.html"/>
+</navPoint>
+<navPoint id="chapter323" playOrder="318">
+<navLabel><text>八九 情是何物</text></navLabel>
+<content src="chapter323.html"/>
+</navPoint>
+<navPoint id="chapter324" playOrder="319">
+<navLabel><text>九０ 十六年后</text></navLabel>
+<content src="chapter324.html"/>
+</navPoint>
+<navPoint id="chapter325" playOrder="320">
+<navLabel><text>九一 风陵渡头</text></navLabel>
+<content src="chapter325.html"/>
+</navPoint>
+<navPoint id="chapter326" playOrder="321">
+<navLabel><text>九二 神鵰大侠</text></navLabel>
+<content src="chapter326.html"/>
+</navPoint>
+<navPoint id="chapter327" playOrder="322">
+<navLabel><text>九三 万兽山庄</text></navLabel>
+<content src="chapter327.html"/>
+</navPoint>
+<navPoint id="chapter328" playOrder="323">
+<navLabel><text>九四 震倒群兽</text></navLabel>
+<content src="chapter328.html"/>
+</navPoint>
+<navPoint id="chapter329" playOrder="324">
+<navLabel><text>九五 黑龙潭畔</text></navLabel>
+<content src="chapter329.html"/>
+</navPoint>
+<navPoint id="chapter330" playOrder="325">
+<navLabel><text>九六 返老还童</text></navLabel>
+<content src="chapter330.html"/>
+</navPoint>
+<navPoint id="chapter331" playOrder="326">
+<navLabel><text>九七 恩恩怨怨</text></navLabel>
+<content src="chapter331.html"/>
+</navPoint>
+<navPoint id="chapter332" playOrder="327">
+<navLabel><text>九八 襄阳城中</text></navLabel>
+<content src="chapter332.html"/>
+</navPoint>
+<navPoint id="chapter333" playOrder="328">
+<navLabel><text>九九 英雄大宴</text></navLabel>
+<content src="chapter333.html"/>
+</navPoint>
+<navPoint id="chapter334" playOrder="329">
+<navLabel><text>一００ 丐帮大会</text></navLabel>
+<content src="chapter334.html"/>
+</navPoint>
+<navPoint id="chapter335" playOrder="330">
+<navLabel><text>一０一 群豪献寿</text></navLabel>
+<content src="chapter335.html"/>
+</navPoint>
+<navPoint id="chapter336" playOrder="331">
+<navLabel><text>一０二 三件礼物</text></navLabel>
+<content src="chapter336.html"/>
+</navPoint>
+<navPoint id="chapter337" playOrder="332">
+<navLabel><text>一０三 三世恩怨</text></navLabel>
+<content src="chapter337.html"/>
+</navPoint>
+<navPoint id="chapter338" playOrder="333">
+<navLabel><text>一０四 跛腿奇人</text></navLabel>
+<content src="chapter338.html"/>
+</navPoint>
+<navPoint id="chapter339" playOrder="334">
+<navLabel><text>一０五 万花谷中</text></navLabel>
+<content src="chapter339.html"/>
+</navPoint>
+<navPoint id="chapter340" playOrder="335">
+<navLabel><text>一０六 高手云集</text></navLabel>
+<content src="chapter340.html"/>
+</navPoint>
+<navPoint id="chapter341" playOrder="336">
+<navLabel><text>一０七 襄阳鏖兵</text></navLabel>
+<content src="chapter341.html"/>
+</navPoint>
+<navPoint id="chapter342" playOrder="337">
+<navLabel><text>一０八 久別重逢</text></navLabel>
+<content src="chapter342.html"/>
+</navPoint>
+<navPoint id="chapter343" playOrder="338">
+<navLabel><text>一０九 廿八宿阵</text></navLabel>
+<content src="chapter343.html"/>
+</navPoint>
+<navPoint id="chapter344" playOrder="339">
+<navLabel><text>一一０ 尾声</text></navLabel>
+<content src="chapter344.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter345" playOrder="340">
+<navLabel><text>飞狐外传</text></navLabel>
+<content src="chapter345.html"/>
+<navPoint id="chapter347" playOrder="341">
+<navLabel><text>报纸连载版插图</text></navLabel>
+<content src="chapter347.html"/>
+</navPoint>
+<navPoint id="chapter348" playOrder="342">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter348.html"/>
+</navPoint>
+<navPoint id="chapter349" playOrder="343">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter349.html"/>
+</navPoint>
+<navPoint id="chapter350" playOrder="344">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter350.html"/>
+</navPoint>
+<navPoint id="chapter351" playOrder="345">
+<navLabel><text>一 胡一刀和苗人凤</text></navLabel>
+<content src="chapter351.html"/>
+</navPoint>
+<navPoint id="chapter352" playOrder="346">
+<navLabel><text>二 苗人凤风雨追踪</text></navLabel>
+<content src="chapter352.html"/>
+</navPoint>
+<navPoint id="chapter353" playOrder="347">
+<navLabel><text>三 商家堡风云迭起</text></navLabel>
+<content src="chapter353.html"/>
+</navPoint>
+<navPoint id="chapter354" playOrder="348">
+<navLabel><text>四 飞狐宝刀与柔情</text></navLabel>
+<content src="chapter354.html"/>
+</navPoint>
+<navPoint id="chapter355" playOrder="349">
+<navLabel><text>五 豪杰虽逝宝刀在</text></navLabel>
+<content src="chapter355.html"/>
+</navPoint>
+<navPoint id="chapter356" playOrder="350">
+<navLabel><text>六 大侠胡一刀之子</text></navLabel>
+<content src="chapter356.html"/>
+</navPoint>
+<navPoint id="chapter357" playOrder="351">
+<navLabel><text>七 小胡斐斗八卦手</text></navLabel>
+<content src="chapter357.html"/>
+</navPoint>
+<navPoint id="chapter358" playOrder="352">
+<navLabel><text>八 千手如来赵半山</text></navLabel>
+<content src="chapter358.html"/>
+</navPoint>
+<navPoint id="chapter359" playOrder="353">
+<navLabel><text>九 耀武立威</text></navLabel>
+<content src="chapter359.html"/>
+</navPoint>
+<navPoint id="chapter360" playOrder="354">
+<navLabel><text>一○ 传功授诀</text></navLabel>
+<content src="chapter360.html"/>
+</navPoint>
+<navPoint id="chapter361" playOrder="355">
+<navLabel><text>一一 铁门石墙</text></navLabel>
+<content src="chapter361.html"/>
+</navPoint>
+<navPoint id="chapter362" playOrder="356">
+<navLabel><text>一二 老少英雄</text></navLabel>
+<content src="chapter362.html"/>
+</navPoint>
+<navPoint id="chapter363" playOrder="357">
+<navLabel><text>十三 北帝庙的悲剧</text></navLabel>
+<content src="chapter363.html"/>
+</navPoint>
+<navPoint id="chapter364" playOrder="358">
+<navLabel><text>十四 胡斐大闹佛山镇</text></navLabel>
+<content src="chapter364.html"/>
+</navPoint>
+<navPoint id="chapter365" playOrder="359">
+<navLabel><text>十五 南天霸的黄金棍</text></navLabel>
+<content src="chapter365.html"/>
+</navPoint>
+<navPoint id="chapter366" playOrder="360">
+<navLabel><text>十六 师兄弟争夺拳门</text></navLabel>
+<content src="chapter366.html"/>
+</navPoint>
+<navPoint id="chapter367" playOrder="361">
+<navLabel><text>一七 紫衣女郎夺拳门</text></navLabel>
+<content src="chapter367.html"/>
+</navPoint>
+<navPoint id="chapter368" playOrder="362">
+<navLabel><text>一八 苦恼拳对柳叶掌</text></navLabel>
+<content src="chapter368.html"/>
+</navPoint>
+<navPoint id="chapter369" playOrder="363">
+<navLabel><text>一九 袁紫衣断八仙剑</text></navLabel>
+<content src="chapter369.html"/>
+</navPoint>
+<navPoint id="chapter370" playOrder="364">
+<navLabel><text>二○ 银丝鞭斗九龙鞭</text></navLabel>
+<content src="chapter370.html"/>
+</navPoint>
+<navPoint id="chapter371" playOrder="365">
+<navLabel><text>廿一 狭路相逢古庙中</text></navLabel>
+<content src="chapter371.html"/>
+</navPoint>
+<navPoint id="chapter372" playOrder="366">
+<navLabel><text>廿二 道是无情却有情</text></navLabel>
+<content src="chapter372.html"/>
+</navPoint>
+<navPoint id="chapter373" playOrder="367">
+<navLabel><text>廿三 江湖间风波险恶</text></navLabel>
+<content src="chapter373.html"/>
+</navPoint>
+<navPoint id="chapter374" playOrder="368">
+<navLabel><text>廿四 田归农暗施毒计</text></navLabel>
+<content src="chapter374.html"/>
+</navPoint>
+<navPoint id="chapter375" playOrder="369">
+<navLabel><text>二五 毒手药王</text></navLabel>
+<content src="chapter375.html"/>
+</navPoint>
+<navPoint id="chapter376" playOrder="370">
+<navLabel><text>二六 解毒蓝花</text></navLabel>
+<content src="chapter376.html"/>
+</navPoint>
+<navPoint id="chapter377" playOrder="371">
+<navLabel><text>二七 药王神篇</text></navLabel>
+<content src="chapter377.html"/>
+</navPoint>
+<navPoint id="chapter378" playOrder="372">
+<navLabel><text>二八 七心海棠</text></navLabel>
+<content src="chapter378.html"/>
+</navPoint>
+<navPoint id="chapter379" playOrder="373">
+<navLabel><text>二九 盲目授刀</text></navLabel>
+<content src="chapter379.html"/>
+</navPoint>
+<navPoint id="chapter380" playOrder="374">
+<navLabel><text>三○ 千金一诺</text></navLabel>
+<content src="chapter380.html"/>
+</navPoint>
+<navPoint id="chapter381" playOrder="375">
+<navLabel><text>三一 金兰兄妹</text></navLabel>
+<content src="chapter381.html"/>
+</navPoint>
+<navPoint id="chapter382" playOrder="376">
+<navLabel><text>三二 还剑退敌</text></navLabel>
+<content src="chapter382.html"/>
+</navPoint>
+<navPoint id="chapter383" playOrder="377">
+<navLabel><text>三三 同生共死</text></navLabel>
+<content src="chapter383.html"/>
+</navPoint>
+<navPoint id="chapter384" playOrder="378">
+<navLabel><text>三四 商堡余情</text></navLabel>
+<content src="chapter384.html"/>
+</navPoint>
+<navPoint id="chapter385" playOrder="379">
+<navLabel><text>三五 剪烛针线</text></navLabel>
+<content src="chapter385.html"/>
+</navPoint>
+<navPoint id="chapter386" playOrder="380">
+<navLabel><text>三六 莾夫闹席</text></navLabel>
+<content src="chapter386.html"/>
+</navPoint>
+<navPoint id="chapter387" playOrder="381">
+<navLabel><text>三七 茜窗红烛</text></navLabel>
+<content src="chapter387.html"/>
+</navPoint>
+<navPoint id="chapter388" playOrder="382">
+<navLabel><text>三八 华拳掌门</text></navLabel>
+<content src="chapter388.html"/>
+</navPoint>
+<navPoint id="chapter389" playOrder="383">
+<navLabel><text>三九 似是而非</text></navLabel>
+<content src="chapter389.html"/>
+</navPoint>
+<navPoint id="chapter390" playOrder="384">
+<navLabel><text>四○ 勇救双童</text></navLabel>
+<content src="chapter390.html"/>
+</navPoint>
+<navPoint id="chapter391" playOrder="385">
+<navLabel><text>四一 争夺四椅</text></navLabel>
+<content src="chapter391.html"/>
+</navPoint>
+<navPoint id="chapter392" playOrder="386">
+<navLabel><text>四二 瘦小书生</text></navLabel>
+<content src="chapter392.html"/>
+</navPoint>
+<navPoint id="chapter393" playOrder="387">
+<navLabel><text>四三 刀败群雄</text></navLabel>
+<content src="chapter393.html"/>
+</navPoint>
+<navPoint id="chapter394" playOrder="388">
+<navLabel><text>四四 无影银针</text></navLabel>
+<content src="chapter394.html"/>
+</navPoint>
+<navPoint id="chapter395" playOrder="389">
+<navLabel><text>四五 八刀八剑</text></navLabel>
+<content src="chapter395.html"/>
+</navPoint>
+<navPoint id="chapter396" playOrder="390">
+<navLabel><text>四六 力斗高手</text></navLabel>
+<content src="chapter396.html"/>
+</navPoint>
+<navPoint id="chapter397" playOrder="391">
+<navLabel><text>四七 毒手神枭</text></navLabel>
+<content src="chapter397.html"/>
+</navPoint>
+<navPoint id="chapter398" playOrder="392">
+<navLabel><text>四八 墓中宝刀</text></navLabel>
+<content src="chapter398.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter399" playOrder="393">
+<navLabel><text>白马啸西风</text></navLabel>
+<content src="chapter399.html"/>
+<navPoint id="chapter401" playOrder="394">
+<navLabel><text>邝拾记单行本原装封面</text></navLabel>
+<content src="chapter401.html"/>
+</navPoint>
+<navPoint id="chapter402" playOrder="395">
+<navLabel><text>邝拾记单行本插图</text></navLabel>
+<content src="chapter402.html"/>
+</navPoint>
+<navPoint id="chapter403" playOrder="396">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter403.html"/>
+</navPoint>
+<navPoint id="chapter404" playOrder="397">
+<navLabel><text>第一回 大漠骏马</text></navLabel>
+<content src="chapter404.html"/>
+</navPoint>
+<navPoint id="chapter405" playOrder="398">
+<navLabel><text>第二回 草原上的夜莺</text></navLabel>
+<content src="chapter405.html"/>
+</navPoint>
+<navPoint id="chapter406" playOrder="399">
+<navLabel><text>第三回 哈布迷宫</text></navLabel>
+<content src="chapter406.html"/>
+</navPoint>
+<navPoint id="chapter407" playOrder="400">
+<navLabel><text>第四回 星月争辉</text></navLabel>
+<content src="chapter407.html"/>
+</navPoint>
+<navPoint id="chapter408" playOrder="401">
+<navLabel><text>第五回 大风雪之夜</text></navLabel>
+<content src="chapter408.html"/>
+</navPoint>
+<navPoint id="chapter409" playOrder="402">
+<navLabel><text>第六回 高昌古国</text></navLabel>
+<content src="chapter409.html"/>
+</navPoint>
+<navPoint id="chapter410" playOrder="403">
+<navLabel><text>第七回 阴谋</text></navLabel>
+<content src="chapter410.html"/>
+</navPoint>
+<navPoint id="chapter411" playOrder="404">
+<navLabel><text>第八回 小玉镯</text></navLabel>
+<content src="chapter411.html"/>
+</navPoint>
+<navPoint id="chapter412" playOrder="405">
+<navLabel><text>第九回 师父和疯子</text></navLabel>
+<content src="chapter412.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter413" playOrder="406">
+<navLabel><text>倚天屠龙记</text></navLabel>
+<content src="chapter413.html"/>
+<navPoint id="chapter415" playOrder="407">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter415.html"/>
+</navPoint>
+<navPoint id="chapter416" playOrder="408">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter416.html"/>
+</navPoint>
+<navPoint id="chapter417" playOrder="409">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter417.html"/>
+</navPoint>
+<navPoint id="chapter418" playOrder="410">
+<navLabel><text>引    子</text></navLabel>
+<content src="chapter418.html"/>
+</navPoint>
+<navPoint id="chapter419" playOrder="411">
+<navLabel><text>第 一 回　昆仑三圣</text></navLabel>
+<content src="chapter419.html"/>
+</navPoint>
+<navPoint id="chapter420" playOrder="412">
+<navLabel><text>第 二 回　白衣书生</text></navLabel>
+<content src="chapter420.html"/>
+</navPoint>
+<navPoint id="chapter421" playOrder="413">
+<navLabel><text>第 三 回　划石为局</text></navLabel>
+<content src="chapter421.html"/>
+</navPoint>
+<navPoint id="chapter422" playOrder="414">
+<navLabel><text>第 四 回　花落花开</text></navLabel>
+<content src="chapter422.html"/>
+</navPoint>
+<navPoint id="chapter423" playOrder="415">
+<navLabel><text>第 五 回　屠龙宝刀</text></navLabel>
+<content src="chapter423.html"/>
+</navPoint>
+<navPoint id="chapter424" playOrder="416">
+<navLabel><text>第 六 回　血掌风帆</text></navLabel>
+<content src="chapter424.html"/>
+</navPoint>
+<navPoint id="chapter425" playOrder="417">
+<navLabel><text>第 七 回　黄金保镖</text></navLabel>
+<content src="chapter425.html"/>
+</navPoint>
+<navPoint id="chapter426" playOrder="418">
+<navLabel><text>第 八 回　六侠寻仇</text></navLabel>
+<content src="chapter426.html"/>
+</navPoint>
+<navPoint id="chapter427" playOrder="419">
+<navLabel><text>第 九 回　龙门镖局</text></navLabel>
+<content src="chapter427.html"/>
+</navPoint>
+<navPoint id="chapter428" playOrder="420">
+<navLabel><text>第 十 回　妙龄少女</text></navLabel>
+<content src="chapter428.html"/>
+</navPoint>
+<navPoint id="chapter429" playOrder="421">
+<navLabel><text>第十一回　毒梅花镖</text></navLabel>
+<content src="chapter429.html"/>
+</navPoint>
+<navPoint id="chapter430" playOrder="422">
+<navLabel><text>第十二回　扬刀立威</text></navLabel>
+<content src="chapter430.html"/>
+</navPoint>
+<navPoint id="chapter431" playOrder="423">
+<navLabel><text>第十三回　金毛狮王</text></navLabel>
+<content src="chapter431.html"/>
+</navPoint>
+<navPoint id="chapter432" playOrder="424">
+<navLabel><text>第十四回　玄冰火窟</text></navLabel>
+<content src="chapter432.html"/>
+</navPoint>
+<navPoint id="chapter433" playOrder="425">
+<navLabel><text>第十五回　狂风海啸</text></navLabel>
+<content src="chapter433.html"/>
+</navPoint>
+<navPoint id="chapter434" playOrder="426">
+<navLabel><text>第十六回　南极仙境</text></navLabel>
+<content src="chapter434.html"/>
+</navPoint>
+<navPoint id="chapter435" playOrder="427">
+<navLabel><text>第十七回　玉面火猴</text></navLabel>
+<content src="chapter435.html"/>
+</navPoint>
+<navPoint id="chapter436" playOrder="428">
+<navLabel><text>第十八回　重返中土</text></navLabel>
+<content src="chapter436.html"/>
+</navPoint>
+<navPoint id="chapter437" playOrder="429">
+<navLabel><text>第十九回　不堪回首</text></navLabel>
+<content src="chapter437.html"/>
+</navPoint>
+<navPoint id="chapter438" playOrder="430">
+<navLabel><text>第二十回　十年争斗</text></navLabel>
+<content src="chapter438.html"/>
+</navPoint>
+<navPoint id="chapter439" playOrder="431">
+<navLabel><text>第二十一回　恩怨缠绵</text></navLabel>
+<content src="chapter439.html"/>
+</navPoint>
+<navPoint id="chapter440" playOrder="432">
+<navLabel><text>第二十二回　百岁寿诞</text></navLabel>
+<content src="chapter440.html"/>
+</navPoint>
+<navPoint id="chapter441" playOrder="433">
+<navLabel><text>第二十三回　拦途截劫</text></navLabel>
+<content src="chapter441.html"/>
+</navPoint>
+<navPoint id="chapter442" playOrder="434">
+<navLabel><text>第二十四回　七侠重聚</text></navLabel>
+<content src="chapter442.html"/>
+</navPoint>
+<navPoint id="chapter443" playOrder="435">
+<navLabel><text>第二十五回　贵宾云集</text></navLabel>
+<content src="chapter443.html"/>
+</navPoint>
+<navPoint id="chapter444" playOrder="436">
+<navLabel><text>第二十六回　指名挑战</text></navLabel>
+<content src="chapter444.html"/>
+</navPoint>
+<navPoint id="chapter445" playOrder="437">
+<navLabel><text>第二十七回　玄冥神掌</text></navLabel>
+<content src="chapter445.html"/>
+</navPoint>
+<navPoint id="chapter446" playOrder="438">
+<navLabel><text>第二十八回　重上少林</text></navLabel>
+<content src="chapter446.html"/>
+</navPoint>
+<navPoint id="chapter447" playOrder="439">
+<navLabel><text>第二十九回　蝶谷医仙</text></navLabel>
+<content src="chapter447.html"/>
+</navPoint>
+<navPoint id="chapter448" playOrder="440">
+<navLabel><text>第 三十 回　林中激战</text></navLabel>
+<content src="chapter448.html"/>
+</navPoint>
+<navPoint id="chapter449" playOrder="441">
+<navLabel><text>第三十一回　杀绝活口</text></navLabel>
+<content src="chapter449.html"/>
+</navPoint>
+<navPoint id="chapter450" playOrder="442">
+<navLabel><text>第三十二回　过目难忘</text></navLabel>
+<content src="chapter450.html"/>
+</navPoint>
+<navPoint id="chapter451" playOrder="443">
+<navLabel><text>第三十三回　精究医理</text></navLabel>
+<content src="chapter451.html"/>
+</navPoint>
+<navPoint id="chapter452" playOrder="444">
+<navLabel><text>第三十四回　怪伤奇医</text></navLabel>
+<content src="chapter452.html"/>
+</navPoint>
+<navPoint id="chapter453" playOrder="445">
+<navLabel><text>第三十五回　医仙毒仙</text></navLabel>
+<content src="chapter453.html"/>
+</navPoint>
+<navPoint id="chapter454" playOrder="446">
+<navLabel><text>第三十六回　间关万里</text></navLabel>
+<content src="chapter454.html"/>
+</navPoint>
+<navPoint id="chapter455" playOrder="447">
+<navLabel><text>第三十七回　危如累卵</text></navLabel>
+<content src="chapter455.html"/>
+</navPoint>
+<navPoint id="chapter456" playOrder="448">
+<navLabel><text>第三十八回　铁琴先生</text></navLabel>
+<content src="chapter456.html"/>
+</navPoint>
+<navPoint id="chapter457" playOrder="449">
+<navLabel><text>第三十九回　金银血蛇</text></navLabel>
+<content src="chapter457.html"/>
+</navPoint>
+<navPoint id="chapter458" playOrder="450">
+<navLabel><text>第 四十 回　雪岭双姝</text></navLabel>
+<content src="chapter458.html"/>
+</navPoint>
+<navPoint id="chapter459" playOrder="451">
+<navLabel><text>第四十一回　花园较技</text></navLabel>
+<content src="chapter459.html"/>
+</navPoint>
+<navPoint id="chapter460" playOrder="452">
+<navLabel><text>第四十二回　真假谢逊</text></navLabel>
+<content src="chapter460.html"/>
+</navPoint>
+<navPoint id="chapter461" playOrder="453">
+<navLabel><text>第四十三回　万丈深谷</text></navLabel>
+<content src="chapter461.html"/>
+</navPoint>
+<navPoint id="chapter462" playOrder="454">
+<navLabel><text>第四十四回　金在油中</text></navLabel>
+<content src="chapter462.html"/>
+</navPoint>
+<navPoint id="chapter463" playOrder="455">
+<navLabel><text>第四十五回　荆钗村女</text></navLabel>
+<content src="chapter463.html"/>
+</navPoint>
+<navPoint id="chapter464" playOrder="456">
+<navLabel><text>第四十六回　初演神功</text></navLabel>
+<content src="chapter464.html"/>
+</navPoint>
+<navPoint id="chapter465" playOrder="457">
+<navLabel><text>第四十七回　千蛛绝户</text></navLabel>
+<content src="chapter465.html"/>
+</navPoint>
+<navPoint id="chapter466" playOrder="458">
+<navLabel><text>第四十八回　围剿魔教</text></navLabel>
+<content src="chapter466.html"/>
+</navPoint>
+<navPoint id="chapter467" playOrder="459">
+<navLabel><text>第四十九回　玉面孟尝</text></navLabel>
+<content src="chapter467.html"/>
+</navPoint>
+<navPoint id="chapter468" playOrder="460">
+<navLabel><text>第 五十 回　义气干云</text></navLabel>
+<content src="chapter468.html"/>
+</navPoint>
+<navPoint id="chapter469" playOrder="461">
+<navLabel><text>第五十一回　奇人怪事</text></navLabel>
+<content src="chapter469.html"/>
+</navPoint>
+<navPoint id="chapter470" playOrder="462">
+<navLabel><text>第五十二回　义气深重</text></navLabel>
+<content src="chapter470.html"/>
+</navPoint>
+<navPoint id="chapter471" playOrder="463">
+<navLabel><text>第五十三回　生死成败</text></navLabel>
+<content src="chapter471.html"/>
+</navPoint>
+<navPoint id="chapter472" playOrder="464">
+<navLabel><text>第五十四回　挪移乾坤</text></navLabel>
+<content src="chapter472.html"/>
+</navPoint>
+<navPoint id="chapter473" playOrder="465">
+<navLabel><text>第五十五回　秘道练功</text></navLabel>
+<content src="chapter473.html"/>
+</navPoint>
+<navPoint id="chapter474" playOrder="466">
+<navLabel><text>第五十六回　正邪决斗</text></navLabel>
+<content src="chapter474.html"/>
+</navPoint>
+<navPoint id="chapter475" playOrder="467">
+<navLabel><text>第五十七回　居间调人</text></navLabel>
+<content src="chapter475.html"/>
+</navPoint>
+<navPoint id="chapter476" playOrder="468">
+<navLabel><text>第五十八回　以德服人</text></navLabel>
+<content src="chapter476.html"/>
+</navPoint>
+<navPoint id="chapter477" playOrder="469">
+<navLabel><text>第五十九回　两仪剑法</text></navLabel>
+<content src="chapter477.html"/>
+</navPoint>
+<navPoint id="chapter478" playOrder="470">
+<navLabel><text>第 六十 回　独战高手</text></navLabel>
+<content src="chapter478.html"/>
+</navPoint>
+<navPoint id="chapter479" playOrder="471">
+<navLabel><text>第六十一回　倚天宝剑</text></navLabel>
+<content src="chapter479.html"/>
+</navPoint>
+<navPoint id="chapter480" playOrder="472">
+<navLabel><text>第六十二回　秘道避祸</text></navLabel>
+<content src="chapter480.html"/>
+</navPoint>
+<navPoint id="chapter481" playOrder="473">
+<navLabel><text>第六十三回　沙漠埋尸</text></navLabel>
+<content src="chapter481.html"/>
+</navPoint>
+<navPoint id="chapter482" playOrder="474">
+<navLabel><text>第六十四回　女扮男装</text></navLabel>
+<content src="chapter482.html"/>
+</navPoint>
+<navPoint id="chapter483" playOrder="475">
+<navLabel><text>第六十五回　兴师问罪</text></navLabel>
+<content src="chapter483.html"/>
+</navPoint>
+<navPoint id="chapter484" playOrder="476">
+<navLabel><text>第六十六回　武当报讯</text></navLabel>
+<content src="chapter484.html"/>
+</navPoint>
+<navPoint id="chapter485" playOrder="477">
+<navLabel><text>第六十七回　狭路相逢</text></navLabel>
+<content src="chapter485.html"/>
+</navPoint>
+<navPoint id="chapter486" playOrder="478">
+<navLabel><text>第六十八回　廿载恩仇</text></navLabel>
+<content src="chapter486.html"/>
+</navPoint>
+<navPoint id="chapter487" playOrder="479">
+<navLabel><text>第六十九回　千金之诺</text></navLabel>
+<content src="chapter487.html"/>
+</navPoint>
+<navPoint id="chapter488" playOrder="480">
+<navLabel><text>第 七十 回　明教大会</text></navLabel>
+<content src="chapter488.html"/>
+</navPoint>
+<navPoint id="chapter489" playOrder="481">
+<navLabel><text>第七十一回　月心险恶</text></navLabel>
+<content src="chapter489.html"/>
+</navPoint>
+<navPoint id="chapter490" playOrder="482">
+<navLabel><text>第七十二回　光明右使</text></navLabel>
+<content src="chapter490.html"/>
+</navPoint>
+<navPoint id="chapter491" playOrder="483">
+<navLabel><text>第七十三回　妙盗解药</text></navLabel>
+<content src="chapter491.html"/>
+</navPoint>
+<navPoint id="chapter492" playOrder="484">
+<navLabel><text>第七十四回　勇救各派</text></navLabel>
+<content src="chapter492.html"/>
+</navPoint>
+<navPoint id="chapter493" playOrder="485">
+<navLabel><text>第七十五回　天龙五刀</text></navLabel>
+<content src="chapter493.html"/>
+</navPoint>
+<navPoint id="chapter494" playOrder="486">
+<navLabel><text>第七十六回　以德报怨</text></navLabel>
+<content src="chapter494.html"/>
+</navPoint>
+<navPoint id="chapter495" playOrder="487">
+<navLabel><text>第七十七回　捷立不屈</text></navLabel>
+<content src="chapter495.html"/>
+</navPoint>
+<navPoint id="chapter496" playOrder="488">
+<navLabel><text>第七十八回　紫衫龙王</text></navLabel>
+<content src="chapter496.html"/>
+</navPoint>
+<navPoint id="chapter497" playOrder="489">
+<navLabel><text>第七十九回　安排毒计</text></navLabel>
+<content src="chapter497.html"/>
+</navPoint>
+<navPoint id="chapter498" playOrder="490">
+<navLabel><text>第 八十 回　圣火六令</text></navLabel>
+<content src="chapter498.html"/>
+</navPoint>
+<navPoint id="chapter499" playOrder="491">
+<navLabel><text>第八十一回　一往情深</text></navLabel>
+<content src="chapter499.html"/>
+</navPoint>
+<navPoint id="chapter500" playOrder="492">
+<navLabel><text>第八十二回　美若天仙</text></navLabel>
+<content src="chapter500.html"/>
+</navPoint>
+<navPoint id="chapter501" playOrder="493">
+<navLabel><text>第八十三回　圣女教主</text></navLabel>
+<content src="chapter501.html"/>
+</navPoint>
+<navPoint id="chapter502" playOrder="494">
+<navLabel><text>第八十四回　包藏祸心</text></navLabel>
+<content src="chapter502.html"/>
+</navPoint>
+<navPoint id="chapter503" playOrder="495">
+<navLabel><text>第八十五回　鸿飞冥冥</text></navLabel>
+<content src="chapter503.html"/>
+</navPoint>
+<navPoint id="chapter504" playOrder="496">
+<navLabel><text>第八十六回　丐帮聚会</text></navLabel>
+<content src="chapter504.html"/>
+</navPoint>
+<navPoint id="chapter505" playOrder="497">
+<navLabel><text>第八十七回　冤家路狭</text></navLabel>
+<content src="chapter505.html"/>
+</navPoint>
+<navPoint id="chapter506" playOrder="498">
+<navLabel><text>第八十八回　似嗔似怨</text></navLabel>
+<content src="chapter506.html"/>
+</navPoint>
+<navPoint id="chapter507" playOrder="499">
+<navLabel><text>第八十九回　枭獐之心</text></navLabel>
+<content src="chapter507.html"/>
+</navPoint>
+<navPoint id="chapter508" playOrder="500">
+<navLabel><text>第 九十 回　狮王行踪</text></navLabel>
+<content src="chapter508.html"/>
+</navPoint>
+<navPoint id="chapter509" playOrder="501">
+<navLabel><text>第九十一回　独闯丐帮</text></navLabel>
+<content src="chapter509.html"/>
+</navPoint>
+<navPoint id="chapter510" playOrder="502">
+<navLabel><text>第九十二回　奸谋揭露</text></navLabel>
+<content src="chapter510.html"/>
+</navPoint>
+<navPoint id="chapter511" playOrder="503">
+<navLabel><text>第九十三回　花烛春宵</text></navLabel>
+<content src="chapter511.html"/>
+</navPoint>
+<navPoint id="chapter512" playOrder="504">
+<navLabel><text>第九十四回　濠州大会</text></navLabel>
+<content src="chapter512.html"/>
+</navPoint>
+<navPoint id="chapter513" playOrder="505">
+<navLabel><text>第九十五回　千里赴难</text></navLabel>
+<content src="chapter513.html"/>
+</navPoint>
+<navPoint id="chapter514" playOrder="506">
+<navLabel><text>第九十六回　回护情郎</text></navLabel>
+<content src="chapter514.html"/>
+</navPoint>
+<navPoint id="chapter515" playOrder="507">
+<navLabel><text>第九十七回　伪装和尚</text></navLabel>
+<content src="chapter515.html"/>
+</navPoint>
+<navPoint id="chapter516" playOrder="508">
+<navLabel><text>第九十八回　屠狮大会</text></navLabel>
+<content src="chapter516.html"/>
+</navPoint>
+<navPoint id="chapter517" playOrder="509">
+<navLabel><text>第九十九回　雷震电闪</text></navLabel>
+<content src="chapter517.html"/>
+</navPoint>
+<navPoint id="chapter518" playOrder="510">
+<navLabel><text>第 一百 回　长啸下山</text></navLabel>
+<content src="chapter518.html"/>
+</navPoint>
+<navPoint id="chapter519" playOrder="511">
+<navLabel><text>第一百零一回　平手相斗</text></navLabel>
+<content src="chapter519.html"/>
+</navPoint>
+<navPoint id="chapter520" playOrder="512">
+<navLabel><text>第一百零二回　技震群雄</text></navLabel>
+<content src="chapter520.html"/>
+</navPoint>
+<navPoint id="chapter521" playOrder="513">
+<navLabel><text>第一百零三回　比武较量</text></navLabel>
+<content src="chapter521.html"/>
+</navPoint>
+<navPoint id="chapter522" playOrder="514">
+<navLabel><text>第一百零四回　广场溅血</text></navLabel>
+<content src="chapter522.html"/>
+</navPoint>
+<navPoint id="chapter523" playOrder="515">
+<navLabel><text>第一百零五回　变幻万端</text></navLabel>
+<content src="chapter523.html"/>
+</navPoint>
+<navPoint id="chapter524" playOrder="516">
+<navLabel><text>第一百零六回　黄衫女子</text></navLabel>
+<content src="chapter524.html"/>
+</navPoint>
+<navPoint id="chapter525" playOrder="517">
+<navLabel><text>第一百零七回　怨恩了了</text></navLabel>
+<content src="chapter525.html"/>
+</navPoint>
+<navPoint id="chapter526" playOrder="518">
+<navLabel><text>第一百零八回　共举义旗</text></navLabel>
+<content src="chapter526.html"/>
+</navPoint>
+<navPoint id="chapter527" playOrder="519">
+<navLabel><text>第一百零九回　追夺秘笈</text></navLabel>
+<content src="chapter527.html"/>
+</navPoint>
+<navPoint id="chapter528" playOrder="520">
+<navLabel><text>第一百一十回　是耶非耶</text></navLabel>
+<content src="chapter528.html"/>
+</navPoint>
+<navPoint id="chapter529" playOrder="521">
+<navLabel><text>第一百一十一回　黑衣少女</text></navLabel>
+<content src="chapter529.html"/>
+</navPoint>
+<navPoint id="chapter530" playOrder="522">
+<navLabel><text>第一百一十二回　万缕柔丝</text></navLabel>
+<content src="chapter530.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter531" playOrder="523">
+<navLabel><text>鸳鸯刀</text></navLabel>
+<content src="chapter531.html"/>
+<navPoint id="chapter533" playOrder="524">
+<navLabel><text>邝拾记单行本原装封面</text></navLabel>
+<content src="chapter533.html"/>
+</navPoint>
+<navPoint id="chapter534" playOrder="525">
+<navLabel><text>《鸳鸯刀》报纸连载版插图</text></navLabel>
+<content src="chapter534.html"/>
+</navPoint>
+<navPoint id="chapter535" playOrder="526">
+<navLabel><text>《鸳鸯刀》修订版插图</text></navLabel>
+<content src="chapter535.html"/>
+</navPoint>
+<navPoint id="chapter536" playOrder="527">
+<navLabel><text>旧版《鸳鸯刀》</text></navLabel>
+<content src="chapter536.html"/>
+</navPoint>
+<navPoint id="chapter538" playOrder="528">
+<navLabel><text>《越女剑》修订版插图</text></navLabel>
+<content src="chapter538.html"/>
+</navPoint>
+<navPoint id="chapter539" playOrder="529">
+<navLabel><text>旧版《越女剑》</text></navLabel>
+<content src="chapter539.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter540" playOrder="530">
+<navLabel><text>连城诀</text></navLabel>
+<content src="chapter540.html"/>
+<navPoint id="chapter542" playOrder="531">
+<navLabel><text>杂志连载版插图</text></navLabel>
+<content src="chapter542.html"/>
+</navPoint>
+<navPoint id="chapter543" playOrder="532">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter543.html"/>
+</navPoint>
+<navPoint id="chapter544" playOrder="533">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter544.html"/>
+</navPoint>
+<navPoint id="chapter545" playOrder="534">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter545.html"/>
+</navPoint>
+<navPoint id="chapter546" playOrder="535">
+<navLabel><text>第一回　剑破夜空埋恨种　血洒华堂孕仇根</text></navLabel>
+<content src="chapter546.html"/>
+</navPoint>
+<navPoint id="chapter547" playOrder="536">
+<navLabel><text>第二回　万氏诡计诬赤子　凌公毒刑施异人</text></navLabel>
+<content src="chapter547.html"/>
+</navPoint>
+<navPoint id="chapter548" playOrder="537">
+<navLabel><text>第三回　三年狱中历苦难　始觉世间险道多</text></navLabel>
+<content src="chapter548.html"/>
+</navPoint>
+<navPoint id="chapter549" playOrder="538">
+<navLabel><text>第四回　暴雨狂云翠菊谢　惊魂裂魄青剑寒</text></navLabel>
+<content src="chapter549.html"/>
+</navPoint>
+<navPoint id="chapter550" playOrder="539">
+<navLabel><text>第五回　中剧毒宝象身死　历苦海狄云偷生</text></navLabel>
+<content src="chapter550.html"/>
+</navPoint>
+<navPoint id="chapter551" playOrder="540">
+<navLabel><text>第六回　淫威陡发指弹剑　义忿难平血浸刀</text></navLabel>
+<content src="chapter551.html"/>
+</navPoint>
+<navPoint id="chapter552" playOrder="541">
+<navLabel><text>第七回　月影深谷血刀暖　星摇峭壁铁枪寒</text></navLabel>
+<content src="chapter552.html"/>
+</navPoint>
+<navPoint id="chapter553" playOrder="542">
+<navLabel><text>第八回　遍染雪谷亲仇血　紧萦石壑恩怨情</text></navLabel>
+<content src="chapter553.html"/>
+</navPoint>
+<navPoint id="chapter554" playOrder="543">
+<navLabel><text>第九回　华屋老丐掏宝藏　万门弟子下湘西</text></navLabel>
+<content src="chapter554.html"/>
+</navPoint>
+<navPoint id="chapter555" playOrder="544">
+<navLabel><text>第十回　袅袅清香燃心愿　汪汪泪眼注柔情</text></navLabel>
+<content src="chapter555.html"/>
+</navPoint>
+<navPoint id="chapter556" playOrder="545">
+<navLabel><text>第十一回　失剑谱万圭疑心　见奸情戚芳惊魂</text></navLabel>
+<content src="chapter556.html"/>
+</navPoint>
+<navPoint id="chapter557" playOrder="546">
+<navLabel><text>第十二回　梦消剩月零风路　泣尽残灯夜雨铃</text></navLabel>
+<content src="chapter557.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter558" playOrder="547">
+<navLabel><text>天龙八部</text></navLabel>
+<content src="chapter558.html"/>
+<navPoint id="chapter560" playOrder="548">
+<navLabel><text>连载版原本插图</text></navLabel>
+<content src="chapter560.html"/>
+</navPoint>
+<navPoint id="chapter561" playOrder="549">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter561.html"/>
+</navPoint>
+<navPoint id="chapter562" playOrder="550">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter562.html"/>
+</navPoint>
+<navPoint id="chapter563" playOrder="551">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter563.html"/>
+</navPoint>
+<navPoint id="chapter564" playOrder="552">
+<navLabel><text>释  名</text></navLabel>
+<content src="chapter564.html"/>
+</navPoint>
+<navPoint id="chapter565" playOrder="553">
+<navLabel><text>第一章 无量玉壁</text></navLabel>
+<content src="chapter565.html"/>
+</navPoint>
+<navPoint id="chapter566" playOrder="554">
+<navLabel><text>第二章 一阳指功</text></navLabel>
+<content src="chapter566.html"/>
+</navPoint>
+<navPoint id="chapter567" playOrder="555">
+<navLabel><text>第三章 大展神威</text></navLabel>
+<content src="chapter567.html"/>
+</navPoint>
+<navPoint id="chapter568" playOrder="556">
+<navLabel><text>第四章 神驰目弦</text></navLabel>
+<content src="chapter568.html"/>
+</navPoint>
+<navPoint id="chapter569" playOrder="557">
+<navLabel><text>第五章 黑衣女子</text></navLabel>
+<content src="chapter569.html"/>
+</navPoint>
+<navPoint id="chapter570" playOrder="558">
+<navLabel><text>第六章 橫拖倒曳</text></navLabel>
+<content src="chapter570.html"/>
+</navPoint>
+<navPoint id="chapter571" playOrder="559">
+<navLabel><text>第七章 异想天开</text></navLabel>
+<content src="chapter571.html"/>
+</navPoint>
+<navPoint id="chapter572" playOrder="560">
+<navLabel><text>第八章 报主身亡</text></navLabel>
+<content src="chapter572.html"/>
+</navPoint>
+<navPoint id="chapter573" playOrder="561">
+<navLabel><text>第九章 南海鳄神</text></navLabel>
+<content src="chapter573.html"/>
+</navPoint>
+<navPoint id="chapter574" playOrder="562">
+<navLabel><text>第十章 自述身世</text></navLabel>
+<content src="chapter574.html"/>
+</navPoint>
+<navPoint id="chapter575" playOrder="563">
+<navLabel><text>第十一章 三善四恶</text></navLabel>
+<content src="chapter575.html"/>
+</navPoint>
+<navPoint id="chapter576" playOrder="564">
+<navLabel><text>第十二章 望穿秋水</text></navLabel>
+<content src="chapter576.html"/>
+</navPoint>
+<navPoint id="chapter577" playOrder="565">
+<navLabel><text>第十三章 深怀厚恩</text></navLabel>
+<content src="chapter577.html"/>
+</navPoint>
+<navPoint id="chapter578" playOrder="566">
+<navLabel><text>第十四章 夜袭王府</text></navLabel>
+<content src="chapter578.html"/>
+</navPoint>
+<navPoint id="chapter579" playOrder="567">
+<navLabel><text>第十五章 凌波微步</text></navLabel>
+<content src="chapter579.html"/>
+</navPoint>
+<navPoint id="chapter580" playOrder="568">
+<navLabel><text>第十六章 两代孽缘</text></navLabel>
+<content src="chapter580.html"/>
+</navPoint>
+<navPoint id="chapter581" playOrder="569">
+<navLabel><text>第十七章 归去来兮</text></navLabel>
+<content src="chapter581.html"/>
+</navPoint>
+<navPoint id="chapter582" playOrder="570">
+<navLabel><text>第十八章 御驾亲征</text></navLabel>
+<content src="chapter582.html"/>
+</navPoint>
+<navPoint id="chapter583" playOrder="571">
+<navLabel><text>第十九章 延庆太子</text></navLabel>
+<content src="chapter583.html"/>
+</navPoint>
+<navPoint id="chapter584" playOrder="572">
+<navLabel><text>第二十章 朱蛤神功</text></navLabel>
+<content src="chapter584.html"/>
+</navPoint>
+<navPoint id="chapter585" playOrder="573">
+<navLabel><text>第二十一章 地道换人</text></navLabel>
+<content src="chapter585.html"/>
+</navPoint>
+<navPoint id="chapter586" playOrder="574">
+<navLabel><text>第二十二章 姑苏慕容</text></navLabel>
+<content src="chapter586.html"/>
+</navPoint>
+<navPoint id="chapter587" playOrder="575">
+<navLabel><text>第二十三章 震惊群雄</text></navLabel>
+<content src="chapter587.html"/>
+</navPoint>
+<navPoint id="chapter588" playOrder="576">
+<navLabel><text>第二十四章 六脉神剑</text></navLabel>
+<content src="chapter588.html"/>
+</navPoint>
+<navPoint id="chapter589" playOrder="577">
+<navLabel><text>第二十五章 大轮明王</text></navLabel>
+<content src="chapter589.html"/>
+</navPoint>
+<navPoint id="chapter590" playOrder="578">
+<navLabel><text>第二十六章 千载难逢</text></navLabel>
+<content src="chapter590.html"/>
+</navPoint>
+<navPoint id="chapter591" playOrder="579">
+<navLabel><text>第二十七章 朱碧双姝</text></navLabel>
+<content src="chapter591.html"/>
+</navPoint>
+<navPoint id="chapter592" playOrder="580">
+<navLabel><text>第二十八章 假扮老人</text></navLabel>
+<content src="chapter592.html"/>
+</navPoint>
+<navPoint id="chapter593" playOrder="581">
+<navLabel><text>第二十九章 曼陀山庄</text></navLabel>
+<content src="chapter593.html"/>
+</navPoint>
+<navPoint id="chapter594" playOrder="582">
+<navLabel><text>第三十章 迫做花匠</text></navLabel>
+<content src="chapter594.html"/>
+</navPoint>
+<navPoint id="chapter595" playOrder="583">
+<navLabel><text>第三十一章 易容神术</text></navLabel>
+<content src="chapter595.html"/>
+</navPoint>
+<navPoint id="chapter596" playOrder="584">
+<navLabel><text>第三十二章 星夜逃走</text></navLabel>
+<content src="chapter596.html"/>
+</navPoint>
+<navPoint id="chapter597" playOrder="585">
+<navLabel><text>第三十三章 非也非也</text></navLabel>
+<content src="chapter597.html"/>
+</navPoint>
+<navPoint id="chapter598" playOrder="586">
+<navLabel><text>第三十四章 包三先生</text></navLabel>
+<content src="chapter598.html"/>
+</navPoint>
+<navPoint id="chapter599" playOrder="587">
+<navLabel><text>第三十五章 订下约会</text></navLabel>
+<content src="chapter599.html"/>
+</navPoint>
+<navPoint id="chapter600" playOrder="588">
+<navLabel><text>第三十六章 塞外英雄</text></navLabel>
+<content src="chapter600.html"/>
+</navPoint>
+<navPoint id="chapter601" playOrder="589">
+<navLabel><text>第三十七章 丐帮之众</text></navLabel>
+<content src="chapter601.html"/>
+</navPoint>
+<navPoint id="chapter602" playOrder="590">
+<navLabel><text>第三十八章 非我族类</text></navLabel>
+<content src="chapter602.html"/>
+</navPoint>
+<navPoint id="chapter603" playOrder="591">
+<navLabel><text>第三十九章 丐帮耆老</text></navLabel>
+<content src="chapter603.html"/>
+</navPoint>
+<navPoint id="chapter604" playOrder="592">
+<navLabel><text>第四十章 机密书信</text></navLabel>
+<content src="chapter604.html"/>
+</navPoint>
+<navPoint id="chapter605" playOrder="593">
+<navLabel><text>第四十一章 雁门关外</text></navLabel>
+<content src="chapter605.html"/>
+</navPoint>
+<navPoint id="chapter606" playOrder="594">
+<navLabel><text>第四十二章 身世大白</text></navLabel>
+<content src="chapter606.html"/>
+</navPoint>
+<navPoint id="chapter607" playOrder="595">
+<navLabel><text>第四十三章 围攻丐帮</text></navLabel>
+<content src="chapter607.html"/>
+</navPoint>
+<navPoint id="chapter608" playOrder="596">
+<navLabel><text>第四十四章 西夏武士</text></navLabel>
+<content src="chapter608.html"/>
+</navPoint>
+<navPoint id="chapter609" playOrder="597">
+<navLabel><text>第四十五章 力抗强敌</text></navLabel>
+<content src="chapter609.html"/>
+</navPoint>
+<navPoint id="chapter610" playOrder="598">
+<navLabel><text>第四十六章 人中龙凤</text></navLabel>
+<content src="chapter610.html"/>
+</navPoint>
+<navPoint id="chapter611" playOrder="599">
+<navLabel><text>第四十七章 身世之谜</text></navLabel>
+<content src="chapter611.html"/>
+</navPoint>
+<navPoint id="chapter612" playOrder="600">
+<navLabel><text>第四十八章 人生奇变</text></navLabel>
+<content src="chapter612.html"/>
+</navPoint>
+<navPoint id="chapter613" playOrder="601">
+<navLabel><text>第四十九章 着着争先</text></navLabel>
+<content src="chapter613.html"/>
+</navPoint>
+<navPoint id="chapter614" playOrder="602">
+<navLabel><text>第五十章 当世神医</text></navLabel>
+<content src="chapter614.html"/>
+</navPoint>
+<navPoint id="chapter615" playOrder="603">
+<navLabel><text>第五十一章 登门求治</text></navLabel>
+<content src="chapter615.html"/>
+</navPoint>
+<navPoint id="chapter616" playOrder="604">
+<navLabel><text>第五十二章 怒发如狂</text></navLabel>
+<content src="chapter616.html"/>
+</navPoint>
+<navPoint id="chapter617" playOrder="605">
+<navLabel><text>第五十三章 石壁遗文</text></navLabel>
+<content src="chapter617.html"/>
+</navPoint>
+<navPoint id="chapter618" playOrder="606">
+<navLabel><text>第五十四章 立誓报仇</text></navLabel>
+<content src="chapter618.html"/>
+</navPoint>
+<navPoint id="chapter619" playOrder="607">
+<navLabel><text>第五十五章 吐露机密</text></navLabel>
+<content src="chapter619.html"/>
+</navPoint>
+<navPoint id="chapter620" playOrder="608">
+<navLabel><text>第五十六章 一阳指功</text></navLabel>
+<content src="chapter620.html"/>
+</navPoint>
+<navPoint id="chapter621" playOrder="609">
+<navLabel><text>第五十七章 小镜湖畔</text></navLabel>
+<content src="chapter621.html"/>
+</navPoint>
+<navPoint id="chapter622" playOrder="610">
+<navLabel><text>第五十八章 三公四隐</text></navLabel>
+<content src="chapter622.html"/>
+</navPoint>
+<navPoint id="chapter623" playOrder="611">
+<navLabel><text>第五十九章 血海深仇</text></navLabel>
+<content src="chapter623.html"/>
+</navPoint>
+<navPoint id="chapter624" playOrder="612">
+<navLabel><text>第六十章 种种疑团</text></navLabel>
+<content src="chapter624.html"/>
+</navPoint>
+<navPoint id="chapter625" playOrder="613">
+<navLabel><text>第六十一章 风流冤孽</text></navLabel>
+<content src="chapter625.html"/>
+</navPoint>
+<navPoint id="chapter626" playOrder="614">
+<navLabel><text>第六十二章 蛇蝎美人</text></navLabel>
+<content src="chapter626.html"/>
+</navPoint>
+<navPoint id="chapter627" playOrder="615">
+<navLabel><text>第六十三章 坏了大事</text></navLabel>
+<content src="chapter627.html"/>
+</navPoint>
+<navPoint id="chapter628" playOrder="616">
+<navLabel><text>第六十四章 星宿门人</text></navLabel>
+<content src="chapter628.html"/>
+</navPoint>
+<navPoint id="chapter629" playOrder="617">
+<navLabel><text>第六十五章 碧玉王鼎</text></navLabel>
+<content src="chapter629.html"/>
+</navPoint>
+<navPoint id="chapter630" playOrder="618">
+<navLabel><text>第六十六章 奇异门派</text></navLabel>
+<content src="chapter630.html"/>
+</navPoint>
+<navPoint id="chapter631" playOrder="619">
+<navLabel><text>第六十七章 生死一线</text></navLabel>
+<content src="chapter631.html"/>
+</navPoint>
+<navPoint id="chapter632" playOrder="620">
+<navLabel><text>第六十八章 契丹贵人</text></navLabel>
+<content src="chapter632.html"/>
+</navPoint>
+<navPoint id="chapter633" playOrder="621">
+<navLabel><text>第六十九章 南院大王</text></navLabel>
+<content src="chapter633.html"/>
+</navPoint>
+<navPoint id="chapter634" playOrder="622">
+<navLabel><text>第七十章 射杀楚王</text></navLabel>
+<content src="chapter634.html"/>
+</navPoint>
+<navPoint id="chapter635" playOrder="623">
+<navLabel><text>第七十一章 萧峰封王</text></navLabel>
+<content src="chapter635.html"/>
+</navPoint>
+<navPoint id="chapter636" playOrder="624">
+<navLabel><text>第七十二章 放人鸢子</text></navLabel>
+<content src="chapter636.html"/>
+</navPoint>
+<navPoint id="chapter637" playOrder="625">
+<navLabel><text>第七十三章 折磨铁丑</text></navLabel>
+<content src="chapter637.html"/>
+</navPoint>
+<navPoint id="chapter638" playOrder="626">
+<navLabel><text>第七十四章 玉鼎奇毒</text></navLabel>
+<content src="chapter638.html"/>
+</navPoint>
+<navPoint id="chapter639" playOrder="627">
+<navLabel><text>第七十五章 好心受制</text></navLabel>
+<content src="chapter639.html"/>
+</navPoint>
+<navPoint id="chapter640" playOrder="628">
+<navLabel><text>第七十六章 天竺梵文</text></navLabel>
+<content src="chapter640.html"/>
+</navPoint>
+<navPoint id="chapter641" playOrder="629">
+<navLabel><text>第七十七章 蛇困老怪</text></navLabel>
+<content src="chapter641.html"/>
+</navPoint>
+<navPoint id="chapter642" playOrder="630">
+<navLabel><text>第七十八章 初显身手</text></navLabel>
+<content src="chapter642.html"/>
+</navPoint>
+<navPoint id="chapter643" playOrder="631">
+<navLabel><text>第七十九章 连伤三人</text></navLabel>
+<content src="chapter643.html"/>
+</navPoint>
+<navPoint id="chapter644" playOrder="632">
+<navLabel><text>第八十章 函谷八友</text></navLabel>
+<content src="chapter644.html"/>
+</navPoint>
+<navPoint id="chapter645" playOrder="633">
+<navLabel><text>第八十一章 大祸临头</text></navLabel>
+<content src="chapter645.html"/>
+</navPoint>
+<navPoint id="chapter646" playOrder="634">
+<navLabel><text>第八十二章 门户之羞</text></navLabel>
+<content src="chapter646.html"/>
+</navPoint>
+<navPoint id="chapter647" playOrder="635">
+<navLabel><text>第八十三章 神医屈服</text></navLabel>
+<content src="chapter647.html"/>
+</navPoint>
+<navPoint id="chapter648" playOrder="636">
+<navLabel><text>第八十四集 棋局奧秘</text></navLabel>
+<content src="chapter648.html"/>
+</navPoint>
+<navPoint id="chapter649" playOrder="637">
+<navLabel><text>第八十五章 大功告成</text></navLabel>
+<content src="chapter649.html"/>
+</navPoint>
+<navPoint id="chapter650" playOrder="638">
+<navLabel><text>第八十六章 图中美人</text></navLabel>
+<content src="chapter650.html"/>
+</navPoint>
+<navPoint id="chapter651" playOrder="639">
+<navLabel><text>第八十七章 天山童姥</text></navLabel>
+<content src="chapter651.html"/>
+</navPoint>
+<navPoint id="chapter652" playOrder="640">
+<navLabel><text>第八十八章 慕容扬威</text></navLabel>
+<content src="chapter652.html"/>
+</navPoint>
+<navPoint id="chapter653" playOrder="641">
+<navLabel><text>第八十九章 弟子遭殃</text></navLabel>
+<content src="chapter653.html"/>
+</navPoint>
+<navPoint id="chapter654" playOrder="642">
+<navLabel><text>第九十章 铁头痴儿</text></navLabel>
+<content src="chapter654.html"/>
+</navPoint>
+<navPoint id="chapter655" playOrder="643">
+<navLabel><text>第九十一章 极乐掌门</text></navLabel>
+<content src="chapter655.html"/>
+</navPoint>
+<navPoint id="chapter656" playOrder="644">
+<navLabel><text>第九十二章 老怪落败</text></navLabel>
+<content src="chapter656.html"/>
+</navPoint>
+<navPoint id="chapter657" playOrder="645">
+<navLabel><text>第九十三章 胡僧夺经</text></navLabel>
+<content src="chapter657.html"/>
+</navPoint>
+<navPoint id="chapter658" playOrder="646">
+<navLabel><text>第九十四章 林中少年</text></navLabel>
+<content src="chapter658.html"/>
+</navPoint>
+<navPoint id="chapter659" playOrder="647">
+<navLabel><text>第九十五章 黑汉白僧</text></navLabel>
+<content src="chapter659.html"/>
+</navPoint>
+<navPoint id="chapter660" playOrder="648">
+<navLabel><text>第九十六章 招亲榜文</text></navLabel>
+<content src="chapter660.html"/>
+</navPoint>
+<navPoint id="chapter661" playOrder="649">
+<navLabel><text>第九十七章 万仙大会</text></navLabel>
+<content src="chapter661.html"/>
+</navPoint>
+<navPoint id="chapter662" playOrder="650">
+<navLabel><text>第九十八章 勇救佳人</text></navLabel>
+<content src="chapter662.html"/>
+</navPoint>
+<navPoint id="chapter663" playOrder="651">
+<navLabel><text>第九十九章 失魂落魄</text></navLabel>
+<content src="chapter663.html"/>
+</navPoint>
+<navPoint id="chapter664" playOrder="652">
+<navLabel><text>第一百章 取人罩门</text></navLabel>
+<content src="chapter664.html"/>
+</navPoint>
+<navPoint id="chapter665" playOrder="653">
+<navLabel><text>第一百零一章 雪岭绝顶</text></navLabel>
+<content src="chapter665.html"/>
+</navPoint>
+<navPoint id="chapter666" playOrder="654">
+<navLabel><text>第一百零二章 女童授艺</text></navLabel>
+<content src="chapter666.html"/>
+</navPoint>
+<navPoint id="chapter667" playOrder="655">
+<navLabel><text>第一百零三章 返老还童</text></navLabel>
+<content src="chapter667.html"/>
+</navPoint>
+<navPoint id="chapter668" playOrder="656">
+<navLabel><text>第一百零四章 身入险地</text></navLabel>
+<content src="chapter668.html"/>
+</navPoint>
+<navPoint id="chapter669" playOrder="657">
+<navLabel><text>第一百零五章 虛竹破戒</text></navLabel>
+<content src="chapter669.html"/>
+</navPoint>
+<navPoint id="chapter670" playOrder="658">
+<navLabel><text>第一百零六章 血洒冰窖</text></navLabel>
+<content src="chapter670.html"/>
+</navPoint>
+<navPoint id="chapter671" playOrder="659">
+<navLabel><text>第一百零七章 啼笑皆非</text></navLabel>
+<content src="chapter671.html"/>
+</navPoint>
+<navPoint id="chapter672" playOrder="660">
+<navLabel><text>第一百零八章 鹫宫新主</text></navLabel>
+<content src="chapter672.html"/>
+</navPoint>
+<navPoint id="chapter673" playOrder="661">
+<navLabel><text>第一百零九章 争擒虚竹</text></navLabel>
+<content src="chapter673.html"/>
+</navPoint>
+<navPoint id="chapter674" playOrder="662">
+<navLabel><text>第一百一十章 化敌为友</text></navLabel>
+<content src="chapter674.html"/>
+</navPoint>
+<navPoint id="chapter675" playOrder="663">
+<navLabel><text>第一百一十一章 重回少林</text></navLabel>
+<content src="chapter675.html"/>
+</navPoint>
+<navPoint id="chapter676" playOrder="664">
+<navLabel><text>第一百一十二章 索偷经僧</text></navLabel>
+<content src="chapter676.html"/>
+</navPoint>
+<navPoint id="chapter677" playOrder="665">
+<navLabel><text>第一百一十三章 小无相功</text></navLabel>
+<content src="chapter677.html"/>
+</navPoint>
+<navPoint id="chapter678" playOrder="666">
+<navLabel><text>第一百一十四章 六件大事</text></navLabel>
+<content src="chapter678.html"/>
+</navPoint>
+<navPoint id="chapter679" playOrder="667">
+<navLabel><text>第一百一十五章 罗汉大阵</text></navLabel>
+<content src="chapter679.html"/>
+</navPoint>
+<navPoint id="chapter680" playOrder="668">
+<navLabel><text>第一百一十六章 挑战玄慈</text></navLabel>
+<content src="chapter680.html"/>
+</navPoint>
+<navPoint id="chapter681" playOrder="669">
+<navLabel><text>第一百一十七章 豪情义气</text></navLabel>
+<content src="chapter681.html"/>
+</navPoint>
+<navPoint id="chapter682" playOrder="670">
+<navLabel><text>第一百一十八章 兄弟逞强</text></navLabel>
+<content src="chapter682.html"/>
+</navPoint>
+<navPoint id="chapter683" playOrder="671">
+<navLabel><text>第一百一十九章 身世之谜</text></navLabel>
+<content src="chapter683.html"/>
+</navPoint>
+<navPoint id="chapter684" playOrder="672">
+<navLabel><text>第一百二十章 当众揭秘</text></navLabel>
+<content src="chapter684.html"/>
+</navPoint>
+<navPoint id="chapter685" playOrder="673">
+<navLabel><text>第一百二十一章 僧人说法</text></navLabel>
+<content src="chapter685.html"/>
+</navPoint>
+<navPoint id="chapter686" playOrder="674">
+<navLabel><text>第一百二十二章 藏经阁中</text></navLabel>
+<content src="chapter686.html"/>
+</navPoint>
+<navPoint id="chapter687" playOrder="675">
+<navLabel><text>第一百二十三章 异国金兰</text></navLabel>
+<content src="chapter687.html"/>
+</navPoint>
+<navPoint id="chapter688" playOrder="676">
+<navLabel><text>第一百二十四章 重回故居</text></navLabel>
+<content src="chapter688.html"/>
+</navPoint>
+<navPoint id="chapter689" playOrder="677">
+<navLabel><text>第一百二十五章 招婿大会</text></navLabel>
+<content src="chapter689.html"/>
+</navPoint>
+<navPoint id="chapter690" playOrder="678">
+<navLabel><text>第一百二十六章 湖畔泪影</text></navLabel>
+<content src="chapter690.html"/>
+</navPoint>
+<navPoint id="chapter691" playOrder="679">
+<navLabel><text>第一百二十七章 玉燕殉情</text></navLabel>
+<content src="chapter691.html"/>
+</navPoint>
+<navPoint id="chapter692" playOrder="680">
+<navLabel><text>第一百二十八章 井底风波</text></navLabel>
+<content src="chapter692.html"/>
+</navPoint>
+<navPoint id="chapter693" playOrder="681">
+<navLabel><text>第一百二十九章 青凤阁中</text></navLabel>
+<content src="chapter693.html"/>
+</navPoint>
+<navPoint id="chapter694" playOrder="682">
+<navLabel><text>第一百三十章 三个问题</text></navLabel>
+<content src="chapter694.html"/>
+</navPoint>
+<navPoint id="chapter695" playOrder="683">
+<navLabel><text>第一百三十一章 千里传讯</text></navLabel>
+<content src="chapter695.html"/>
+</navPoint>
+<navPoint id="chapter696" playOrder="684">
+<navLabel><text>第一百三十二章 束手就擒</text></navLabel>
+<content src="chapter696.html"/>
+</navPoint>
+<navPoint id="chapter697" playOrder="685">
+<navLabel><text>第一百三十三章 齐心合力</text></navLabel>
+<content src="chapter697.html"/>
+</navPoint>
+<navPoint id="chapter698" playOrder="686">
+<navLabel><text>第一百三十四章 风流孽债</text></navLabel>
+<content src="chapter698.html"/>
+</navPoint>
+<navPoint id="chapter699" playOrder="687">
+<navLabel><text>第一百三十五章 吐露机密</text></navLabel>
+<content src="chapter699.html"/>
+</navPoint>
+<navPoint id="chapter700" playOrder="688">
+<navLabel><text>第一百三十六章 佳兵不祥</text></navLabel>
+<content src="chapter700.html"/>
+</navPoint>
+<navPoint id="chapter701" playOrder="689">
+<navLabel><text>第一百三十七章 北辽南宋</text></navLabel>
+<content src="chapter701.html"/>
+</navPoint>
+<navPoint id="chapter702" playOrder="690">
+<navLabel><text>第一百三十八章 囚禁萧峰</text></navLabel>
+<content src="chapter702.html"/>
+</navPoint>
+<navPoint id="chapter703" playOrder="691">
+<navLabel><text>第一百三十九章 雁门关外</text></navLabel>
+<content src="chapter703.html"/>
+</navPoint>
+<navPoint id="chapter704" playOrder="692">
+<navLabel><text>第一百四十章 萧峰自尽</text></navLabel>
+<content src="chapter704.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter705" playOrder="693">
+<navLabel><text>侠客行</text></navLabel>
+<content src="chapter705.html"/>
+<navPoint id="chapter707" playOrder="694">
+<navLabel><text>报纸连载版插图</text></navLabel>
+<content src="chapter707.html"/>
+</navPoint>
+<navPoint id="chapter708" playOrder="695">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter708.html"/>
+</navPoint>
+<navPoint id="chapter709" playOrder="696">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter709.html"/>
+</navPoint>
+<navPoint id="chapter710" playOrder="697">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter710.html"/>
+</navPoint>
+<navPoint id="chapter711" playOrder="698">
+<navLabel><text>一、汴梁小丐</text></navLabel>
+<content src="chapter711.html"/>
+</navPoint>
+<navPoint id="chapter712" playOrder="699">
+<navLabel><text>二、金刀墨剑</text></navLabel>
+<content src="chapter712.html"/>
+</navPoint>
+<navPoint id="chapter713" playOrder="700">
+<navLabel><text>三、玄铁令主</text></navLabel>
+<content src="chapter713.html"/>
+</navPoint>
+<navPoint id="chapter714" playOrder="701">
+<navLabel><text>四、铁令誓言</text></navLabel>
+<content src="chapter714.html"/>
+</navPoint>
+<navPoint id="chapter715" playOrder="702">
+<navLabel><text>五、好人坏人</text></navLabel>
+<content src="chapter715.html"/>
+</navPoint>
+<navPoint id="chapter716" playOrder="703">
+<navLabel><text>六、蛇蝎心肠</text></navLabel>
+<content src="chapter716.html"/>
+</navPoint>
+<navPoint id="chapter717" playOrder="704">
+<navLabel><text>七、长乐帮主</text></navLabel>
+<content src="chapter717.html"/>
+</navPoint>
+<navPoint id="chapter718" playOrder="705">
+<navLabel><text>八、仇深似海</text></navLabel>
+<content src="chapter718.html"/>
+</navPoint>
+<navPoint id="chapter719" playOrder="706">
+<navLabel><text>九、神功告成</text></navLabel>
+<content src="chapter719.html"/>
+</navPoint>
+<navPoint id="chapter720" playOrder="707">
+<navLabel><text>十、天作之合</text></navLabel>
+<content src="chapter720.html"/>
+</navPoint>
+<navPoint id="chapter721" playOrder="708">
+<navLabel><text>十一、洞房之夕</text></navLabel>
+<content src="chapter721.html"/>
+</navPoint>
+<navPoint id="chapter722" playOrder="709">
+<navLabel><text>十二、会见群雄</text></navLabel>
+<content src="chapter722.html"/>
+</navPoint>
+<navPoint id="chapter723" playOrder="710">
+<navLabel><text>十三、雪山师徒</text></navLabel>
+<content src="chapter723.html"/>
+</navPoint>
+<navPoint id="chapter724" playOrder="711">
+<navLabel><text>十四、慈母心肠</text></navLabel>
+<content src="chapter724.html"/>
+</navPoint>
+<navPoint id="chapter725" playOrder="712">
+<navLabel><text>十五、舟中传拳</text></navLabel>
+<content src="chapter725.html"/>
+</navPoint>
+<navPoint id="chapter726" playOrder="713">
+<navLabel><text>十六、江上奇逢</text></navLabel>
+<content src="chapter726.html"/>
+</navPoint>
+<navPoint id="chapter727" playOrder="714">
+<navLabel><text>十七、丁氏双雄</text></navLabel>
+<content src="chapter727.html"/>
+</navPoint>
+<navPoint id="chapter728" playOrder="715">
+<navLabel><text>十八、碧螺紫烟</text></navLabel>
+<content src="chapter728.html"/>
+</navPoint>
+<navPoint id="chapter729" playOrder="716">
+<navLabel><text>十九、雪山克星</text></navLabel>
+<content src="chapter729.html"/>
+</navPoint>
+<navPoint id="chapter730" playOrder="717">
+<navLabel><text>二十、旁敲侧击</text></navLabel>
+<content src="chapter730.html"/>
+</navPoint>
+<navPoint id="chapter731" playOrder="718">
+<navLabel><text>二十一、金乌刀法</text></navLabel>
+<content src="chapter731.html"/>
+</navPoint>
+<navPoint id="chapter732" playOrder="719">
+<navLabel><text>二十二、善恶使者</text></navLabel>
+<content src="chapter732.html"/>
+</navPoint>
+<navPoint id="chapter733" playOrder="720">
+<navLabel><text>二十三、铁叉会中</text></navLabel>
+<content src="chapter733.html"/>
+</navPoint>
+<navPoint id="chapter734" playOrder="721">
+<navLabel><text>二十四、抢夺铜牌</text></navLabel>
+<content src="chapter734.html"/>
+</navPoint>
+<navPoint id="chapter735" playOrder="722">
+<navLabel><text>二十五、舐犊之情</text></navLabel>
+<content src="chapter735.html"/>
+</navPoint>
+<navPoint id="chapter736" playOrder="723">
+<navLabel><text>二十六、往事全忘</text></navLabel>
+<content src="chapter736.html"/>
+</navPoint>
+<navPoint id="chapter737" playOrder="724">
+<navLabel><text>二十七、重大阴谋</text></navLabel>
+<content src="chapter737.html"/>
+</navPoint>
+<navPoint id="chapter738" playOrder="725">
+<navLabel><text>二十八、九节软鞭</text></navLabel>
+<content src="chapter738.html"/>
+</navPoint>
+<navPoint id="chapter739" playOrder="726">
+<navLabel><text>二十九、千里赴难</text></navLabel>
+<content src="chapter739.html"/>
+</navPoint>
+<navPoint id="chapter740" playOrder="727">
+<navLabel><text>三十、帮主之谜</text></navLabel>
+<content src="chapter740.html"/>
+</navPoint>
+<navPoint id="chapter741" playOrder="728">
+<navLabel><text>三十一、奋接铜牌</text></navLabel>
+<content src="chapter741.html"/>
+</navPoint>
+<navPoint id="chapter742" playOrder="729">
+<navLabel><text>三十二、真假善恶</text></navLabel>
+<content src="chapter742.html"/>
+</navPoint>
+<navPoint id="chapter743" playOrder="730">
+<navLabel><text>三十三、雪山之变</text></navLabel>
+<content src="chapter743.html"/>
+</navPoint>
+<navPoint id="chapter744" playOrder="731">
+<navLabel><text>三十四、掌门之争</text></navLabel>
+<content src="chapter744.html"/>
+</navPoint>
+<navPoint id="chapter745" playOrder="732">
+<navLabel><text>三十五、波澜另起</text></navLabel>
+<content src="chapter745.html"/>
+</navPoint>
+<navPoint id="chapter746" playOrder="733">
+<navLabel><text>三十六、狂妄自大</text></navLabel>
+<content src="chapter746.html"/>
+</navPoint>
+<navPoint id="chapter747" playOrder="734">
+<navLabel><text>三十七、上门复仇</text></navLabel>
+<content src="chapter747.html"/>
+</navPoint>
+<navPoint id="chapter748" playOrder="735">
+<navLabel><text>三十八、玄铁之令</text></navLabel>
+<content src="chapter748.html"/>
+</navPoint>
+<navPoint id="chapter749" playOrder="736">
+<navLabel><text>三十九、腊八之宴</text></navLabel>
+<content src="chapter749.html"/>
+</navPoint>
+<navPoint id="chapter750" playOrder="737">
+<navLabel><text>四十、邀聚群雄</text></navLabel>
+<content src="chapter750.html"/>
+</navPoint>
+<navPoint id="chapter751" playOrder="738">
+<navLabel><text>四十一、“侠客行”</text></navLabel>
+<content src="chapter751.html"/>
+</navPoint>
+<navPoint id="chapter752" playOrder="739">
+<navLabel><text>四十二、参透图谱</text></navLabel>
+<content src="chapter752.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter753" playOrder="740">
+<navLabel><text>笑傲江湖</text></navLabel>
+<content src="chapter753.html"/>
+<navPoint id="chapter755" playOrder="741">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter755.html"/>
+</navPoint>
+<navPoint id="chapter756" playOrder="742">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter756.html"/>
+</navPoint>
+<navPoint id="chapter757" playOrder="743">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter757.html"/>
+</navPoint>
+<navPoint id="chapter758" playOrder="744">
+<navLabel><text>第一回 福威镖局</text></navLabel>
+<content src="chapter758.html"/>
+</navPoint>
+<navPoint id="chapter759" playOrder="745">
+<navLabel><text>第二回 恶鬼索命</text></navLabel>
+<content src="chapter759.html"/>
+</navPoint>
+<navPoint id="chapter760" playOrder="746">
+<navLabel><text>第三回 人命关天</text></navLabel>
+<content src="chapter760.html"/>
+</navPoint>
+<navPoint id="chapter761" playOrder="747">
+<navLabel><text>第四回 艺不如人</text></navLabel>
+<content src="chapter761.html"/>
+</navPoint>
+<navPoint id="chapter762" playOrder="748">
+<navLabel><text>第五回 慨饮毒酒</text></navLabel>
+<content src="chapter762.html"/>
+</navPoint>
+<navPoint id="chapter763" playOrder="749">
+<navLabel><text>第六回 金盆洗手</text></navLabel>
+<content src="chapter763.html"/>
+</navPoint>
+<navPoint id="chapter764" playOrder="750">
+<navLabel><text>第七回 青城窥秘</text></navLabel>
+<content src="chapter764.html"/>
+</navPoint>
+<navPoint id="chapter765" playOrder="751">
+<navLabel><text>第八回 觊觎秘籍</text></navLabel>
+<content src="chapter765.html"/>
+</navPoint>
+<navPoint id="chapter766" playOrder="752">
+<navLabel><text>第九回 醉仙楼头</text></navLabel>
+<content src="chapter766.html"/>
+</navPoint>
+<navPoint id="chapter767" playOrder="753">
+<navLabel><text>第十回 详述经过</text></navLabel>
+<content src="chapter767.html"/>
+</navPoint>
+<navPoint id="chapter768" playOrder="754">
+<navLabel><text>第十一回 对坐比斗</text></navLabel>
+<content src="chapter768.html"/>
+</navPoint>
+<navPoint id="chapter769" playOrder="755">
+<navLabel><text>第十二回 塞北明驼</text></navLabel>
+<content src="chapter769.html"/>
+</navPoint>
+<navPoint id="chapter770" playOrder="756">
+<navLabel><text>第十三回 群玉院中</text></navLabel>
+<content src="chapter770.html"/>
+</navPoint>
+<navPoint id="chapter771" playOrder="757">
+<navLabel><text>第十四回 华山门下</text></navLabel>
+<content src="chapter771.html"/>
+</navPoint>
+<navPoint id="chapter772" playOrder="758">
+<navLabel><text>第十五回 心猿意马</text></navLabel>
+<content src="chapter772.html"/>
+</navPoint>
+<navPoint id="chapter773" playOrder="759">
+<navLabel><text>第十六回 盟主旗令</text></navLabel>
+<content src="chapter773.html"/>
+</navPoint>
+<navPoint id="chapter774" playOrder="760">
+<navLabel><text>第十七回 邪魔外道</text></navLabel>
+<content src="chapter774.html"/>
+</navPoint>
+<navPoint id="chapter775" playOrder="761">
+<navLabel><text>第十八回 赶尽杀绝</text></navLabel>
+<content src="chapter775.html"/>
+</navPoint>
+<navPoint id="chapter776" playOrder="762">
+<navLabel><text>第十九回 杀人灭口</text></navLabel>
+<content src="chapter776.html"/>
+</navPoint>
+<navPoint id="chapter777" playOrder="763">
+<navLabel><text>第二十回 面壁思过</text></navLabel>
+<content src="chapter777.html"/>
+</navPoint>
+<navPoint id="chapter778" playOrder="764">
+<navLabel><text>第二十一回 蜜意柔情</text></navLabel>
+<content src="chapter778.html"/>
+</navPoint>
+<navPoint id="chapter779" playOrder="765">
+<navLabel><text>第二十二回 情海生波</text></navLabel>
+<content src="chapter779.html"/>
+</navPoint>
+<navPoint id="chapter780" playOrder="766">
+<navLabel><text>第二十三回 怪招夺剑</text></navLabel>
+<content src="chapter780.html"/>
+</navPoint>
+<navPoint id="chapter781" playOrder="767">
+<navLabel><text>第二十四回 不速之客</text></navLabel>
+<content src="chapter781.html"/>
+</navPoint>
+<navPoint id="chapter782" playOrder="768">
+<navLabel><text>第二十五回 愈斗愈强</text></navLabel>
+<content src="chapter782.html"/>
+</navPoint>
+<navPoint id="chapter783" playOrder="769">
+<navLabel><text>第二十六回 独孤九剑</text></navLabel>
+<content src="chapter783.html"/>
+</navPoint>
+<navPoint id="chapter784" playOrder="770">
+<navLabel><text>第二十七回 掌门之争</text></navLabel>
+<content src="chapter784.html"/>
+</navPoint>
+<navPoint id="chapter785" playOrder="771">
+<navLabel><text>第二十八回 桃谷六仙</text></navLabel>
+<content src="chapter785.html"/>
+</navPoint>
+<navPoint id="chapter786" playOrder="772">
+<navLabel><text>第二十九回 真气疗伤</text></navLabel>
+<content src="chapter786.html"/>
+</navPoint>
+<navPoint id="chapter787" playOrder="773">
+<navLabel><text>第三十回 藉词避祸</text></navLabel>
+<content src="chapter787.html"/>
+</navPoint>
+<navPoint id="chapter788" playOrder="774">
+<navLabel><text>第三十一回 生死之交</text></navLabel>
+<content src="chapter788.html"/>
+</navPoint>
+<navPoint id="chapter789" playOrder="775">
+<navLabel><text>第三十二回 雨夜血战</text></navLabel>
+<content src="chapter789.html"/>
+</navPoint>
+<navPoint id="chapter790" playOrder="776">
+<navLabel><text>第三十三回 不甘屈辱</text></navLabel>
+<content src="chapter790.html"/>
+</navPoint>
+<navPoint id="chapter791" playOrder="777">
+<navLabel><text>第三十四回 有苦难言</text></navLabel>
+<content src="chapter791.html"/>
+</navPoint>
+<navPoint id="chapter792" playOrder="778">
+<navLabel><text>第三十五回 金刀王家</text></navLabel>
+<content src="chapter792.html"/>
+</navPoint>
+<navPoint id="chapter793" playOrder="779">
+<navLabel><text>第三十六回 隐世高人</text></navLabel>
+<content src="chapter793.html"/>
+</navPoint>
+<navPoint id="chapter794" playOrder="780">
+<navLabel><text>第三十七回 杀人名医</text></navLabel>
+<content src="chapter794.html"/>
+</navPoint>
+<navPoint id="chapter795" playOrder="781">
+<navLabel><text>第三十八回 极品美酒</text></navLabel>
+<content src="chapter795.html"/>
+</navPoint>
+<navPoint id="chapter796" playOrder="782">
+<navLabel><text>第三十九回 黄河老祖</text></navLabel>
+<content src="chapter796.html"/>
+</navPoint>
+<navPoint id="chapter797" playOrder="783">
+<navLabel><text>第四十回 五仙教主</text></navLabel>
+<content src="chapter797.html"/>
+</navPoint>
+<navPoint id="chapter798" playOrder="784">
+<navLabel><text>第四十一回 水蛭转血</text></navLabel>
+<content src="chapter798.html"/>
+</navPoint>
+<navPoint id="chapter799" playOrder="785">
+<navLabel><text>第四十二回 五霸冈上</text></navLabel>
+<content src="chapter799.html"/>
+</navPoint>
+<navPoint id="chapter800" playOrder="786">
+<navLabel><text>第四十三回 琴韵心声</text></navLabel>
+<content src="chapter800.html"/>
+</navPoint>
+<navPoint id="chapter801" playOrder="787">
+<navLabel><text>第四十四回 水中倒影</text></navLabel>
+<content src="chapter801.html"/>
+</navPoint>
+<navPoint id="chapter802" playOrder="788">
+<navLabel><text>第四十五回 情意绵绵</text></navLabel>
+<content src="chapter802.html"/>
+</navPoint>
+<navPoint id="chapter803" playOrder="789">
+<navLabel><text>第四十六回 逐出师门</text></navLabel>
+<content src="chapter803.html"/>
+</navPoint>
+<navPoint id="chapter804" playOrder="790">
+<navLabel><text>第四十七回 仗义出手</text></navLabel>
+<content src="chapter804.html"/>
+</navPoint>
+<navPoint id="chapter805" playOrder="791">
+<navLabel><text>第四十八回 孤山梅庄</text></navLabel>
+<content src="chapter805.html"/>
+</navPoint>
+<navPoint id="chapter806" playOrder="792">
+<navLabel><text>第四十九回 江南四友</text></navLabel>
+<content src="chapter806.html"/>
+</navPoint>
+<navPoint id="chapter807" playOrder="793">
+<navLabel><text>第五十回 剑法无敌</text></navLabel>
+<content src="chapter807.html"/>
+</navPoint>
+<navPoint id="chapter808" playOrder="794">
+<navLabel><text>第五十一回 湖底黑牢</text></navLabel>
+<content src="chapter808.html"/>
+</navPoint>
+<navPoint id="chapter809" playOrder="795">
+<navLabel><text>第五十二回 被困牢笼</text></navLabel>
+<content src="chapter809.html"/>
+</navPoint>
+<navPoint id="chapter810" playOrder="796">
+<navLabel><text>第五十三回 吸星大法</text></navLabel>
+<content src="chapter810.html"/>
+</navPoint>
+<navPoint id="chapter811" playOrder="797">
+<navLabel><text>第五十四回 黑木令牌</text></navLabel>
+<content src="chapter811.html"/>
+</navPoint>
+<navPoint id="chapter812" playOrder="798">
+<navLabel><text>第五十五回 魔教教主</text></navLabel>
+<content src="chapter812.html"/>
+</navPoint>
+<navPoint id="chapter813" playOrder="799">
+<navLabel><text>第五十六回 仙霞岭上</text></navLabel>
+<content src="chapter813.html"/>
+</navPoint>
+<navPoint id="chapter814" playOrder="800">
+<navLabel><text>第五十七回 暗箭难防</text></navLabel>
+<content src="chapter814.html"/>
+</navPoint>
+<navPoint id="chapter815" playOrder="801">
+<navLabel><text>第五十八回 乘人之危</text></navLabel>
+<content src="chapter815.html"/>
+</navPoint>
+<navPoint id="chapter816" playOrder="802">
+<navLabel><text>第五十九回 临终重托</text></navLabel>
+<content src="chapter816.html"/>
+</navPoint>
+<navPoint id="chapter817" playOrder="803">
+<navLabel><text>第六十回 剑谱之谜</text></navLabel>
+<content src="chapter817.html"/>
+</navPoint>
+<navPoint id="chapter818" playOrder="804">
+<navLabel><text>第六十一回 师门恩怨</text></navLabel>
+<content src="chapter818.html"/>
+</navPoint>
+<navPoint id="chapter819" playOrder="805">
+<navLabel><text>第六十二回 火窟救人</text></navLabel>
+<content src="chapter819.html"/>
+</navPoint>
+<navPoint id="chapter820" playOrder="806">
+<navLabel><text>第六十三回 情深恩重</text></navLabel>
+<content src="chapter820.html"/>
+</navPoint>
+<navPoint id="chapter821" playOrder="807">
+<navLabel><text>第六十四回 大张旗鼓</text></navLabel>
+<content src="chapter821.html"/>
+</navPoint>
+<navPoint id="chapter822" playOrder="808">
+<navLabel><text>第六十五回 武当山下</text></navLabel>
+<content src="chapter822.html"/>
+</navPoint>
+<navPoint id="chapter823" playOrder="809">
+<navLabel><text>第六十六回 被困少林</text></navLabel>
+<content src="chapter823.html"/>
+</navPoint>
+<navPoint id="chapter824" playOrder="810">
+<navLabel><text>第六十七回 绝处逢生</text></navLabel>
+<content src="chapter824.html"/>
+</navPoint>
+<navPoint id="chapter825" playOrder="811">
+<navLabel><text>第六十八回 狡计取胜</text></navLabel>
+<content src="chapter825.html"/>
+</navPoint>
+<navPoint id="chapter826" playOrder="812">
+<navLabel><text>第六十九回 三场比斗</text></navLabel>
+<content src="chapter826.html"/>
+</navPoint>
+<navPoint id="chapter827" playOrder="813">
+<navLabel><text>第七十回 荒郊雪人</text></navLabel>
+<content src="chapter827.html"/>
+</navPoint>
+<navPoint id="chapter828" playOrder="814">
+<navLabel><text>第七十一回 往事如烟</text></navLabel>
+<content src="chapter828.html"/>
+</navPoint>
+<navPoint id="chapter829" playOrder="815">
+<navLabel><text>第七十二回 恒山掌门</text></navLabel>
+<content src="chapter829.html"/>
+</navPoint>
+<navPoint id="chapter830" playOrder="816">
+<navLabel><text>第七十三回 密商大计</text></navLabel>
+<content src="chapter830.html"/>
+</navPoint>
+<navPoint id="chapter831" playOrder="817">
+<navLabel><text>第七十四回 中伏遇险</text></navLabel>
+<content src="chapter831.html"/>
+</navPoint>
+<navPoint id="chapter832" playOrder="818">
+<navLabel><text>第七十五回 黑木崖上</text></navLabel>
+<content src="chapter832.html"/>
+</navPoint>
+<navPoint id="chapter833" playOrder="819">
+<navLabel><text>第七十六回 东方不败</text></navLabel>
+<content src="chapter833.html"/>
+</navPoint>
+<navPoint id="chapter834" playOrder="820">
+<navLabel><text>第七十七回 不可不戒</text></navLabel>
+<content src="chapter834.html"/>
+</navPoint>
+<navPoint id="chapter835" playOrder="821">
+<navLabel><text>第七十八回 封禅台上</text></navLabel>
+<content src="chapter835.html"/>
+</navPoint>
+<navPoint id="chapter836" playOrder="822">
+<navLabel><text>第七十九回 妙话如珠</text></navLabel>
+<content src="chapter836.html"/>
+</navPoint>
+<navPoint id="chapter837" playOrder="823">
+<navLabel><text>第八十回 比武夺帅</text></navLabel>
+<content src="chapter837.html"/>
+</navPoint>
+<navPoint id="chapter838" playOrder="824">
+<navLabel><text>第八十一回 往事如烟</text></navLabel>
+<content src="chapter838.html"/>
+</navPoint>
+<navPoint id="chapter839" playOrder="825">
+<navLabel><text>第八十二回 如此君子</text></navLabel>
+<content src="chapter839.html"/>
+</navPoint>
+<navPoint id="chapter840" playOrder="826">
+<navLabel><text>第八十三回 英雄末路</text></navLabel>
+<content src="chapter840.html"/>
+</navPoint>
+<navPoint id="chapter841" playOrder="827">
+<navLabel><text>第八十四回 报仇雪恨</text></navLabel>
+<content src="chapter841.html"/>
+</navPoint>
+<navPoint id="chapter842" playOrder="828">
+<navLabel><text>第八十五回 自宫练剑</text></navLabel>
+<content src="chapter842.html"/>
+</navPoint>
+<navPoint id="chapter843" playOrder="829">
+<navLabel><text>第八十六回 无情无义</text></navLabel>
+<content src="chapter843.html"/>
+</navPoint>
+<navPoint id="chapter844" playOrder="830">
+<navLabel><text>第八十七回 恩尽义绝</text></navLabel>
+<content src="chapter844.html"/>
+</navPoint>
+<navPoint id="chapter845" playOrder="831">
+<navLabel><text>第八十八回 重返恒山</text></navLabel>
+<content src="chapter845.html"/>
+</navPoint>
+<navPoint id="chapter846" playOrder="832">
+<navLabel><text>第八十九回 阴谋已败</text></navLabel>
+<content src="chapter846.html"/>
+</navPoint>
+<navPoint id="chapter847" playOrder="833">
+<navLabel><text>第九十回 倾吐心思</text></navLabel>
+<content src="chapter847.html"/>
+</navPoint>
+<navPoint id="chapter848" playOrder="834">
+<navLabel><text>第九十一回 桐柏双奇</text></navLabel>
+<content src="chapter848.html"/>
+</navPoint>
+<navPoint id="chapter849" playOrder="835">
+<navLabel><text>第九十二回 喋血华山</text></navLabel>
+<content src="chapter849.html"/>
+</navPoint>
+<navPoint id="chapter850" playOrder="836">
+<navLabel><text>第九十三回 枭獍授首</text></navLabel>
+<content src="chapter850.html"/>
+</navPoint>
+<navPoint id="chapter851" playOrder="837">
+<navLabel><text>第九十四回 大失所望</text></navLabel>
+<content src="chapter851.html"/>
+</navPoint>
+<navPoint id="chapter852" playOrder="838">
+<navLabel><text>第九十五回 巧计埋伏</text></navLabel>
+<content src="chapter852.html"/>
+</navPoint>
+<navPoint id="chapter853" playOrder="839">
+<navLabel><text>第九十六回 恶有恶报</text></navLabel>
+<content src="chapter853.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="chapter854" playOrder="840">
+<navLabel><text>鹿鼎记</text></navLabel>
+<content src="chapter854.html"/>
+<navPoint id="chapter856" playOrder="841">
+<navLabel><text>报纸连载版插图</text></navLabel>
+<content src="chapter856.html"/>
+</navPoint>
+<navPoint id="chapter857" playOrder="842">
+<navLabel><text>修订版金庸作品插图</text></navLabel>
+<content src="chapter857.html"/>
+</navPoint>
+<navPoint id="chapter858" playOrder="843">
+<navLabel><text>台湾远流大字版封面</text></navLabel>
+<content src="chapter858.html"/>
+</navPoint>
+<navPoint id="chapter859" playOrder="844">
+<navLabel><text>远流新世纪修订版藏书票</text></navLabel>
+<content src="chapter859.html"/>
+</navPoint>
+<navPoint id="chapter860" playOrder="845">
+<navLabel><text>第一回 人为刀俎</text></navLabel>
+<content src="chapter860.html"/>
+</navPoint>
+<navPoint id="chapter861" playOrder="846">
+<navLabel><text>第二回 小人毒计</text></navLabel>
+<content src="chapter861.html"/>
+</navPoint>
+<navPoint id="chapter862" playOrder="847">
+<navLabel><text>第三回 精忠英勇</text></navLabel>
+<content src="chapter862.html"/>
+</navPoint>
+<navPoint id="chapter863" playOrder="848">
+<navLabel><text>第四回 有福同享</text></navLabel>
+<content src="chapter863.html"/>
+</navPoint>
+<navPoint id="chapter864" playOrder="849">
+<navLabel><text>第五回 人小胆大</text></navLabel>
+<content src="chapter864.html"/>
+</navPoint>
+<navPoint id="chapter865" playOrder="850">
+<navLabel><text>第六回 摔跤勇士</text></navLabel>
+<content src="chapter865.html"/>
+</navPoint>
+<navPoint id="chapter866" playOrder="851">
+<navLabel><text>第七回 诡计杀人</text></navLabel>
+<content src="chapter866.html"/>
+</navPoint>
+<navPoint id="chapter867" playOrder="852">
+<navLabel><text>第八回 冒名顶替</text></navLabel>
+<content src="chapter867.html"/>
+</navPoint>
+<navPoint id="chapter868" playOrder="853">
+<navLabel><text>第九回 赌钱使诈</text></navLabel>
+<content src="chapter868.html"/>
+</navPoint>
+<navPoint id="chapter869" playOrder="854">
+<navLabel><text>第十回 潜入禁宫</text></navLabel>
+<content src="chapter869.html"/>
+</navPoint>
+<navPoint id="chapter870" playOrder="855">
+<navLabel><text>第十一回 权臣欺主</text></navLabel>
+<content src="chapter870.html"/>
+</navPoint>
+<navPoint id="chapter871" playOrder="856">
+<navLabel><text>第十二回 计智救驾</text></navLabel>
+<content src="chapter871.html"/>
+</navPoint>
+<navPoint id="chapter872" playOrder="857">
+<navLabel><text>第十三回 抄家得宝</text></navLabel>
+<content src="chapter872.html"/>
+</navPoint>
+<navPoint id="chapter873" playOrder="858">
+<navLabel><text>第十四回 瓜分赃银</text></navLabel>
+<content src="chapter873.html"/>
+</navPoint>
+<navPoint id="chapter874" playOrder="859">
+<navLabel><text>第十五回 宫闱之中</text></navLabel>
+<content src="chapter874.html"/>
+</navPoint>
+<navPoint id="chapter875" playOrder="860">
+<navLabel><text>第十六回 奉有密谕</text></navLabel>
+<content src="chapter875.html"/>
+</navPoint>
+<navPoint id="chapter876" playOrder="861">
+<navLabel><text>第十七回 肉中下药</text></navLabel>
+<content src="chapter876.html"/>
+</navPoint>
+<navPoint id="chapter877" playOrder="862">
+<navLabel><text>第十八回 刀劈鳌拜</text></navLabel>
+<content src="chapter877.html"/>
+</navPoint>
+<navPoint id="chapter878" playOrder="863">
+<navLabel><text>第十九回 阶下之囚</text></navLabel>
+<content src="chapter878.html"/>
+</navPoint>
+<navPoint id="chapter879" playOrder="864">
+<navLabel><text>第二十回 因祸得福</text></navLabel>
+<content src="chapter879.html"/>
+</navPoint>
+<navPoint id="chapter880" playOrder="865">
+<navLabel><text>第二一回 出任香主</text></navLabel>
+<content src="chapter880.html"/>
+</navPoint>
+<navPoint id="chapter881" playOrder="866">
+<navLabel><text>第二二回 兴师问罪</text></navLabel>
+<content src="chapter881.html"/>
+</navPoint>
+<navPoint id="chapter882" playOrder="867">
+<navLabel><text>第二三回 拥桂拥唐</text></navLabel>
+<content src="chapter882.html"/>
+</navPoint>
+<navPoint id="chapter883" playOrder="868">
+<navLabel><text>第二四回 猪腹藏人</text></navLabel>
+<content src="chapter883.html"/>
+</navPoint>
+<navPoint id="chapter884" playOrder="869">
+<navLabel><text>第二五回 虚声恐吓</text></navLabel>
+<content src="chapter884.html"/>
+</navPoint>
+<navPoint id="chapter885" playOrder="870">
+<navLabel><text>第二六回 亲王宴客</text></navLabel>
+<content src="chapter885.html"/>
+</navPoint>
+<navPoint id="chapter886" playOrder="871">
+<navLabel><text>第二七回 筵前比武</text></navLabel>
+<content src="chapter886.html"/>
+</navPoint>
+<navPoint id="chapter887" playOrder="872">
+<navLabel><text>第二八回 两小无猜</text></navLabel>
+<content src="chapter887.html"/>
+</navPoint>
+<navPoint id="chapter888" playOrder="873">
+<navLabel><text>第二九回 宫中刺客</text></navLabel>
+<content src="chapter888.html"/>
+</navPoint>
+<navPoint id="chapter889" playOrder="874">
+<navLabel><text>第三○回 诡计杀人</text></navLabel>
+<content src="chapter889.html"/>
+</navPoint>
+<navPoint id="chapter890" playOrder="875">
+<navLabel><text>第三一回 虚声恐吓</text></navLabel>
+<content src="chapter890.html"/>
+</navPoint>
+<navPoint id="chapter891" playOrder="876">
+<navLabel><text>第三二回 大卖人情</text></navLabel>
+<content src="chapter891.html"/>
+</navPoint>
+<navPoint id="chapter892" playOrder="877">
+<navLabel><text>第三三回 赴沐王宴</text></navLabel>
+<content src="chapter892.html"/>
+</navPoint>
+<navPoint id="chapter893" playOrder="878">
+<navLabel><text>第三四回 顺水人情</text></navLabel>
+<content src="chapter893.html"/>
+</navPoint>
+<navPoint id="chapter894" playOrder="879">
+<navLabel><text>第三五回 要做英雄</text></navLabel>
+<content src="chapter894.html"/>
+</navPoint>
+<navPoint id="chapter895" playOrder="880">
+<navLabel><text>第三六回 计释刺客</text></navLabel>
+<content src="chapter895.html"/>
+</navPoint>
+<navPoint id="chapter896" playOrder="881">
+<navLabel><text>第三七回 击掌立誓</text></navLabel>
+<content src="chapter896.html"/>
+</navPoint>
+<navPoint id="chapter897" playOrder="882">
+<navLabel><text>第三八回 威胁不成</text></navLabel>
+<content src="chapter897.html"/>
+</navPoint>
+<navPoint id="chapter898" playOrder="883">
+<navLabel><text>第三九回 太后寝宫</text></navLabel>
+<content src="chapter898.html"/>
+</navPoint>
+<navPoint id="chapter899" playOrder="884">
+<navLabel><text>第四○回 获悉内情</text></navLabel>
+<content src="chapter899.html"/>
+</navPoint>
+<navPoint id="chapter900" playOrder="885">
+<navLabel><text>第四一回 依依惜别</text></navLabel>
+<content src="chapter900.html"/>
+</navPoint>
+<navPoint id="chapter901" playOrder="886">
+<navLabel><text>第四二回 八部经书</text></navLabel>
+<content src="chapter901.html"/>
+</navPoint>
+<navPoint id="chapter902" playOrder="887">
+<navLabel><text>第四三回 恩将仇报</text></navLabel>
+<content src="chapter902.html"/>
+</navPoint>
+<navPoint id="chapter903" playOrder="888">
+<navLabel><text>第四四回 妒火中烧</text></navLabel>
+<content src="chapter903.html"/>
+</navPoint>
+<navPoint id="chapter904" playOrder="889">
+<navLabel><text>第四五回 鬼屋惊魂</text></navLabel>
+<content src="chapter904.html"/>
+</navPoint>
+<navPoint id="chapter905" playOrder="890">
+<navLabel><text>第四六回 人去无踪</text></navLabel>
+<content src="chapter905.html"/>
+</navPoint>
+<navPoint id="chapter906" playOrder="891">
+<navLabel><text>第四七回 一门孤孀</text></navLabel>
+<content src="chapter906.html"/>
+</navPoint>
+<navPoint id="chapter907" playOrder="892">
+<navLabel><text>第四八回 斋僧礼佛</text></navLabel>
+<content src="chapter907.html"/>
+</navPoint>
+<navPoint id="chapter908" playOrder="893">
+<navLabel><text>第四九回 夜闯禅院</text></navLabel>
+<content src="chapter908.html"/>
+</navPoint>
+<navPoint id="chapter909" playOrder="894">
+<navLabel><text>第五○回 有恃无恐</text></navLabel>
+<content src="chapter909.html"/>
+</navPoint>
+<navPoint id="chapter910" playOrder="895">
+<navLabel><text>第五一回 十八对一</text></navLabel>
+<content src="chapter910.html"/>
+</navPoint>
+<navPoint id="chapter911" playOrder="896">
+<navLabel><text>第五二回 软玉温香</text></navLabel>
+<content src="chapter911.html"/>
+</navPoint>
+<navPoint id="chapter912" playOrder="897">
+<navLabel><text>第五三回 伪造碑文</text></navLabel>
+<content src="chapter912.html"/>
+</navPoint>
+<navPoint id="chapter913" playOrder="898">
+<navLabel><text>第五四回 自相残杀</text></navLabel>
+<content src="chapter913.html"/>
+</navPoint>
+<navPoint id="chapter914" playOrder="899">
+<navLabel><text>第五五回 解危言和</text></navLabel>
+<content src="chapter914.html"/>
+</navPoint>
+<navPoint id="chapter915" playOrder="900">
+<navLabel><text>第五六回 亲传武功</text></navLabel>
+<content src="chapter915.html"/>
+</navPoint>
+<navPoint id="chapter916" playOrder="901">
+<navLabel><text>第五七回 疑真疑假</text></navLabel>
+<content src="chapter916.html"/>
+</navPoint>
+<navPoint id="chapter917" playOrder="902">
+<navLabel><text>第五八回 五龙令现</text></navLabel>
+<content src="chapter917.html"/>
+</navPoint>
+<navPoint id="chapter918" playOrder="903">
+<navLabel><text>第五九回 带兵赌钱</text></navLabel>
+<content src="chapter918.html"/>
+</navPoint>
+<navPoint id="chapter919" playOrder="904">
+<navLabel><text>第六○回 反败为胜</text></navLabel>
+<content src="chapter919.html"/>
+</navPoint>
+<navPoint id="chapter920" playOrder="905">
+<navLabel><text>第六一回 逼供诬陷</text></navLabel>
+<content src="chapter920.html"/>
+</navPoint>
+<navPoint id="chapter921" playOrder="906">
+<navLabel><text>第六二回 少林为僧</text></navLabel>
+<content src="chapter921.html"/>
+</navPoint>
+<navPoint id="chapter922" playOrder="907">
+<navLabel><text>第六三回 武功博杂</text></navLabel>
+<content src="chapter922.html"/>
+</navPoint>
+<navPoint id="chapter923" playOrder="908">
+<navLabel><text>第六四回 乔装下山</text></navLabel>
+<content src="chapter923.html"/>
+</navPoint>
+<navPoint id="chapter924" playOrder="909">
+<navLabel><text>第六五回 简易招式</text></navLabel>
+<content src="chapter924.html"/>
+</navPoint>
+<navPoint id="chapter925" playOrder="910">
+<navLabel><text>第六六回 佛法无边</text></navLabel>
+<content src="chapter925.html"/>
+</navPoint>
+<navPoint id="chapter926" playOrder="911">
+<navLabel><text>第六七回 贵宾寻仇</text></navLabel>
+<content src="chapter926.html"/>
+</navPoint>
+<navPoint id="chapter927" playOrder="912">
+<navLabel><text>第六八回 住持清凉</text></navLabel>
+<content src="chapter927.html"/>
+</navPoint>
+<navPoint id="chapter928" playOrder="913">
+<navLabel><text>第六九回 妙计脱困</text></navLabel>
+<content src="chapter928.html"/>
+</navPoint>
+<navPoint id="chapter929" playOrder="914">
+<navLabel><text>第七○回 刺客行凶</text></navLabel>
+<content src="chapter929.html"/>
+</navPoint>
+<navPoint id="chapter930" playOrder="915">
+<navLabel><text>第七一回 图穷匕现</text></navLabel>
+<content src="chapter930.html"/>
+</navPoint>
+<navPoint id="chapter931" playOrder="916">
+<navLabel><text>第七二回 真假太后</text></navLabel>
+<content src="chapter931.html"/>
+</navPoint>
+<navPoint id="chapter932" playOrder="917">
+<navLabel><text>第七三回 解围杀人</text></navLabel>
+<content src="chapter932.html"/>
+</navPoint>
+<navPoint id="chapter933" playOrder="918">
+<navLabel><text>第七四回 计退强敌</text></navLabel>
+<content src="chapter933.html"/>
+</navPoint>
+<navPoint id="chapter934" playOrder="919">
+<navLabel><text>第七五回 妙计杀敌</text></navLabel>
+<content src="chapter934.html"/>
+</navPoint>
+<navPoint id="chapter935" playOrder="920">
+<navLabel><text>第七六回 杀龟大会</text></navLabel>
+<content src="chapter935.html"/>
+</navPoint>
+<navPoint id="chapter936" playOrder="921">
+<navLabel><text>第七七回 无中生有</text></navLabel>
+<content src="chapter936.html"/>
+</navPoint>
+<navPoint id="chapter937" playOrder="922">
+<navLabel><text>第七八回 被迫成亲</text></navLabel>
+<content src="chapter937.html"/>
+</navPoint>
+<navPoint id="chapter938" playOrder="923">
+<navLabel><text>第七九回 千方百计</text></navLabel>
+<content src="chapter938.html"/>
+</navPoint>
+<navPoint id="chapter939" playOrder="924">
+<navLabel><text>第八○回 阿谄挑拨</text></navLabel>
+<content src="chapter939.html"/>
+</navPoint>
+<navPoint id="chapter940" playOrder="925">
+<navLabel><text>第八一回 施计解危</text></navLabel>
+<content src="chapter940.html"/>
+</navPoint>
+<navPoint id="chapter941" playOrder="926">
+<navLabel><text>第八二回 偷天换日</text></navLabel>
+<content src="chapter941.html"/>
+</navPoint>
+<navPoint id="chapter942" playOrder="927">
+<navLabel><text>第八三回 毒打火烧</text></navLabel>
+<content src="chapter942.html"/>
+</navPoint>
+<navPoint id="chapter943" playOrder="928">
+<navLabel><text>第八四回 太监驸马</text></navLabel>
+<content src="chapter943.html"/>
+</navPoint>
+<navPoint id="chapter944" playOrder="929">
+<navLabel><text>第八五回 迫问真象</text></navLabel>
+<content src="chapter944.html"/>
+</navPoint>
+<navPoint id="chapter945" playOrder="930">
+<navLabel><text>第八六回 计盗经书</text></navLabel>
+<content src="chapter945.html"/>
+</navPoint>
+<navPoint id="chapter946" playOrder="931">
+<navLabel><text>第八七回 深宵火警</text></navLabel>
+<content src="chapter946.html"/>
+</navPoint>
+<navPoint id="chapter947" playOrder="932">
+<navLabel><text>第八八回 寻死觅活</text></navLabel>
+<content src="chapter947.html"/>
+</navPoint>
+<navPoint id="chapter948" playOrder="933">
+<navLabel><text>第八九回 提审刺客</text></navLabel>
+<content src="chapter948.html"/>
+</navPoint>
+<navPoint id="chapter949" playOrder="934">
+<navLabel><text>第九○回 哀宛动人</text></navLabel>
+<content src="chapter949.html"/>
+</navPoint>
+<navPoint id="chapter950" playOrder="935">
+<navLabel><text>第九一回 往事如烟</text></navLabel>
+<content src="chapter950.html"/>
+</navPoint>
+<navPoint id="chapter951" playOrder="936">
+<navLabel><text>第九二回 互换人质</text></navLabel>
+<content src="chapter951.html"/>
+</navPoint>
+<navPoint id="chapter952" playOrder="937">
+<navLabel><text>第九三回 赌场出术</text></navLabel>
+<content src="chapter952.html"/>
+</navPoint>
+<navPoint id="chapter953" playOrder="938">
+<navLabel><text>第九四回 艳婢救主</text></navLabel>
+<content src="chapter953.html"/>
+</navPoint>
+<navPoint id="chapter954" playOrder="939">
+<navLabel><text>第九五回 同病相怜</text></navLabel>
+<content src="chapter954.html"/>
+</navPoint>
+<navPoint id="chapter955" playOrder="940">
+<navLabel><text>第九六回 当年往事</text></navLabel>
+<content src="chapter955.html"/>
+</navPoint>
+<navPoint id="chapter956" playOrder="941">
+<navLabel><text>第九七回 皇帝英明</text></navLabel>
+<content src="chapter956.html"/>
+</navPoint>
+<navPoint id="chapter957" playOrder="942">
+<navLabel><text>第九八回 奉旨祭天</text></navLabel>
+<content src="chapter957.html"/>
+</navPoint>
+<navPoint id="chapter958" playOrder="943">
+<navLabel><text>第九九回 率领水师</text></navLabel>
+<content src="chapter958.html"/>
+</navPoint>
+<navPoint id="chapter959" playOrder="944">
+<navLabel><text>第一○○回 坐等捷报</text></navLabel>
+<content src="chapter959.html"/>
+</navPoint>
+<navPoint id="chapter960" playOrder="945">
+<navLabel><text>第一○一回 阿谀有术</text></navLabel>
+<content src="chapter960.html"/>
+</navPoint>
+<navPoint id="chapter961" playOrder="946">
+<navLabel><text>第一○二回 义婢救主</text></navLabel>
+<content src="chapter961.html"/>
+</navPoint>
+<navPoint id="chapter962" playOrder="947">
+<navLabel><text>第一○三回 罗刹公主</text></navLabel>
+<content src="chapter962.html"/>
+</navPoint>
+<navPoint id="chapter963" playOrder="948">
+<navLabel><text>第一○四回 献计造反</text></navLabel>
+<content src="chapter963.html"/>
+</navPoint>
+<navPoint id="chapter964" playOrder="949">
+<navLabel><text>第一○五回 安排定计</text></navLabel>
+<content src="chapter964.html"/>
+</navPoint>
+<navPoint id="chapter965" playOrder="950">
+<navLabel><text>第一○六回 大臣聚议</text></navLabel>
+<content src="chapter965.html"/>
+</navPoint>
+<navPoint id="chapter966" playOrder="951">
+<navLabel><text>第一○七回 不拍马屁</text></navLabel>
+<content src="chapter966.html"/>
+</navPoint>
+<navPoint id="chapter967" playOrder="952">
+<navLabel><text>第一○八回 赛马作弊</text></navLabel>
+<content src="chapter967.html"/>
+</navPoint>
+<navPoint id="chapter968" playOrder="953">
+<navLabel><text>第一○九回 擒吴应熊</text></navLabel>
+<content src="chapter968.html"/>
+</navPoint>
+<navPoint id="chapter969" playOrder="954">
+<navLabel><text>第一一○回 收买人心</text></navLabel>
+<content src="chapter969.html"/>
+</navPoint>
+<navPoint id="chapter970" playOrder="955">
+<navLabel><text>第一一一回 妙语解厄</text></navLabel>
+<content src="chapter970.html"/>
+</navPoint>
+<navPoint id="chapter971" playOrder="956">
+<navLabel><text>第一一二回 母子重逢</text></navLabel>
+<content src="chapter971.html"/>
+</navPoint>
+<navPoint id="chapter972" playOrder="957">
+<navLabel><text>第一一三回 失手成擒</text></navLabel>
+<content src="chapter972.html"/>
+</navPoint>
+<navPoint id="chapter973" playOrder="958">
+<navLabel><text>第一一四回 巧语解危</text></navLabel>
+<content src="chapter973.html"/>
+</navPoint>
+<navPoint id="chapter974" playOrder="959">
+<navLabel><text>第一一五回 春色满床</text></navLabel>
+<content src="chapter974.html"/>
+</navPoint>
+<navPoint id="chapter975" playOrder="960">
+<navLabel><text>第一一六回 群雌混战</text></navLabel>
+<content src="chapter975.html"/>
+</navPoint>
+<navPoint id="chapter976" playOrder="961">
+<navLabel><text>第一一七回 有心回护</text></navLabel>
+<content src="chapter976.html"/>
+</navPoint>
+<navPoint id="chapter977" playOrder="962">
+<navLabel><text>第一一八回 移花接木</text></navLabel>
+<content src="chapter977.html"/>
+</navPoint>
+<navPoint id="chapter978" playOrder="963">
+<navLabel><text>第一一九回 病汉奇能</text></navLabel>
+<content src="chapter978.html"/>
+</navPoint>
+<navPoint id="chapter979" playOrder="964">
+<navLabel><text>第一二○回 施毒制人</text></navLabel>
+<content src="chapter979.html"/>
+</navPoint>
+<navPoint id="chapter980" playOrder="965">
+<navLabel><text>第一二一回 为虎作伥</text></navLabel>
+<content src="chapter980.html"/>
+</navPoint>
+<navPoint id="chapter981" playOrder="966">
+<navLabel><text>第一二二回 共商大计</text></navLabel>
+<content src="chapter981.html"/>
+</navPoint>
+<navPoint id="chapter982" playOrder="967">
+<navLabel><text>第一二三回 密摺通风</text></navLabel>
+<content src="chapter982.html"/>
+</navPoint>
+<navPoint id="chapter983" playOrder="968">
+<navLabel><text>第一二四回 巧杀钦犯</text></navLabel>
+<content src="chapter983.html"/>
+</navPoint>
+<navPoint id="chapter984" playOrder="969">
+<navLabel><text>第一二五回 尽知底蕴</text></navLabel>
+<content src="chapter984.html"/>
+</navPoint>
+<navPoint id="chapter985" playOrder="970">
+<navLabel><text>第一二六回 监视严密</text></navLabel>
+<content src="chapter985.html"/>
+</navPoint>
+<navPoint id="chapter986" playOrder="971">
+<navLabel><text>第一二七回 巧计脱险</text></navLabel>
+<content src="chapter986.html"/>
+</navPoint>
+<navPoint id="chapter987" playOrder="972">
+<navLabel><text>第一二八回 甫脱樊笼</text></navLabel>
+<content src="chapter987.html"/>
+</navPoint>
+<navPoint id="chapter988" playOrder="973">
+<navLabel><text>第一二九回 众叛亲离</text></navLabel>
+<content src="chapter988.html"/>
+</navPoint>
+<navPoint id="chapter989" playOrder="974">
+<navLabel><text>第一三○回 恩将仇报</text></navLabel>
+<content src="chapter989.html"/>
+</navPoint>
+<navPoint id="chapter990" playOrder="975">
+<navLabel><text>第一三一回 薄情寡义</text></navLabel>
+<content src="chapter990.html"/>
+</navPoint>
+<navPoint id="chapter991" playOrder="976">
+<navLabel><text>第一三二回 被困荒岛</text></navLabel>
+<content src="chapter991.html"/>
+</navPoint>
+<navPoint id="chapter992" playOrder="977">
+<navLabel><text>第一三三回 荒岛生涯</text></navLabel>
+<content src="chapter992.html"/>
+</navPoint>
+<navPoint id="chapter993" playOrder="978">
+<navLabel><text>第一三四回 讽言讽语</text></navLabel>
+<content src="chapter993.html"/>
+</navPoint>
+<navPoint id="chapter994" playOrder="979">
+<navLabel><text>第一三五回 为民请命</text></navLabel>
+<content src="chapter994.html"/>
+</navPoint>
+<navPoint id="chapter995" playOrder="980">
+<navLabel><text>第一三六回 出征罗刹</text></navLabel>
+<content src="chapter995.html"/>
+</navPoint>
+<navPoint id="chapter996" playOrder="981">
+<navLabel><text>第一三七回 诈败诱敌</text></navLabel>
+<content src="chapter996.html"/>
+</navPoint>
+<navPoint id="chapter997" playOrder="982">
+<navLabel><text>第一三八回 献俘报捷</text></navLabel>
+<content src="chapter997.html"/>
+</navPoint>
+<navPoint id="chapter998" playOrder="983">
+<navLabel><text>第一三九回 水炮破城</text></navLabel>
+<content src="chapter998.html"/>
+</navPoint>
+<navPoint id="chapter999" playOrder="984">
+<navLabel><text>第一四○回 奉旨议和</text></navLabel>
+<content src="chapter999.html"/>
+</navPoint>
+<navPoint id="chapter1000" playOrder="985">
+<navLabel><text>第一四一回 议和划界</text></navLabel>
+<content src="chapter1000.html"/>
+</navPoint>
+<navPoint id="chapter1001" playOrder="986">
+<navLabel><text>第—四二回 威武不屈</text></navLabel>
+<content src="chapter1001.html"/>
+</navPoint>
+<navPoint id="chapter1002" playOrder="987">
+<navLabel><text>第一四三回 升官晋爵</text></navLabel>
+<content src="chapter1002.html"/>
+</navPoint>
+<navPoint id="chapter1003" playOrder="988">
+<navLabel><text>第一四四回 奉旨监斩</text></navLabel>
+<content src="chapter1003.html"/>
+</navPoint>
+<navPoint id="chapter1004" playOrder="989">
+<navLabel><text>第一四五回 奉旨查案</text></navLabel>
+<content src="chapter1004.html"/>
+</navPoint>
+<navPoint id="chapter1005" playOrder="990">
+<navLabel><text>第一四六回 左右为难</text></navLabel>
+<content src="chapter1005.html"/>
+</navPoint>
+</navPoint>
+</navMap>
+</ncx>
