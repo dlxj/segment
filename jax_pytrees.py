@@ -13,7 +13,6 @@ from jax import lax
 from jax.nn import one_hot, relu
 from jax.scipy.special import logsumexp
 
-
 def named_predict(w1, w2, image):
   hidden = relu(lax.pdot(image, w1, 'inputs'))
   logits = lax.pdot(hidden, w2, 'hidden')
