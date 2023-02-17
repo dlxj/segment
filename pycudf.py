@@ -1,4 +1,19 @@
 
+# https://docs.rapids.ai/api/cudf/stable/user_guide/10min.html 教程
+
+# import cudf, requests
+# from io import StringIO
+
+# df = cudf.DataFrame(
+#     {
+#         "a": list(range(21)),
+#         "b": list(reversed(range(20))),
+#         "c": list(range(20)),
+#     }
+# )
+
+# print(df)
+
 import glob
 import os
 import re
