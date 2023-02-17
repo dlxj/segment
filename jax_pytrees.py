@@ -4,13 +4,64 @@
 # out = jax.vmap(lambda x: x ** 2)(jnp.arange(1))  
 # print(out)
 
+
+import os
+os.environ["XLA_FLAGS"] = '--xla_force_host_platform_device_count=8' # Use 8 CPU devices
+
 import jax.numpy as jnp
-from jax.experimental.maps import xmap, Mesh
-x = jnp.arange(10).reshape((2, 5))
-r = xmap(jnp.vdot,
-     in_axes=({0: 'left'}, {1: 'right'}),
-     out_axes=['left', 'right', ...])(x, x.T)
-a = 1
+from jax import lax
+from jax.nn import one_hot, relu
+from jax.scipy.special import logsumexp
+
+
+def named_predict(w1, w2, image):
+  hidden = relu(lax.pdot(image, w1, 'inputs'))
+  logits = lax.pdot(hidden, w2, 'hidden')
+  return logits - logsumexp(logits, 'classes')
+
+def named_loss(w1, w2, images, labels):
+  predictions = named_predict(w1, w2, images)
+  num_classes = lax.psum(1, 'classes')
+  targets = one_hot(labels, num_classes, axis='classes')
+  losses = lax.psum(targets * predictions, 'classes')
+  return -lax.pmean(losses, 'batch')
+
+from jax.experimental.maps import xmap
+
+in_axes = [['inputs', 'hidden', ...],
+           ['hidden', 'classes', ...],
+           ['batch', 'inputs', ...],
+           ['batch', ...]]
+
+w1 = jnp.zeros((784, 512))
+w2 = jnp.zeros((512, 10))
+images = jnp.zeros((128, 784))
+labels = jnp.zeros(128, dtype=jnp.int32)
+
+
+# def predict(w1, w2, images):
+#   hiddens = relu(jnp.dot(images, w1))
+#   logits = jnp.dot(hiddens, w2)
+#   return logits - logsumexp(logits, axis=1, keepdims=True)
+
+# def loss(w1, w2, images, labels):
+#   predictions = predict(w1, w2, images)
+#   targets = one_hot(labels, predictions.shape[-1])
+#   losses = jnp.sum(targets * predictions, axis=1)
+#   return -jnp.mean(losses, axis=0)
+
+# print(loss(w1, w2, images, labels))
+
+loss = xmap(named_loss, in_axes=in_axes, out_axes=[...])
+print(loss(w1, w2, images, labels))
+
+# import jax.numpy as jnp
+# from jax.experimental.maps import xmap, Mesh
+# x = jnp.arange(10).reshape((2, 5))
+# r = xmap(jnp.vdot,
+#      in_axes=({0: 'left'}, {1: 'right'}),
+#      out_axes=['left', 'right', ...])(x, x.T)
+# a = 1
 
 # Array([[ 30,  80],
 #        [ 80, 255]], dtype=int32)
