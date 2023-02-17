@@ -4,28 +4,65 @@
 # out = jax.vmap(lambda x: x ** 2)(jnp.arange(1))  
 # print(out)
 
-
-
 # https://jax.readthedocs.io/en/latest/notebooks/xmap_tutorial.html  需要仔细看的文档
 import jax.numpy as np
+import jax.numpy as jnp
 from typing import Any, Callable
+from typing import Dict
+from jax.experimental.maps import xmap
+from jax import vmap, vjp, jvp
+from jax.tree_util import Partial as partial
 
-class ArrayType:
-  def __getitem__(self, idx):
-    return Any
-f32 = ArrayType()
-i32 = ArrayType()
+def f(r, x):
+  return r * x * x
 
-x: f32[(2, 3)] = np.ones((2, 3), dtype=np.float32)
-y: f32[(3, 5)] = np.ones((3, 5), dtype=np.float32)
-z: f32[(2, 5)] = x.dot(y)  # matrix multiplication
-w: f32[(7, 1, 5)] = np.ones((7, 1, 5), dtype=np.float32)
-q: f32[(7, 2, 5)] = z + w  # broadcasting
+xs = jnp.arange(4.)
+vmf = lambda r: vmap(partial(f, r), 0, 0)(xs)
+xmf = lambda r: xmap(f, ([], [0]), [0])(r, xs)
+
+print(vmf(2.)) # works. Prints [ 0.  2.  8. 18.]
+print(xmf(jnp.array(2.))) # works. Prints [ 0.  2.  8. 18.]
+print(jvp(vmf, (2.,), (1.,))) # works. ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
+print(jvp(xmf, (2.,), (1.,))) # works! ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
 
 
+# # https://jax.readthedocs.io/en/latest/notebooks/xmap_tutorial.html  需要仔细看的文档
+# import jax.numpy as np
+# import jax.numpy as jnp
+# from typing import Any, Callable
+# from typing import Dict
 
-a = f32[0]
-b = 1
+# class ArrayType:
+#   def __getitem__(self, idx):
+#     return Any
+# f32 = ArrayType()
+# i32 = ArrayType()
+
+# x: f32[(2, 3)] = np.ones((2, 3), dtype=np.float32)
+# y: f32[(3, 5)] = np.ones((3, 5), dtype=np.float32)
+# z: f32[(2, 5)] = x.dot(y)  # matrix multiplication
+# w: f32[(7, 1, 5)] = np.ones((7, 1, 5), dtype=np.float32)
+# q: f32[(7, 2, 5)] = z + w  # broadcasting
+
+
+# from jax.experimental.maps import xmap
+
+# from jax.experimental.maps import xmap
+
+# def my_func(x: f32[(5,), {'batch': 20}]) -> f32[(5,), {'batch': 20}]:
+#   assert x.shape == (5,)
+#   # assert x.named_shape == {'batch': 20}  # TODO: Implement named_shape
+#   return x
+
+# x: f32[(20, 5)] = jnp.zeros((20, 5), dtype=np.float32)
+# f = xmap(my_func,
+#          in_axes={0: 'batch'},   # Name the first axis of the only argument 'batch'
+#          out_axes={1: 'batch'})  # Place the 'batch' named axis of the output as the second positional axis
+# y: f32[(5, 20)] = f(x)
+# assert (y == x.T).all()  # The first dimension was removed from x and then re-inserted as the last dim
+
+# a = f32[0]
+# b = 1
 
 
 # import os
