@@ -4,6 +4,107 @@
 # out = jax.vmap(lambda x: x ** 2)(jnp.arange(1))  
 # print(out)
 
+import jax.numpy as jnp
+from jax.experimental.maps import xmap, Mesh
+x = jnp.arange(10).reshape((2, 5))
+r = xmap(jnp.vdot,
+     in_axes=({0: 'left'}, {1: 'right'}),
+     out_axes=['left', 'right', ...])(x, x.T)
+a = 1
+
+# Array([[ 30,  80],
+#        [ 80, 255]], dtype=int32)
+
+
+# import jax.numpy as jnp
+# from jax.experimental.maps import xmap, Mesh
+
+# result = xmap(lambda x, y: jnp.multiply(x, y), [1, 2, 3], [4, 5, 6])
+
+# print(result)
+# # [4, 10, 18]
+
+
+# import jax
+# import jax.numpy as jnp
+# import numpy as onp
+# from jax.experimental.maps import xmap, Mesh
+# # import tensorflow_probability.substrates.jax as tfp
+# # tfd = tfp.distributions
+
+# def loss(key):
+
+#   init_z = jax.random.normal(key)
+
+#   def scan_fn(prev_z, t):
+#     new_z = jax.lax.cond(t == 0,
+#             lambda _: prev_z,
+#             lambda _: prev_z,
+#             None)
+#     return new_z, None
+
+#   out, _ = jax.lax.scan(scan_fn, init_z, jnp.arange(10))
+
+#   return 0.
+
+# def step(key):
+#   x = loss(key)
+#   return jnp.mean(x, axis=('b'))
+
+# xm_step = xmap(step, in_axes=['b',...], out_axes=[...], axis_resources={'b':'x'})
+
+# devices = onp.array(jax.local_devices())
+
+# key = jax.random.PRNGKey(0)
+# keys = jax.random.split(key, num=jax.local_device_count())
+# with Mesh(devices, ('x',)):
+#   xm_step(keys)
+
+
+
+# from collections import namedtuple
+# import jax.numpy as np
+# import jax
+
+# testtup = namedtuple("testtup", ['x', 'y', 'n'])
+# tup_list = [testtup(x=np.ones(5)*i, y=np.zeros(5) + i, n=i) for i in range(4)]
+
+# def add_tup(t):
+#     return np.sum(t.x + t.y) * t.n
+
+# s = jax.jit(add_tup)(l[0])  # works!
+# s_all = jax.vmap(add_tup)(l)  # doesn't work :/
+
+
+
+
+
+# # https://github.com/google/jax/issues/3102
+# from collections import namedtuple
+# from jax import vmap, vjp
+# from jax import tree_util
+# import jax.numpy as np
+
+# testtup = namedtuple("testtup", ['x', 'y', 'n'])
+# tup_list = [testtup(x=np.ones(5)*i, y=np.zeros(5) + i, n=i) for i in range(4)]
+
+# def add_tup(t):
+#   return np.sum(t.x + t.y) * t.n
+
+
+# def stackmap(f, lst):
+#   stacked = tree_util.tree_multimap(lambda *args: np.stack(args), *lst)
+#   out_stacked = vmap(f)(stacked)
+#   _, outer_treedef = tree_util.tree_flatten([object()] * len(lst))
+#   _, inner_treedef = tree_util.tree_flatten(out_stacked)
+#   out_unstacked_transposed = tree_util.tree_map(list, out_stacked)
+#   out_unstacked = tree_util.tree_transpose(outer_treedef, inner_treedef,
+#                                            out_unstacked_transposed)
+#   return out_unstacked
+
+# s_all = stackmap(add_tup, tup_list)
+# a = 1
+
 
 # import time, os, jax, numpy as np, jax.numpy as jnp
 # jax.config.update('jax_platform_name', 'cpu') # insures we use the CPU
