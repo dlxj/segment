@@ -5,37 +5,60 @@
 # print(out)
 
 
-import os
-os.environ["XLA_FLAGS"] = '--xla_force_host_platform_device_count=8' # Use 8 CPU devices
 
-import jax.numpy as jnp
-from jax import lax
-from jax.nn import one_hot, relu
-from jax.scipy.special import logsumexp
+# https://jax.readthedocs.io/en/latest/notebooks/xmap_tutorial.html  需要仔细看的文档
+import jax.numpy as np
+from typing import Any, Callable
 
-def named_predict(w1, w2, image):
-  hidden = relu(lax.pdot(image, w1, 'inputs'))
-  logits = lax.pdot(hidden, w2, 'hidden')
-  return logits - logsumexp(logits, 'classes')
+class ArrayType:
+  def __getitem__(self, idx):
+    return Any
+f32 = ArrayType()
+i32 = ArrayType()
 
-def named_loss(w1, w2, images, labels):
-  predictions = named_predict(w1, w2, images)
-  num_classes = lax.psum(1, 'classes')
-  targets = one_hot(labels, num_classes, axis='classes')
-  losses = lax.psum(targets * predictions, 'classes')
-  return -lax.pmean(losses, 'batch')
+x: f32[(2, 3)] = np.ones((2, 3), dtype=np.float32)
+y: f32[(3, 5)] = np.ones((3, 5), dtype=np.float32)
+z: f32[(2, 5)] = x.dot(y)  # matrix multiplication
+w: f32[(7, 1, 5)] = np.ones((7, 1, 5), dtype=np.float32)
+q: f32[(7, 2, 5)] = z + w  # broadcasting
 
-from jax.experimental.maps import xmap
 
-in_axes = [['inputs', 'hidden', ...],
-           ['hidden', 'classes', ...],
-           ['batch', 'inputs', ...],
-           ['batch', ...]]
 
-w1 = jnp.zeros((784, 512))
-w2 = jnp.zeros((512, 10))
-images = jnp.zeros((128, 784))
-labels = jnp.zeros(128, dtype=jnp.int32)
+a = f32[0]
+b = 1
+
+
+# import os
+# os.environ["XLA_FLAGS"] = '--xla_force_host_platform_device_count=8' # Use 8 CPU devices
+
+# import jax.numpy as jnp
+# from jax import lax
+# from jax.nn import one_hot, relu
+# from jax.scipy.special import logsumexp
+
+# def named_predict(w1, w2, image):
+#   hidden = relu(lax.pdot(image, w1, 'inputs'))
+#   logits = lax.pdot(hidden, w2, 'hidden')
+#   return logits - logsumexp(logits, 'classes')
+
+# def named_loss(w1, w2, images, labels):
+#   predictions = named_predict(w1, w2, images)
+#   num_classes = lax.psum(1, 'classes')
+#   targets = one_hot(labels, num_classes, axis='classes')
+#   losses = lax.psum(targets * predictions, 'classes')
+#   return -lax.pmean(losses, 'batch')
+
+# from jax.experimental.maps import xmap
+
+# in_axes = [['inputs', 'hidden', ...],
+#            ['hidden', 'classes', ...],
+#            ['batch', 'inputs', ...],
+#            ['batch', ...]]
+
+# w1 = jnp.zeros((784, 512))
+# w2 = jnp.zeros((512, 10))
+# images = jnp.zeros((128, 784))
+# labels = jnp.zeros(128, dtype=jnp.int32)
 
 
 # def predict(w1, w2, images):
@@ -51,8 +74,12 @@ labels = jnp.zeros(128, dtype=jnp.int32)
 
 # print(loss(w1, w2, images, labels))
 
-loss = xmap(named_loss, in_axes=in_axes, out_axes=[...])
-print(loss(w1, w2, images, labels))
+# loss = xmap(named_loss, in_axes=in_axes, out_axes=[...])
+# print(loss(w1, w2, images, labels))
+
+
+
+
 
 # import jax.numpy as jnp
 # from jax.experimental.maps import xmap, Mesh
