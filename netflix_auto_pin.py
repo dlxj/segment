@@ -16,25 +16,27 @@ print(pyautogui.position()) #Point(x=502, y=365)
 
 print(pyautogui.isValidKey('del'))
 
-pyautogui.click(745,421,button='left')  # netflix pin码输入框最左边单击左键
-pyautogui.press('del')  # 按下 Del
-time.sleep(0.1)
-pyautogui.press('del')
-time.sleep(0.1)
-pyautogui.press('del')
+# pyautogui.click(745,421,button='left')  # netflix pin码输入框最左边单击左键
+# pyautogui.press('del')  # 按下 Del
+# time.sleep(0.1)
+# pyautogui.press('del')
+# time.sleep(0.1)
+# pyautogui.press('del')
 
 
-time.sleep(3)
+#time.sleep(3)
 
-pyautogui.click(613,421,button='left')  # netflix pin码输入框最左边单击左键
-pyautogui.press('6')  # 按下 6
-time.sleep(0.1)
-pyautogui.press('1')
-time.sleep(0.1)
-pyautogui.press('7')
-time.sleep(0.1)
-pyautogui.press('4')
-
+while True:
+    # 鼠标移动最左上角退出
+    pyautogui.click(613,421,button='left')  # netflix pin码输入框最左边单击左键
+    pyautogui.press('6')  # 按下 6
+    time.sleep(0.1)
+    pyautogui.press('1')
+    time.sleep(0.1)
+    pyautogui.press('7')
+    time.sleep(0.1)
+    pyautogui.press('4')
+    time.sleep(10)
 
 # try:
 #     curr = 0
