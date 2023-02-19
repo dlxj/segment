@@ -30,11 +30,11 @@ while True:
     # 鼠标移动最左上角退出
     pyautogui.click(613,421,button='left')  # netflix pin码输入框最左边单击左键
     pyautogui.press('6')  # 按下 6
-    time.sleep(0.1)
+    time.sleep(0.01)
     pyautogui.press('1')
-    time.sleep(0.1)
+    time.sleep(0.01)
     pyautogui.press('7')
-    time.sleep(0.1)
+    time.sleep(0.01)
     pyautogui.press('4')
     time.sleep(10)
 
