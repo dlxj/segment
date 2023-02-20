@@ -5,14 +5,14 @@
 
 
     // npm i gup.js --save
-    const { GPU } = require('gpu.js');
-    const gpu = new GPU({ mode: 'gpu' });
+    // const { GPU } = require('gpu.js');
+    // const gpu = new GPU({ mode: 'gpu' });
 
-    let arr = [ [1, 2, 3], [4, 5, 6] ]
-    const kernel = gpu.createKernel(function ( arr ) {
-        return arr[this.thread.y][this.thread.x]  // 获取当前线程的参数 // y 是行索引  x 是列索行
-    }, { output: [3, 2] })  // 三列  两行
-    const data = kernel(arr)  // 传参
+    // let arr = [ [1, 2, 3], [4, 5, 6] ]
+    // const kernel = gpu.createKernel(function ( arr ) {
+    //     return arr[this.thread.y][this.thread.x]  // 获取当前线程的参数 // y 是行索引  x 是列索行
+    // }, { output: [3, 2] })  // 三列  两行
+    // const data = kernel(arr)  // 传参
 
 
     let rd = require('rd')

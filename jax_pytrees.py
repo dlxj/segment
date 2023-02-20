@@ -16,31 +16,95 @@ from jax import vmap, vjp, jvp
 from jax.tree_util import Partial as partial
 from jax.experimental.host_callback import call
 
-"""
-a={{1},{2}};a//MatrixForm
-b= { {1, 2} }; b // MatrixForm
-a.b // MatrixForm
-c = { {1,3},{2,4} }; c//MatrixForm
-c\[Transpose] // MatrixForm
-c.c\[Transpose]//MatrixForm
-"""
-def dot(a, b):
-  jax.debug.print("a={x} b={y}", x=a, y=b)  # require jax > 0.3.16
-  return jnp.vdot(a, b)
+import jax
+import jax.numpy as jnp
+import numpy as onp
+from jax.experimental.maps import xmap, Mesh
 
-# 向量内积实现矩阵乘
-# x = jnp.arange(10).reshape((2, 5))
-x = jnp.array( [ [1, 3], 
-                 [2, 4]] )
 
-x_T = jnp.array( [ [1, 2], 
-                   [3, 4]] )
+import jax.numpy as jnp 
+from jax import vmap
 
-r = xmap(dot,
-  in_axes=({0: 'left'}, {1: 'right'}),
-  out_axes=['left', 'right', ...])(x, x_T) # x.T
+def f(x, params):
+  jax.debug.print("x={x} params={y}", x=x, y=params)  # require jax > 0.3.16
+  return params['a']*x + params['b']
+
+r = vmap(f, in_axes=(0, 0))(jnp.array([1, 2]), {'a': jnp.array([3, 4]), 'b': jnp.array([5, 6])})
 
 a = 1
+
+
+# #import tensorflow_probability.substrates.jax as tfp
+# #tfd = tfp.distributions
+
+# def loss(key):
+
+#   init_z = jax.random.normal(key, (1, 5))
+
+#   def scan_fn(prev_z, t):
+#     new_z = jax.lax.cond(t == 0,
+#             lambda _: prev_z,
+#             lambda _: prev_z,
+#             None)
+#     return new_z, None
+
+#   out, _ = jax.lax.scan(scan_fn, init_z, jnp.arange(10))
+
+#   return 0.
+
+# def step(key):
+#   x = loss(key)
+#   return jnp.mean(x, axis=('b'))
+
+# xm_step = xmap(step, in_axes=['b',...], out_axes=[...], axis_resources={'b':'x'})
+
+# devices = onp.array(jax.local_devices())
+
+# key = jax.random.PRNGKey(0)
+# keys = jax.random.split(key, num=jax.local_device_count())
+# with Mesh(devices, ('x',)):
+#   xm_step(keys)
+
+# a = 1
+
+
+# def f(x):
+#   return {"a": x}
+
+# x = jax.numpy.ones((2, 3))
+# r = xmap(f, in_axes=[...], out_axes={"a": [...]})(x)
+
+# a = 1
+
+
+# """
+# a={{1},{2}};a//MatrixForm
+# b= { {1, 2} }; b // MatrixForm
+# a.b // MatrixForm
+# c = { {1,3},{2,4} }; c//MatrixForm
+# c\[Transpose] // MatrixForm
+# c.c\[Transpose]//MatrixForm
+# """
+# def dot(a, b):
+#   jax.debug.print("a={x} b={y}", x=a, y=b)  # require jax > 0.3.16
+#   return jnp.vdot(a, b)
+
+# # 向量内积实现矩阵乘
+# # x = jnp.arange(10).reshape((2, 5))
+# x = jnp.array( [ [1, 3], 
+#                  [2, 4]] )
+
+# x_T = jnp.array( [ [1, 2], 
+#                    [3, 4]] )
+
+# r = xmap(dot,
+#   in_axes=({0: 'left'}, {1: 'right'}), # 0 代表 第一维度, 1 代表 第二维度 , 也就是 x,y,z 坐标系中的 x 和 y 
+#     # 对第一个输入 每次取一行元素，对第二个输入 每次取一列元素，
+# 	  # 然后传函数给函数的形参
+#   out_axes=['left', 'right', ...])(x, x_T) # x.T
+#     # 经过 fun 计算后，每组输出在哪个维度输出。
+
+# a = 1
 
 # @jax.jit
 # def selu(x, alpha=1.67, lmbda=1.05):
