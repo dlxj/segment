@@ -24,20 +24,33 @@ c = { {1,3},{2,4} }; c//MatrixForm
 c\[Transpose] // MatrixForm
 c.c\[Transpose]//MatrixForm
 """
-
-def dot(x, y):
-  #jax.debug.print(x)  # require jax > 0.3.16
-  return jnp.vdot(x, y)
+def dot(a, b):
+  jax.debug.print("a={x} b={y}", x=a, y=b)  # require jax > 0.3.16
+  return jnp.vdot(a, b)
 
 # 向量内积实现矩阵乘
 # x = jnp.arange(10).reshape((2, 5))
 x = jnp.array( [ [1, 3], 
                  [2, 4]] )
+
+x_T = jnp.array( [ [1, 2], 
+                   [3, 4]] )
+
 r = xmap(dot,
   in_axes=({0: 'left'}, {1: 'right'}),
-  out_axes=['left', 'right', ...])(x, x.T)
+  out_axes=['left', 'right', ...])(x, x_T) # x.T
 
 a = 1
+
+# @jax.jit
+# def selu(x, alpha=1.67, lmbda=1.05):
+#   call(lambda x: print(f"x: {x}"), x)
+#   jax.debug.print("{x}", x=x)
+#   return lmbda * jnp.where(x > 0, x, alpha * jnp.exp(x) - alpha)
+
+# key = jax.random.PRNGKey(0)
+# x = jax.random.normal(key, (1000000,))
+# selu(x)
 
 
 # def f(r, x):
