@@ -5,6 +5,8 @@
 # print(out)
 
 # https://jax.readthedocs.io/en/latest/notebooks/xmap_tutorial.html  需要仔细看的文档
+# https://github.com/google/jax/issues/196  打印 ShapedArray
+import jax
 import jax.numpy as np
 import jax.numpy as jnp
 from typing import Any, Callable
@@ -13,17 +15,41 @@ from jax.experimental.maps import xmap
 from jax import vmap, vjp, jvp
 from jax.tree_util import Partial as partial
 
-def f(r, x):
-  return r * x * x
+"""
+a={{1},{2}};a//MatrixForm
+b= { {1, 2} }; b // MatrixForm
+a.b // MatrixForm
+c = { {1,3},{2,4} }; c//MatrixForm
+c\[Transpose] // MatrixForm
+c.c\[Transpose]//MatrixForm
+"""
 
-xs = jnp.arange(4.)
-vmf = lambda r: vmap(partial(f, r), 0, 0)(xs)
-xmf = lambda r: xmap(f, ([], [0]), [0])(r, xs)
+def dot(x, y):
+  jax.debug.print(x)
+  return jnp.vdot(x, y)
 
-print(vmf(2.)) # works. Prints [ 0.  2.  8. 18.]
-print(xmf(jnp.array(2.))) # works. Prints [ 0.  2.  8. 18.]
-print(jvp(vmf, (2.,), (1.,))) # works. ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
-print(jvp(xmf, (2.,), (1.,))) # works! ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
+# 向量内积实现矩阵乘
+# x = jnp.arange(10).reshape((2, 5))
+x = jnp.array( [ [1, 3], 
+                 [2, 4]] )
+r = xmap(dot,
+  in_axes=({0: 'left'}, {1: 'right'}),
+  out_axes=['left', 'right', ...])(x, x.T)
+
+a = 1
+
+
+# def f(r, x):
+#   return r * x * x
+
+# xs = jnp.arange(4.)
+# vmf = lambda r: vmap(partial(f, r), 0, 0)(xs)
+# xmf = lambda r: xmap(f, ([], [0]), [0])(r, xs)
+
+# print(vmf(2.)) # works. Prints [ 0.  2.  8. 18.]
+# print(xmf(jnp.array(2.))) # works. Prints [ 0.  2.  8. 18.]
+# print(jvp(vmf, (2.,), (1.,))) # works. ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
+# print(jvp(xmf, (2.,), (1.,))) # works! ([ 0.,  2.,  8., 18.], [0., 1., 4., 9.])
 
 
 # # https://jax.readthedocs.io/en/latest/notebooks/xmap_tutorial.html  需要仔细看的文档
