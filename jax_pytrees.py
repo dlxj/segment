@@ -14,6 +14,7 @@ from typing import Dict
 from jax.experimental.maps import xmap
 from jax import vmap, vjp, jvp
 from jax.tree_util import Partial as partial
+from jax.experimental.host_callback import call
 
 """
 a={{1},{2}};a//MatrixForm
@@ -25,7 +26,7 @@ c.c\[Transpose]//MatrixForm
 """
 
 def dot(x, y):
-  jax.debug.print(x)
+  #jax.debug.print(x)  # require jax > 0.3.16
   return jnp.vdot(x, y)
 
 # 向量内积实现矩阵乘
