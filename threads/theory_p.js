@@ -12,8 +12,10 @@ parentPort.onmessage = function (event) {
     // 所有词的真实概率是理论概率的多少倍
     let curr = 0
     for (let [k, v] of Object.entries(ng)) {
-
-        console.log(`start calc theory_p thread ${thread_id} curr/total: ${curr}/${total}`)
+        
+        if (curr++ % 100 == 0) {
+            console.log(`start calc theory_p thread ${thread_id} curr/total: ${curr}/${total}`)
+        }
 
         // 遍历 k 分成左右两部分的所有可能
         let theory_ps = []  // 所有左右两部分的理论概率 // 应该以最小值为准，还是以最大值为准？可能是大的，因为要判断这个命题： “真实概率远远大于理论概率”

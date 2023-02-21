@@ -91,7 +91,7 @@
         })
 
         let curr = 0
-        //paths = paths.slice(0, 2)
+        paths = paths.slice(0, 3)
         for (let pth of paths) {
 
             let text = fs.readFileSync(pth, { encoding: 'utf8', flag: 'r' })
@@ -125,7 +125,23 @@
             curr += 1
             console.log(`building dic_NGrams ${curr} / ${paths.length}`)
         }
+
+        for (let i = 2; i < NGram; i++) {
+            for (let it of Object.entries(dic_NGrams[i])) {
+                // 遍历所有字符
+                for (let c of it[0]) {
+                    let item = dic_NGrams[1][c]
+                    if (!item[`c_words`]) {
+                        item[`c_words`] = []  // 存所有含这个字的词的引用
+                    }
+                    item[`c_words`].push( it )
+                }
+            }
+        }
+
     }
+
+
 
     //
     // 算每个词或单个字真实出现概率（简称真实概率）、理论完全随机出现的概率（简称理论概率）
@@ -145,7 +161,7 @@
         }
     }
 
-    // 所有词的理论概率
+    // 计算所有词的真实概率，再算它是最大理论概率的多少倍，最后存入全局字典
     calc_theory_p:{
         // 开多线程，计算真实概率 是 理论概率的多少倍
         let re = await new Promise(async (resolve, reject) => {
@@ -162,7 +178,38 @@
                     let nn = re[1]['n']
                     let ddic_NGrams = re[1]['dic_NGrams']
                     dic_NGrams[nn] = ddic_NGrams[nn]
-                    console.log(`calc theory_p curr/numThread: ${threadDone} / ${numThread}`)
+                    console.log(`threadDone theory_p curr/numThread: ${threadDone} / ${numThread}`)
+                    if (threadDone >= numThread) {
+                        resolve('ok')
+                    }
+                })
+                wk1.on('error', (e)=>{
+                    throw `thread err. ${e}`
+                })
+            }
+        })
+    }
+
+
+
+    // 计算所有词的左邻右邻字的丰富度（用信息熵衡量，越大越丰富），取它们中较小的那个作为丰富度
+    calc_left_right_entropy:{
+        // 开多线程，计算左邻右邻最小信息熵
+        let re = await new Promise(async (resolve, reject) => {
+            let start = 2
+            let numThread = NGram - start + 1
+            let threadDone = 0
+            for (let n = start; n <= NGram; n++) {
+                const { Worker, workerData, parentPort } = require('worker_threads')
+                const wk1 = new Worker(require('path').resolve(__dirname, './threads/left_right_entropy.js'))
+                wk1.ref()
+                wk1.postMessage({ "thread_id": n, dic_NGrams, n, NGram })
+                wk1.on('message', async (re) => {
+                    threadDone++
+                    let nn = re[1]['n']
+                    let ddic_NGrams = re[1]['dic_NGrams']
+                    dic_NGrams[nn] = ddic_NGrams[nn]
+                    console.log(`threadDone left_right_entropy curr/numThread: ${threadDone} / ${numThread}`)
                     if (threadDone >= numThread) {
                         resolve('ok')
                     }
