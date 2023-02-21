@@ -192,8 +192,6 @@
         })
     }
 
-
-
     // 计算所有词的左邻右邻字的丰富度（用信息熵衡量，越大越丰富），取它们中较小的那个作为丰富度
     calc_left_right_entropy: {
         // 开多线程，计算左邻右邻最小信息熵
@@ -221,123 +219,17 @@
                 })
             }
         })
-        let a = 1
     }
 
-
-    // // const kernel = gpu.createKernel(function ( dic_NGrams, n ) {
-    // //     //return arr[this.thread.y][this.thread.x]  // 获取当前线程的参数 // y 是行索引  x 是列索行
-
-    // //     let ng = dic_NGrams[n]
-
-    // //     return dic_NGrams[n][`李沅`][`n`]
-
-    // // }, { output: [1] })  // 三列  两行
-    // //const data = kernel(dic_NGrams)  // 传参
-
-    // // 再算所有词的理论概率
-    // for (let n = 2; n <= NGram; n++) {
-
-    //     let ng = dic_NGrams[n]
-
-    //     let total = Object.keys(ng).length
-
-    //     // 所有词的真实概率是理论概率的多少倍
-    //     for (let [k, v] of Object.entries(ng)) {
-
-    //         // 遍历 k 分成左右两部分的所有可能
-    //         let theory_ps = []  // 所有左右两部分的理论概率 // 应该以最小值为准，还是以最大值为准？可能是大的，因为要判断这个命题： “真实概率远远大于理论概率”
-    //         for (let i = 1; i < k.length; i++) {
-
-    //             let kg = splitAt(k, i)
-    //             let left = kg[0]
-    //             let right = kg[1]
-
-    //             let left_p = dic_NGrams[left.length][left]['real_p']     // 左边出现的概率
-    //             let right_p = dic_NGrams[right.length][right]['real_p']  // 右边出现的概率
-
-    //             theory_ps.push(left_p * right_p)  // 左右连在一起的概率
-    //         }
-
-    //         let max_theory_p = Math.max(...theory_ps)
-    //         v[`theory_p`] = max_theory_p.toFixed(6)
-    //         if (v[`theory_p`] < 0.000001) {
-    //             v[`theory_p`] = 0.000001
-    //         }
-    //         v[`real_p/theory_p`] = (v[`real_p`] / v[`theory_p`]).toFixed(6)  // 真实概率 是 理论概率的多少倍
-    //         if (v[`real_p/theory_p`] < 0.000001) {
-    //             v[`real_p/theory_p`] = 0.000001
-    //         }
-
-    //     }
-
-    //     // 所有词的左邻右邻字的丰富度（用信息熵衡量，越大越丰富）
-    //     let curr2 = 0
-    //     for (let [k, v] of Object.entries(ng)) {
-
-    //         // 算这个词的左邻有多少个不同的字，右邻有多少个不同的字
-    //         let lefts = {}
-    //         let rights = {}
-    //         for (let i = k.length + 1; i <= NGram; i++) {
-    //             for (let [k2, v2] of Object.entries(dic_NGrams[`${i}`])) {
-
-    //                 let reg = String.raw`(.)${k}`
-    //                 let ar = Array.from(k2.matchAll(reg))
-    //                 ar.forEach((w) => {
-    //                     if (!lefts[w[1]]) {
-    //                         lefts[w[1]] = true
-    //                     }
-    //                 })
-
-    //                 let reg2 = String.raw`${k}(.)`
-    //                 let ar2 = Array.from(k2.matchAll(reg2))
-    //                 ar2.forEach((w) => {
-    //                     if (!rights[w[1]]) {
-    //                         rights[w[1]] = true
-    //                     }
-    //                 })
-    //             }
-    //         }
-
-    //         // 算左邻右邻信息熵
-    //         let left_entropy = 0
-    //         let right_entropy = 0
-    //         for (let w of Object.keys(lefts)) {
-    //             let item = dic_NGrams[`1`][w]
-    //             let real_p = item[`real_p`]
-    //             left_entropy += -1 * real_p * Math.log(real_p)
-    //         }
-    //         for (let w of Object.keys(rights)) {
-    //             let item = dic_NGrams[`1`][w]
-    //             let real_p = item[`real_p`]
-    //             right_entropy += -1 * real_p * Math.log(real_p)
-    //         }
-
-    //         let min_entropy = Math.min(left_entropy, right_entropy)
-    //         v[`min_entropy`] = min_entropy
-
-    //         curr2 += 1
-    //         console.log(`calc min_entropy: ${n - 1} / ${NGram - 1} NGram  ${curr2} / ${total} NG`)
-    //     }
-
-    //     fs.writeFileSync('dic_NGrams.json', JSON.stringify(dic_NGrams), { encoding: 'utf8', flag: 'w' })
-
-    //     break
-    // }
-
-    // //dic_NGrams = JSON.parse(fs.readFileSync('dic_NGrams.json', {encoding:'utf8', flag:'r'} ))
-    // let word2 = dic_NGrams[`2`]
-
-    // let result = _.pickBy(word2, function (v, k) { return v[`real_p/theory_p`] >= 1.0 && v[`min_entropy`] >= 0.85 })
-
-    // let tmp = Object.keys(result).join('\n')
-
-    // fs.writeFileSync('result.txt', tmp, { encoding: 'utf8', flag: 'w' })
-
-
-
-    // let a = 1
-
+    // 保存分词结果
+    save_result:{
+        for (let i = 2; i < NGram; i++) {
+            let word2 = dic_NGrams[i]
+            let result = require('lodash').pickBy(word2, function (v, k) { return v[`real_p/theory_p`] >= 1.0 && v[`min_entropy`] >= 0.85 })
+            let tmp = Object.keys(result).join('\n')
+            require('fs').writeFileSync(`result${i}.txt`, tmp, { encoding: 'utf8', flag: 'w' })
+        }
+    }
 })()
 
 
