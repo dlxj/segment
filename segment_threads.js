@@ -226,8 +226,11 @@
         for (let i = 2; i < NGram; i++) {
             let word2 = dic_NGrams[i]
             let result = require('lodash').pickBy(word2, function (v, k) { return v[`real_p/theory_p`] >= 1.0 && v[`min_entropy`] >= 0.85 })
-            let tmp = Object.keys(result).join('\n')
-            require('fs').writeFileSync(`result${i}.txt`, tmp, { encoding: 'utf8', flag: 'w' })
+            let keys = Object.keys(result)
+            if (keys.length > 0) {
+                let tmp = keys.join('\n')
+                require('fs').writeFileSync(`result${i}.txt`, tmp, { encoding: 'utf8', flag: 'w' })
+            }
         }
     }
 })()
