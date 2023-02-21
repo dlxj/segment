@@ -1,7 +1,7 @@
 
 (async () => {
 
-    let NGram = 5
+    let NGram = 5 // 词的长度是 NGram - 1 ，长度为 NGram 
     let dir = '金庸全集（精制插图版，连载初回本）/OPS'
     // 所有连续 N 个字，和它出现的总次数
     let dic_NGrams = []
@@ -199,9 +199,9 @@
         // 开多线程，计算左邻右邻最小信息熵
         let re = await new Promise(async (resolve, reject) => {
             let start = 2
-            let numThread = NGram - start + 1
+            let numThread = NGram - start
             let threadDone = 0
-            for (let n = start; n <= NGram; n++) {
+            for (let n = start; n < NGram; n++) {
                 const { Worker, workerData, parentPort } = require('worker_threads')
                 const wk1 = new Worker(require('path').resolve(__dirname, './threads/left_right_entropy.js'))
                 wk1.ref()
@@ -219,7 +219,6 @@
                 wk1.on('error', (e) => {
                     throw `thread err. ${e}`
                 })
-                break
             }
         })
         let a = 1
