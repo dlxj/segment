@@ -8,13 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gpu": "^1.0.0",
-    "gpu.js": "^2.16.0",
     "lodash": "^4.17.21",
-    "mysql": "^2.18.1",
-    "rd": "^2.0.1",
-    "compute-cluster": "^0.0.9"
+    "rd": "^2.0.1"
   },
   "devDependencies": {},
   "description": ""
 }
+
