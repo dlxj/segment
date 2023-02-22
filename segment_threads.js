@@ -91,7 +91,7 @@
         })
 
         let curr = 0
-        paths = paths.slice(0, 3)
+        paths = paths.slice(0, 20)
         for (let pth of paths) {
 
             let text = fs.readFileSync(pth, { encoding: 'utf8', flag: 'r' })
@@ -103,9 +103,12 @@
                 let line = ar[1]
                 str += line
             }
-            str = str.replace(/[^\u3007\u4E00-\u9FFF]/g, ' ').replace(/[\s]+/g, ' ')  // 只要汉字，除掉其他所有符号
-            let ar = str.split(' ')
+            //str = str.replace(/[^\u3007\u4E00-\u9FFF]/g, ' ').replace(/[\s]+/g, ' ')  // 只要汉字，除掉其他所有符号
+            str = str.replace(/[\n]+/g, '\n')  // 只要汉字，除掉其他所有符号
+            //let ar = str.split(' ')
+            let ar = str.split('\n')
             for (let r of ar) {
+                r = r.replace(/[^\u3007\u4E00-\u9FFF]/g, '')
                 let ng = NG(r, NGram)
                 for (let g of ng) {
                     let k = g.length
@@ -223,9 +226,28 @@
 
     // 保存分词结果
     save_result:{
+        let _ = require('lodash')
         for (let i = 2; i < NGram; i++) {
             let word2 = dic_NGrams[i]
-            let result = require('lodash').pickBy(word2, function (v, k) { return v[`real_p/theory_p`] >= 1.0 && v[`min_entropy`] >= 0.85 })
+            let rate = 0
+            let en = 0
+            for (let w of Object.keys(word2)) {
+                if (['镖局', '剑术', '经验', '威名', '招数','圣旨','奴才','尸首','玉簪', '皱眉', '漂亮', '匕首', '商量', '奶奶', '悄悄', '令尊', '厉害', '危险', '容易', '衣衫',
+                    '黑黝黝', '红花会', '韦小宝', '韦香主', '施将军','五行阵', '李沅芷', '冯锡范', '茅十八', '北京城','华山派', '对不起', '顾先生', '怎么办', '忍不住', '点点头', '众侍卫', '马公子', '舒化龙', '郑克爽',
+                    '以静制动', '气急败坏', '热气腾腾', '阴谋诡计','文武大臣', '闷闷不乐', '弃之不理', '同生共死','愁眉不展', '谈笑风生'
+                    ].includes(w)) {
+                    rate += Number(word2[w][`real_p/theory_p`])
+                    en += Number(word2[w][`min_entropy`])
+                }
+            }
+            // let data = Object.values(word2)
+            // let mid_idx = 100
+            // data = _.orderBy(data, [ function (item) { return item[`min_entropy`] } ], ["desc"])  // min_entropy 升序排序
+            // let v1 = data[mid_idx][`min_entropy`]  // 取中位数
+            // data = _.orderBy(data, [ function (item) { return item[`real_p/theory_p`] } ], ["desc"])  // real_p/theory_p 升序排序
+            // let v2 = data[mid_idx][`real_p/theory_p`]  // 取中位数
+
+            let result = _.pickBy(word2, function (v, k) { return Number(v[`real_p/theory_p`]) >= (rate/20 * 0.5) && Number(v[`min_entropy`]) >= (en/20 * 0.5) })
             let keys = Object.keys(result)
             if (keys.length > 0) {
                 let tmp = keys.join('\n')
@@ -233,6 +255,7 @@
             }
         }
     }
+    console.log(`all task done.`)
 })()
 
 
