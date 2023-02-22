@@ -91,7 +91,7 @@
         })
 
         let curr = 0
-        paths = paths.slice(0, 20)
+        paths = paths.slice(0, 1)
         for (let pth of paths) {
 
             let text = fs.readFileSync(pth, { encoding: 'utf8', flag: 'r' })
@@ -103,12 +103,12 @@
                 let line = ar[1]
                 str += line
             }
-            //str = str.replace(/[^\u3007\u4E00-\u9FFF]/g, ' ').replace(/[\s]+/g, ' ')  // 只要汉字，除掉其他所有符号
-            str = str.replace(/[\n]+/g, '\n')  // 只要汉字，除掉其他所有符号
-            //let ar = str.split(' ')
-            let ar = str.split('\n')
+            str = str.replace(/[^\u3007\u4E00-\u9FFF]/g, ' ').replace(/[\s]+/g, ' ')  // 只要汉字，除掉其他所有符号
+            //str = str.replace(/[\n]+/g, '\n')  // 只要汉字，除掉其他所有符号
+            let ar = str.split(' ')
+            //let ar = str.split('\n')
             for (let r of ar) {
-                r = r.replace(/[^\u3007\u4E00-\u9FFF]/g, '')
+                //r = r.replace(/[^\u3007\u4E00-\u9FFF]/g, '')
                 let ng = NG(r, NGram)
                 for (let g of ng) {
                     let k = g.length
@@ -160,7 +160,7 @@
             for (let [k, v] of Object.entries(ng)) {
                 let times = v[`n`]           // 出现次数
                 let real_p = times / total   // 真实概率
-                v[`real_p`] = real_p.toFixed(6)
+                v[`real_p`] = real_p //.toFixed(6)
             }
             console.log(`calc real_p curr/NGram: ${n} / ${NGram}`)
         }
@@ -227,31 +227,94 @@
     // 保存分词结果
     save_result:{
         let _ = require('lodash')
-        for (let i = 2; i < NGram; i++) {
+        let mysql = require('./mysql.js')
+        let config = require('./config.js')
+        let tikuDB = mysql.createPool(config.tikuDB)
+        let re = await tikuDB.query(`SELECT 1;`)
+
+        /*
+        
+CREATE TABLE `seg` (
+	`ID` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`word` VARCHAR(50) NOT NULL COLLATE 'utf8mb4_general_ci',
+	`rate` DECIMAL(38,20) NOT NULL,
+	`en` DECIMAL(38,20) NOT NULL,
+	PRIMARY KEY (`ID`) USING BTREE,
+	UNIQUE INDEX `word` (`word`) USING BTREE,
+	INDEX `rate` (`rate`) USING BTREE,
+	INDEX `en` (`en`) USING BTREE
+)
+COMMENT='存分词结果'
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=2
+;
+        
+        */
+
+        for (let i = 2; i < 3; i++) { //NGram
             let word2 = dic_NGrams[i]
+            // let baseWord = ['镖局', '剑术', '经验', '威名', '招数','圣旨','奴才','尸首','玉簪', '商量', '奶奶', '悄悄', '令尊', '厉害', '危险', '容易', '衣衫',
+            //     '黑黝黝', '红花会', '韦小宝', '韦香主', '施将军','五行阵', '李沅芷', '冯锡范', '茅十八', '北京城','华山派', '对不起', '顾先生', '怎么办', '忍不住', '点点头', '众侍卫', '马公子', '舒化龙', '郑克爽',
+            //     '以静制动', '气急败坏', '热气腾腾', '阴谋诡计','文武大臣', '闷闷不乐', '弃之不理', '同生共死','愁眉不展', '谈笑风生'
+            // ]
+            let baseWord = ['吩咐', '告诉', '容易', '商量', '漂亮', '危险', '娇媚'] //['漂亮', '危险', '容易', '抿嘴', '夸奖', '吩咐', '告诉'] //['窥探', '谦逊', '匕首', '骆驼', '狼狈', '肚兜', '鞑靼', '漂亮', '皱眉']
             let rate = 0
             let en = 0
+            let conditions = []
+            insert_to_db:{
+                function insert(word2) {
+                    // return new Promise(async (resolve, reject)=>{
+
+                    // })
+                    let total = Object.keys(word2).length
+                    let curr = 0
+                    for (let [k, v] of Object.entries(word2)) {
+                        let sq = `INSERT INTO temp.seg(word, rate, en) VALUES('${k}', ${v[`real_p/theory_p`]}, ${v[`min_entropy`]});`
+                        tikuDB.query(sq)
+                        if (curr++ % 100 == 0) {
+                            console.log(`insert word to db: ${curr}/${total}`)
+                        }
+                    }
+                }
+                insert(word2)
+            }
+
             for (let w of Object.keys(word2)) {
-                if (['镖局', '剑术', '经验', '威名', '招数','圣旨','奴才','尸首','玉簪', '皱眉', '漂亮', '匕首', '商量', '奶奶', '悄悄', '令尊', '厉害', '危险', '容易', '衣衫',
-                    '黑黝黝', '红花会', '韦小宝', '韦香主', '施将军','五行阵', '李沅芷', '冯锡范', '茅十八', '北京城','华山派', '对不起', '顾先生', '怎么办', '忍不住', '点点头', '众侍卫', '马公子', '舒化龙', '郑克爽',
-                    '以静制动', '气急败坏', '热气腾腾', '阴谋诡计','文武大臣', '闷闷不乐', '弃之不理', '同生共死','愁眉不展', '谈笑风生'
-                    ].includes(w)) {
-                    rate += Number(word2[w][`real_p/theory_p`])
-                    en += Number(word2[w][`min_entropy`])
+                if (baseWord.includes(w)) {
+                    let r = (word2[w][`real_p/theory_p`])
+                    let e = (word2[w][`min_entropy`])
+                    rate += r
+                    en += e
+                    conditions.push( [ r, e ] )
                 }
             }
-            // let data = Object.values(word2)
-            // let mid_idx = 100
-            // data = _.orderBy(data, [ function (item) { return item[`min_entropy`] } ], ["desc"])  // min_entropy 升序排序
-            // let v1 = data[mid_idx][`min_entropy`]  // 取中位数
-            // data = _.orderBy(data, [ function (item) { return item[`real_p/theory_p`] } ], ["desc"])  // real_p/theory_p 升序排序
-            // let v2 = data[mid_idx][`real_p/theory_p`]  // 取中位数
+            let result = _.pickBy(word2, function (v, k) {
+                // 只要这个词达到任意一个标准词的条件，就算它合格
+                // for (let it of conditions) {
+                //     if ((v[`real_p/theory_p`]) >= it[0]) {
+                //         if ((v[`min_entropy`]) >= it[1]) {
+                //             return true
+                //         }
+                //     }
+                     
+                // }
+                if (v[`real_p/theory_p`] >= (rate/baseWord.length) ) {
+                    if (v[`min_entropy`] >= (en/baseWord.length) ) {
+                        return true
+                    }
+                }
+                return false
+            })
 
-            let result = _.pickBy(word2, function (v, k) { return Number(v[`real_p/theory_p`]) >= (rate/20 * 0.5) && Number(v[`min_entropy`]) >= (en/20 * 0.5) })
             let keys = Object.keys(result)
-            if (keys.length > 0) {
-                let tmp = keys.join('\n')
+            console.log(`keys length: ${keys.length}`)
+            let keys2 = keys.slice(0, 80000)
+            if (keys2.length > 0) {
+                let tmp = keys2.join('\n')
                 require('fs').writeFileSync(`result${i}.txt`, tmp, { encoding: 'utf8', flag: 'w' })
+            } else {
+                console.log(`keys2.length <= 0`)
             }
         }
     }
